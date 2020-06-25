@@ -77,7 +77,7 @@ while last <= length:
         "areaKmSq": 0,
         "type" : "Point",
         "aream2": 0,
-        "center": [str(all_centroids[centroid_index]['geometry']['coordinates'][0]), str(all_centroids[centroid_index]['geometry']['coordinates'][1])]
+        "centre": [str(all_centroids[centroid_index]['geometry']['coordinates'][0]), str(all_centroids[centroid_index]['geometry']['coordinates'][1])]
     }
     geo_index = {
         "type" : 'Point',
