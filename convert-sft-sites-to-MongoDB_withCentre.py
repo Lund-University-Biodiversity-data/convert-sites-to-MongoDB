@@ -36,6 +36,7 @@ first = 0
 last = 8
 centroid_index = 0
 
+
 # iterate through all sites and save each 
 while last <= length:
     features = []
@@ -91,10 +92,13 @@ while last <= length:
         "status" : "active",
         "type" : "",
         "isSensitive": True,
-        "description": "standard route test 2",
+        "description": "standard route test 3",
         "lastUpdated": datetime.datetime.utcnow(),
+        "LAN": all_centroids[centroid_index]["properties"]["LAN"],
+        "LSK": all_centroids[centroid_index]["properties"]["LSK"],
+        "NAMN": all_centroids[centroid_index]["properties"]["NAMN"],
+        "KartaTx": all_centroids[centroid_index]["properties"]["KartaTx"],
         "area": "0",
-        "externalId": "",
         "projects": [
             "dab767a5-929e-4733-b8eb-c9113194201f"
         ],
@@ -102,7 +106,7 @@ while last <= length:
             "geometry": extent_geo,
             "source": "Point"
         },
-        "geo_index": geo_index,
+        "geoIndex": geo_index,
         "transectParts": features
     }
     first = last
