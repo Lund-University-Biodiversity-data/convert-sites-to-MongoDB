@@ -1,3 +1,5 @@
+import propertiesfile
+
 from pymongo import MongoClient
 import datetime
 import json
@@ -100,7 +102,8 @@ while last <= length:
         "KartaTx": all_centroids[centroid_index]["properties"]["KartaTx"],
         "area": "0",
         "projects": [
-            "dab767a5-929e-4733-b8eb-c9113194201f"
+            #"dab767a5-929e-4733-b8eb-c9113194201f"
+            propertiesfile.projectId
         ],
         "extent": {
             "geometry": extent_geo,
