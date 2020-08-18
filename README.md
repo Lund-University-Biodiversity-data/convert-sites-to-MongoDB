@@ -6,6 +6,10 @@ convert-sites-to-MongoDB_withCentre.py is only for standardrutt. It requires 3 g
 
 <b>Requirements</b>
 - Python libraries: json, uuid, pymongo
+```
+sudo apt install python-pip
+python -m pip install pymongo
+```
 
 <b>Executing the script</b>
 run in the directory where the zip files are:
@@ -13,5 +17,5 @@ run in the directory where the zip files are:
 ./bulk_shp_to_geojson.sh
 ```
 ```
-python convert-sites-to-MongoDB_withCentre
+python convert-sft-sites-to-MongoDB_withCentre.py
 ```
