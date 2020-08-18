@@ -6,9 +6,16 @@ convert-sites-to-MongoDB_withCentre.py is only for standardrutt. It requires 3 g
 
 <b>Requirements</b>
 - Python libraries: json, uuid, pymongo
+- GDAL library (to use ogr2ogr function)
+
+<i>To Install Python PyMongo module with pip</i>
 ```
 sudo apt install python-pip
 python -m pip install pymongo
+```
+<i>To enable funtcton ogr2ogr in bulk_shp_to_geojson script</i>
+```
+sudo apt-get install gdal-bin
 ```
 
 <b>Executing the script</b>
