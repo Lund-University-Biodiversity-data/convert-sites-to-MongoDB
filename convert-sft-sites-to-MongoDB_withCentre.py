@@ -68,7 +68,6 @@ while last <= length:
         
         features.append(feature_pts)
         features.append(feature_lines)
-        print("features are: " +str(len(feature_pts)))
 
     extent_geo = {
         "type" : 'Point',
@@ -109,9 +108,11 @@ while last <= length:
         "geoIndex": geo_index,
         "transectParts": features
     }
-    first = last
-    last = last + 8
-    centroid_index = centroid_index + 1
 
     site_id = collection.insert_one(location).inserted_id
     site_id
+    print(f"site {all_centroids[centroid_index]['properties']['NAMN']} uploaded successfully")
+
+    first = last
+    last = last + 8
+    centroid_index = centroid_index + 1
