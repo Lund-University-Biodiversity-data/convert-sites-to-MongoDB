@@ -13,13 +13,11 @@ client = MongoClient()
 client = MongoClient('localhost', 27017)
 db = client.ecodata
 collection = db.site
+project = "" # or propertiesfile.projectId
 
 # open local geojson files
 with open('6.geojson') as f:
     transect = json.load(f)
-
-# with open('sit_sites.csv') as f1:
-#     attributes = pd.read_csv(f1)
 
 # generate ids for fields in sites
 def generate_uniqId_format():
@@ -76,9 +74,7 @@ location = {
     "description": "SEBMS test 1",
     "lastUpdated": datetime.datetime.utcnow(),
     "projects": [
-        "a29845ea-893a-46ec-a7e7-a65dbe167708",
-        "dab767a5-929e-4733-b8eb-c9113194201f"
-        # propertiesfile.projectId
+        project
     ],
     "extent": {
         "geometry": extent_geo,
