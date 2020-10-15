@@ -1,0 +1,10 @@
+raw material is punktrutt_4326_coords.csv
+this one is correct, in the original one site had 21 points which meant that iterating every 20 points created some erroneous sites
+
+use punktrutter_convert_sites.py to convert punktrutt_4326_coords.csv to punktrutt_upload.json which can be injected into mongo db
+for site extent it calculates the centroid of the 20 points that are in transectParts
+
+to inject to mongo:
+mongoimport --jsonArray --db ecodata --collection site --file punktrutt_upload.json
+
+punktrutter_correct.json is an example of the site saved in mongo db and displayed correctly in biocollect

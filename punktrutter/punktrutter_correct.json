@@ -1,0 +1,302 @@
+{
+	"_id" : ObjectId("5f872e0497cb50171ed68338"),
+	"siteId" : "cdf23d02-1110-4fc0-b805-2995163a1067",
+	"name" : "SV.EKSHÄRAD",
+	"status" : "active",
+	"type" : "",
+	"description" : "Brev 030113: 'Benbrott, kunde ej fullfölja'",
+	"KartaTx" : "12DSV",
+	"area" : "0",
+	"projects" : [
+		"b7eee643-d5fe-465e-af38-36b217440bd2"
+	],
+	"extent" : {
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				13.480453496106747,
+				60.099779435137464
+			],
+			"decimalLongitude" : 13.480453496106747,
+			"decimalLatitude" : 60.099779435137464,
+			"areaKmSq" : 0,
+			"aream2" : 0,
+			"centre" : [
+				13.480453496106747,
+				60.099779435137464
+			]
+		},
+		"source" : "Point"
+	},
+	"geoIndex" : {
+		"type" : "Point",
+		"coordinates" : [
+			13.480453496106747,
+			60.099779435137464
+		]
+	},
+	"transectParts" : [
+		{
+			"name" : "18",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.482270000000002,
+				"decimalLatitude" : 60.05078,
+				"coordinates" : [
+					13.482270000000002,
+					60.05078
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "19",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.49281,
+				"decimalLatitude" : 60.041309999999996,
+				"coordinates" : [
+					13.49281,
+					60.041309999999996
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "4",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.5291,
+				"decimalLatitude" : 60.061690000000006,
+				"coordinates" : [
+					13.5291,
+					60.061690000000006
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "5",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.54335,
+				"decimalLatitude" : 60.06598,
+				"coordinates" : [
+					13.54335,
+					60.06598
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "8",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.49869,
+				"decimalLatitude" : 60.11773,
+				"coordinates" : [
+					13.49869,
+					60.11773
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "1",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.50508,
+				"decimalLatitude" : 60.041109999999996,
+				"coordinates" : [
+					13.50508,
+					60.041109999999996
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "2",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.5205,
+				"decimalLatitude" : 60.04314,
+				"coordinates" : [
+					13.5205,
+					60.04314
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "3",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.52321,
+				"decimalLatitude" : 60.04946999999999,
+				"coordinates" : [
+					13.52321,
+					60.04946999999999
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "6",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.520389999999999,
+				"decimalLatitude" : 60.077259999999995,
+				"coordinates" : [
+					13.520389999999999,
+					60.077259999999995
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "7",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.5072,
+				"decimalLatitude" : 60.086009999999995,
+				"coordinates" : [
+					13.5072,
+					60.086009999999995
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "9",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.502229999999999,
+				"decimalLatitude" : 60.12498000000001,
+				"coordinates" : [
+					13.502229999999999,
+					60.12498000000001
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "10",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.50929,
+				"decimalLatitude" : 60.13992,
+				"coordinates" : [
+					13.50929,
+					60.13992
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "11",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.43859,
+				"decimalLatitude" : 60.152809999999995,
+				"coordinates" : [
+					13.43859,
+					60.152809999999995
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "12",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.4082,
+				"decimalLatitude" : 60.14351,
+				"coordinates" : [
+					13.4082,
+					60.14351
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "13",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.41412,
+				"decimalLatitude" : 60.13015,
+				"coordinates" : [
+					13.41412,
+					60.13015
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "14",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.42405,
+				"decimalLatitude" : 60.1235,
+				"coordinates" : [
+					13.42405,
+					60.1235
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "15",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.436320000000002,
+				"decimalLatitude" : 60.11564,
+				"coordinates" : [
+					13.436320000000002,
+					60.11564
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "16",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.43495,
+				"decimalLatitude" : 60.097080000000005,
+				"coordinates" : [
+					13.43495,
+					60.097080000000005
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "17",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.47516,
+				"decimalLatitude" : 60.06749,
+				"coordinates" : [
+					13.47516,
+					60.06749
+				]
+			},
+			"type" : "none"
+		},
+		{
+			"name" : "20",
+			"geometry" : {
+				"type" : "Point",
+				"decimalLongitude" : 13.4961,
+				"decimalLatitude" : 60.03912,
+				"coordinates" : [
+					13.4961,
+					60.03912
+				]
+			},
+			"type" : "none"
+		}
+	],
+	"yearStarted" : 76,
+	"dateCreated" : ISODate("2020-10-14T17:02:22.028Z")
+}

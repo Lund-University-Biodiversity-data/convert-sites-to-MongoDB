@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 # import propertiesfile
 
 from pymongo import MongoClient
@@ -48,7 +50,8 @@ for index in range(0, length):
     features.append(feature)
 
 geo_index = {
-    
+        "type" : 'Point',
+        "coordinates": segments[0]["geometry"]["coordinates"][0]
 }
 
 extent_geo = {       
@@ -73,6 +76,7 @@ location = {
     "description": "SEBMS test 1",
     "lastUpdated": datetime.datetime.utcnow(),
     "projects": [
+        "a29845ea-893a-46ec-a7e7-a65dbe167708",
         "dab767a5-929e-4733-b8eb-c9113194201f"
         # propertiesfile.projectId
     ],

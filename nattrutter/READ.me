@@ -1,0 +1,8 @@
+raw material is nattrutt_4326_coords.csv
+this one is correct, in the original one site had 21 points which meant that iterating every 20 points created some erroneous sites
+
+use nattrutt_convert_sites.py to convert nattrutt_4326_coords.csv to nattrutter_upload.json which can be injected into mongo db
+for site extent it calculates the centroid of the 20 points that are in transectParts
+
+to inject to mongo:
+mongoimport --jsonArray --db ecodata --collection site --file natrutter_upload.json

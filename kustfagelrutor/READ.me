@@ -1,0 +1,7 @@
+raw material is kustfagel_4326_coords.geojson
+
+use nattrutt_convert_sites.py to convert kustfagel_4326_coords.geojson to kustfagelrutor_upload.json which can be injected into mongo db
+for site extent it calculates the centroid of the 20 points that are in transectParts
+
+to inject to mongo:
+mongoimport --jsonArray --db ecodata --collection site --file kustfagelrutor_upload.json
