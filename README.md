@@ -5,7 +5,7 @@ convert-sites-to-MongoDB_withCentre.py is only for standardrutt. It requires 3 g
 2. Format the geojson objects into new json objects to fit the 'site' collection in MongoDB and upload them to Mongo DB with convert-sites-to-MongoDB.py 
 
 <b>Requirements</b>
-- Python libraries: json, uuid, pymongo
+- Python libraries: json, uuid, pymongo, pandas, numpy, shapely, math
 - GDAL library (to use ogr2ogr function)
 
 <i>To Install Python PyMongo module with pip</i>
