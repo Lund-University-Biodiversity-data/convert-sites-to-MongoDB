@@ -1,0 +1,27 @@
+﻿SELECT
+distinct geo.geo_sit_siteid AS sit_uid,
+geo.geo_sit_name AS site_name,
+sit.sit_geowgs84lat as epsg4326lat,
+sit.sit_geowgs84lon as epsg4326lon,
+geo.geo_seg_segmentid as seg_uid,
+geo.geo_seg_sequence as segment,
+geo.geo_type as site_type,
+ST_AsGeoJSON(ST_Transform(geo.geo_geom,4326)) as epsg3006geom,
+geo.geo_typ_datasourceid as datasource/*,
+--per.per_uid as personid,
+--concat(per.per_firstname, ' ', per.per_lastname) as person*/
+FROM geo_geometry AS geo
+FULL JOIN  sit_site as sit on geo.geo_sit_siteid=sit.sit_uid
+inner join seg_segment as seg on geo.geo_seg_segmentid = seg.seg_uid
+INNER JOIN typ_type as typ on geo.geo_typ_datasourceid = typ.typ_uid
+inner join obs_observation as obs on seg.seg_uid = obs.obs_seg_segmentid
+INNER JOIN vis_visit AS vis ON obs.obs_vis_visitid = vis.vis_uid
+INNER JOIN vip_visitparticipant AS vip ON vis.vis_uid = vip.vip_vis_visitid
+INNER JOIN per_person AS per ON  vip.vip_per_participantid = per.per_uid
+
+WHERE geo.geo_typ_datasourceid in (54,63) and geo.geo_uid <=2842 and sit.sit_isdeleted=FALSE and per.per_isdeceased=FALSE
+
+--order by geo.geo_sit_siteid ,per.per_uid
+order by geo.geo_sit_siteid ,geo.geo_seg_segmentid
+
+;

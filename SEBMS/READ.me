@@ -1,0 +1,32 @@
+TODO: calculate length of lines for transects (watch out as there are not only lines but also polygones and circles)
+
+This directory belongs only to SeBMS and contains mixed persons and sites uploads because personId is needed to book sites and have to be created first.
+
+1. raw data is in: 
+WARNING: check if field names are correct in the heading for person data! 
+persons_at_sites from Lars, contains sites and people's names and ids, 
+personal_data is all personal data from postgres,
+persons_with_ids is personal_data + uuids and is used as basis for creating person collection, -> check if field names are correct
+persons_at_sites is used for associating persons with sites and adding personId to bookedBy field of sites. This file is used in transect/transect_convert_sites.py
+points_4326_coords.geojson -> points for punktlokal
+
+2. scripts are: 
+persons_add_uuid.py -> generates uuids for each person
+person/convert_to_json.py -> creates persons_upload_sebms.json - an array of json documents ready to upload to ecodata person collection
+transect/convert_to_json.py -> converts different geometries from postgres to json format ready for upload to ecodata site collection
+    calculates centroid from all transectParts as site_extent, associates site with person through the field "bookedBy" which is an array containing personIds of 
+    persons who booked the site
+spatial_query.txt -> sql statement to obtain spatial data from postgres with transects as geojson and in epsg 4326
+punktlokal/convert_to_json.py -> converts sites that consist of one point into ecodata sites, the product is an array of jsons to upload to ecodata sites collection
+
+3. end products are json data for uploading to Mongo (persons_upload_sebms.json and slinga_upload.json and point_upload.json) - they should be generated in pair to make sure the 
+    site contains the right personIds for booking
+
+
+Last step is to get it to Mongo on Prod - adjust the below to whatever is relevant!
+1. scp /home/aleksandra/Documents/Projects/convert-sites-to-MongoDB/SEBMS/persons_upload_sebms.json ubuntu@89.45.233.195:/home/ubuntu
+2. mongoimport --jsonArray --db ecodata --collection site --file persons_upload_sebms.json
+
+Remember to add date of creation and lastUpdated in Mongo shell: 
+db.site.updateMany({"dateCreated": null}, {$set: {"dateCreated": new Date(), "lastUpdated": new Date()}})
+db.person.updateMany({"dateCreated": null}, {$set: {"dateCreated": new Date(), "lastUpdated": new Date()}})

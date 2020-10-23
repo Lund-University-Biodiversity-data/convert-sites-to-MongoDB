@@ -1,0 +1,903 @@
+,firstName,lastName,email,address1,gender,birthyear,town,mobile,personCode,personId,sit_uid,site_name,site_type,datasource,person
+0,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,74,Snogehall,T,54,Richard Ottvall
+1,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,465,Hålebäckseröd slinga,T,63,Richard Ottvall
+2,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,466,Hålebäckseröd transekter,T,63,Richard Ottvall
+3,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,471,Lya ljunghed slinga,T,63,Richard Ottvall
+4,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,473,Måryd naturreservat slinga,T,63,Richard Ottvall
+5,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,474,Måryd naturreservat transekter,T,63,Richard Ottvall
+6,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,475,Skälsböke slinga,T,63,Richard Ottvall
+7,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,476,Skälsböke transekter,T,63,Richard Ottvall
+8,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,477,Mariedal - Östra Vram slinga 2,T,63,Richard Ottvall
+9,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,545,Vomb transekter,T,63,Richard Ottvall
+10,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,546,Vomb slinga,T,63,Richard Ottvall
+11,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,640,Drakamöllan slinga,T,63,Richard Ottvall
+12,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,641,Drakamöllan transekter,T,63,Richard Ottvall
+13,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,643,Vitemölla strandbackar transekter,T,63,Richard Ottvall
+14,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,673,Ringsjön transekter,T,63,Richard Ottvall
+15,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,674,Ringsjön slinga,T,63,Richard Ottvall
+16,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,1103,Ignaberga flygplats transekter,T,63,Richard Ottvall
+17,Richard,Ottvall,richard.ottvall@gmail.com,Frostavallsvägen 325,M,1968.0,Höör,070-9146435,76,c4307e2c-7db0-46d4-91c0-b82d7128b4ec,2953,Ignaberga flygplats slinga 2,T,63,Richard Ottvall
+18,Sven,Birkedal,sven.birkedal@mixmail.nu,Lingonstigen 8,M,1949.0,Åhus,,616,9c551343-c54e-4f1c-9933-683aa50454da,541,Flintabacken transekter,T,63,Sven Birkedal
+19,Sven,Birkedal,sven.birkedal@mixmail.nu,Lingonstigen 8,M,1949.0,Åhus,,616,9c551343-c54e-4f1c-9933-683aa50454da,542,Hommentorp transekter,T,63,Sven Birkedal
+20,Sven,Birkedal,sven.birkedal@mixmail.nu,Lingonstigen 8,M,1949.0,Åhus,,616,9c551343-c54e-4f1c-9933-683aa50454da,585,Flintabacken slinga,T,63,Sven Birkedal
+21,Sven,Birkedal,sven.birkedal@mixmail.nu,Lingonstigen 8,M,1949.0,Åhus,,616,9c551343-c54e-4f1c-9933-683aa50454da,586,Hommentorp slinga,T,63,Sven Birkedal
+22,Sven,Birkedal,sven.birkedal@mixmail.nu,Lingonstigen 8,M,1949.0,Åhus,,616,9c551343-c54e-4f1c-9933-683aa50454da,654,Bjärlöv transekter,T,63,Sven Birkedal
+23,Sven,Birkedal,sven.birkedal@mixmail.nu,Lingonstigen 8,M,1949.0,Åhus,,616,9c551343-c54e-4f1c-9933-683aa50454da,655,Bjärlöv slinga,T,63,Sven Birkedal
+24,Sven,Birkedal,sven.birkedal@mixmail.nu,Lingonstigen 8,M,1949.0,Åhus,,616,9c551343-c54e-4f1c-9933-683aa50454da,656,Orehagen transekter,T,63,Sven Birkedal
+25,Sven,Birkedal,sven.birkedal@mixmail.nu,Lingonstigen 8,M,1949.0,Åhus,,616,9c551343-c54e-4f1c-9933-683aa50454da,657,Orehagen slinga,T,63,Sven Birkedal
+26,Sven,Birkedal,sven.birkedal@mixmail.nu,Lingonstigen 8,M,1949.0,Åhus,,616,9c551343-c54e-4f1c-9933-683aa50454da,839,Ekebo transekter,T,63,Sven Birkedal
+27,Sven,Birkedal,sven.birkedal@mixmail.nu,Lingonstigen 8,M,1949.0,Åhus,,616,9c551343-c54e-4f1c-9933-683aa50454da,840,Ekebo slinga,T,63,Sven Birkedal
+28,Sven,Birkedal,sven.birkedal@mixmail.nu,Lingonstigen 8,M,1949.0,Åhus,,616,9c551343-c54e-4f1c-9933-683aa50454da,841,Sånnarna transekter,T,63,Sven Birkedal
+29,Sven,Birkedal,sven.birkedal@mixmail.nu,Lingonstigen 8,M,1949.0,Åhus,,616,9c551343-c54e-4f1c-9933-683aa50454da,842,Sånnarna slinga,T,63,Sven Birkedal
+30,Sven,Birkedal,sven.birkedal@mixmail.nu,Lingonstigen 8,M,1949.0,Åhus,,616,9c551343-c54e-4f1c-9933-683aa50454da,1067,Älleköpinge transekter,T,63,Sven Birkedal
+31,Sven,Birkedal,sven.birkedal@mixmail.nu,Lingonstigen 8,M,1949.0,Åhus,,616,9c551343-c54e-4f1c-9933-683aa50454da,1068,Älleköpinge slinga,T,63,Sven Birkedal
+32,Sven,Birkedal,sven.birkedal@mixmail.nu,Lingonstigen 8,M,1949.0,Åhus,,616,9c551343-c54e-4f1c-9933-683aa50454da,2915,"Åhus, Lingonstigen 8",P,54,Sven Birkedal
+33,Jan O.,Mattsson,jan.mattsson@nateko.lu.se,Porsvägen 11,M,,Höllviken,070-7277423,1205,5dac779f-739d-47e5-a50f-4eb099203318,2829,"Golfbanans kantstig, Ljunghusen",P,54,Jan O. Mattsson
+34,Jan O.,Mattsson,jan.mattsson@nateko.lu.se,Porsvägen 11,M,,Höllviken,070-7277423,1205,5dac779f-739d-47e5-a50f-4eb099203318,2830,"N. Sparvstyckevägen 12, Skanör",P,54,Jan O. Mattsson
+35,Benny,Lorentzon,benny.lorentzon@gmail.com,Östra Allén 12,M,,Ljungskile,,1235,6aedb6b5-6cef-4e8f-9e60-47e399111e75,2776,"Övre Allén 12, Ljungskile",P,54,Benny Lorentzon
+36,Benny,Lorentzon,benny.lorentzon@gmail.com,Östra Allén 12,M,,Ljungskile,,1235,6aedb6b5-6cef-4e8f-9e60-47e399111e75,2777,Östra Hoby,P,54,Benny Lorentzon
+37,May-Britt,Nilsson,may-britt.mellgren@tele2.se,Ängsvägen 8,F,,Färgelanda,,1319,9de8c1c0-2549-49b5-a0cf-977d5ce70e53,2694,"Ängsvägen, Färgelanda",P,54,May-Britt Nilsson
+38,Arvo,Köster,arvo.koster@hotmail.com,Gustav Vasas Väg 14,M,,Laxå,,1400,7cb1b6e2-da5c-4424-9a71-16e8c9b7e399,2764,"Logen, Olshammar",P,54,Arvo Köster
+39,Welam,Welamsson,welam.welamsson@advancedsoftware.se,Svampvägen 182,M,1945.0,Enskede,,535,0bc8728e-c15e-4deb-a982-55cff31d67ba,481,Verkarö,P,54,Welam Welamsson
+40,Christina,Lewander Rosengren,christina.l.rosengren@malmo.se,Verkstadsgatan 1 a,F,1955.0,Malmö,073-4660307,606,e015cb52-f082-46e9-a21b-d6677618a133,589,Hårhult 7744,P,54,Christina Lewander Rosengren
+41,Roger,Sundström,roger.sundstrom@gmail.com,Slättenborgsvägen 19,M,1962.0,Eksjö,,593,df2fb792-4756-4a1e-9ac0-66101684dc6f,571,Risatorpet,P,54,Roger Sundström
+42,Leif,Wahlberg,,Äs Ekebo,M,1943.0,Julita,,566,b4a96a54-a138-4b6c-8939-4b10987f3cf1,504,Ekebo,P,54,Leif Wahlberg
+43,Robert,Hammarstrand,rhtorp@gmail.com,Hedebacksvägen 6,M,1948.0,Alingsås,070-6207815,510,eafb33c1-4887-474a-8fe8-759368e3984f,443,Hedebacke 1:2,P,54,Robert Hammarstrand
+44,Kaj,Nilsson,kaj.nilsson@outlook.com,Ranseröd 4377,M,,Hässleholm,0700-171684,1540,cacf75ad-1f80-456a-ad56-2533ed15475d,2877,Höjelycke,P,54,Kaj Nilsson
+45,Kaj,Nilsson,kaj.nilsson@outlook.com,Ranseröd 4377,M,,Hässleholm,0700-171684,1540,cacf75ad-1f80-456a-ad56-2533ed15475d,2878,Skrubbalyckan,P,54,Kaj Nilsson
+46,Maria,Sjöstedt,maria.sjostedt@vgregion.se,"Carnegiegatan 8, lgh 1101",F,,Göteborg,,1541,685f879a-cca4-4c70-ac94-11ed17aa2b68,253,Sjögården,P,54,Maria Sjöstedt
+47,Stig,Gustavsson,seasa40@yahoo.se,Silkeryd,M,,Lammhult,,691,0ddb27a9-d1c8-4cf5-aee4-23d51b191864,2767,Silkeryd,P,54,Stig Gustavsson
+48,Adam,Bergner,adabe671@student.liu.se,Djurgårdsgatan 89,M,1990.0,Linköping,0739-260057,882,5cd5daeb-e52b-46e1-a597-6731e503be20,846,"Österås, N Byasjön",P,54,Adam Bergner
+49,Adam,Bergner,adabe671@student.liu.se,Djurgårdsgatan 89,M,1990.0,Linköping,0739-260057,882,5cd5daeb-e52b-46e1-a597-6731e503be20,847,"Linneberg, Tidersrum",P,54,Adam Bergner
+50,Lena,Scharp,lena@scharpkeramik.se,Garda Autsarve 640,F,1954.0,Ljugarn,073-6370724,181,cd91ee0f-cf62-49e2-86c9-cee93408d2d5,170,Autsarve änge Garda,P,54,Lena Scharp
+51,Lars,Pettersson,lars.pettersson@biol.lu.se,Lyftvägen 39,M,1964.0,Dalby,070-6116345,4,ff715659-0572-4aee-85ba-9741355621f4,6,Rökepipan,T,54,Lars Pettersson
+52,Lars,Pettersson,lars.pettersson@biol.lu.se,Lyftvägen 39,M,1964.0,Dalby,070-6116345,4,ff715659-0572-4aee-85ba-9741355621f4,7,Lyftvägen 39,P,54,Lars Pettersson
+53,Lars,Pettersson,lars.pettersson@biol.lu.se,Lyftvägen 39,M,1964.0,Dalby,070-6116345,4,ff715659-0572-4aee-85ba-9741355621f4,9,Billebjer,T,54,Lars Pettersson
+54,Lars,Pettersson,lars.pettersson@biol.lu.se,Lyftvägen 39,M,1964.0,Dalby,070-6116345,4,ff715659-0572-4aee-85ba-9741355621f4,410,"Botan, Lund",T,54,Lars Pettersson
+55,Lars,Pettersson,lars.pettersson@biol.lu.se,Lyftvägen 39,M,1964.0,Dalby,070-6116345,4,ff715659-0572-4aee-85ba-9741355621f4,752,"Matskålsängarna, mitt",P,54,Lars Pettersson
+56,Lars,Pettersson,lars.pettersson@biol.lu.se,Lyftvägen 39,M,1964.0,Dalby,070-6116345,4,ff715659-0572-4aee-85ba-9741355621f4,1086,Burs Prästgården,P,54,Lars Pettersson
+57,Lars,Pettersson,lars.pettersson@biol.lu.se,Lyftvägen 39,M,1964.0,Dalby,070-6116345,4,ff715659-0572-4aee-85ba-9741355621f4,1097,Våtseröd hygge,P,54,Lars Pettersson
+58,Lars,Pettersson,lars.pettersson@biol.lu.se,Lyftvägen 39,M,1964.0,Dalby,070-6116345,4,ff715659-0572-4aee-85ba-9741355621f4,2625,"Matskålsängarna, norra",P,54,Lars Pettersson
+59,Lars,Pettersson,lars.pettersson@biol.lu.se,Lyftvägen 39,M,1964.0,Dalby,070-6116345,4,ff715659-0572-4aee-85ba-9741355621f4,2626,"Matskålsängarna, södra",P,54,Lars Pettersson
+60,Lars,Pettersson,lars.pettersson@biol.lu.se,Lyftvägen 39,M,1964.0,Dalby,070-6116345,4,ff715659-0572-4aee-85ba-9741355621f4,2634,"Blomsterslingan, Gierrovardo Hemavan",T,54,Lars Pettersson
+61,Lars,Pettersson,lars.pettersson@biol.lu.se,Lyftvägen 39,M,1964.0,Dalby,070-6116345,4,ff715659-0572-4aee-85ba-9741355621f4,2636,"Naturum Abisko, vägkanten",P,54,Lars Pettersson
+62,Lars,Pettersson,lars.pettersson@biol.lu.se,Lyftvägen 39,M,1964.0,Dalby,070-6116345,4,ff715659-0572-4aee-85ba-9741355621f4,2641,"SV Storkitteltjärnen, Hemavan",P,54,Lars Pettersson
+63,Lars,Pettersson,lars.pettersson@biol.lu.se,Lyftvägen 39,M,1964.0,Dalby,070-6116345,4,ff715659-0572-4aee-85ba-9741355621f4,2642,"V Öörjelnjuenie, Hemavan",P,54,Lars Pettersson
+64,Monica,Grahn-Wendlerkrantz,monica.grahn.wendlerkrantz@gmail.com,Uddgränd 12,F,1947.0,Hässelby,070-5799327,90,6c827982-ed11-4b2f-be09-1f049418904a,152,"Uddgränd 12, Hässelby Villastad",P,54,Monica Grahn-Wendlerkrantz
+65,Oskar,Kullingsjö,oskarkul@hotmail.com,Älghagen,M,1975.0,Uddebo,070-6542435,10,bccd5802-911c-42f5-850f-53929416a6d8,53,Tofta skjutfält vid Suderbys,T,54,Oskar Kullingsjö
+66,Oskar,Kullingsjö,oskarkul@hotmail.com,Älghagen,M,1975.0,Uddebo,070-6542435,10,bccd5802-911c-42f5-850f-53929416a6d8,54,Suderbys,P,54,Oskar Kullingsjö
+67,Oskar,Kullingsjö,oskarkul@hotmail.com,Älghagen,M,1975.0,Uddebo,070-6542435,10,bccd5802-911c-42f5-850f-53929416a6d8,692,Älghagen,P,54,Oskar Kullingsjö
+68,Lennart,Berglöf,lennart.berglof@pp.ephone.se,Sörmlandsgatan 15,M,1943.0,Katrineholm,070-3300874,118,9a3a0866-d8c0-43d3-83c3-0e610bd8934a,116,Ekbacka,P,54,Lennart Berglöf
+69,Pål Axel,Olsson,palaxel.olsson@gmail.com,Norreportsvägen 27,M,1967.0,Hässleholm,070-3512370,114,49d9a65e-b7dc-4ff7-86e5-06fde82f3e06,19,Vankiva skola,T,54,Pål Axel Olsson
+70,Anne,Askengren,askengren@gmail.com,Angelbos Simunds 1920,F,1954.0,Lärbro,073-7138065,135,e87ca6f4-c735-4014-a81c-b336f254850d,106,"Lärbo, Angelbos 1920",P,54,Anne Askengren
+71,Harriet,Afzelius,harrietafzelius@hotmail.com,Ponnyvägen 19M,F,1947.0,Sundsvall,076-2321714,130,cf7863f0-cc9b-4433-8749-3404650a295c,245,Valltorpet,P,54,Harriet Afzelius
+72,Helena,Rygne,Helena.Rygne@lansstyrelsen.se,Loggatan 13,F,1966.0,Örebro,070-3971977,191,cb16ba79-f2dd-46f2-99df-39bab1312355,179,Källtorp,P,54,Helena Rygne
+73,Kurt,Johansson,kurt.johansson@gavlenet.se,Åkerby 19,M,1944.0,Ockelbo,,196,24efb943-ea12-4894-8956-e4d632193db1,161,Lillhagen (N),P,54,Kurt Johansson
+74,Kurt,Johansson,kurt.johansson@gavlenet.se,Åkerby 19,M,1944.0,Ockelbo,,196,24efb943-ea12-4894-8956-e4d632193db1,162,Åkerby (B),P,54,Kurt Johansson
+75,Kurt,Johansson,kurt.johansson@gavlenet.se,Åkerby 19,M,1944.0,Ockelbo,,196,24efb943-ea12-4894-8956-e4d632193db1,525,Mångeln syd,P,54,Kurt Johansson
+76,David,Andersson,,,M,,,,791,db255494-e911-46da-a3fd-de3e99a64761,72,Båvs yttre stenbrott,P,54,David Andersson
+77,Tommy,Magnusson,kurtrune@hotmail.com,Haddingen 57,M,1958.0,Tavelsjö,070-6448710,15,e3578fb9-4a0f-4e0f-9832-25c12fdd9288,615,"Åker öster om Stenbrottet, Rengsjö",P,54,Tommy Magnusson
+78,Tommy,Magnusson,kurtrune@hotmail.com,Haddingen 57,M,1958.0,Tavelsjö,070-6448710,15,e3578fb9-4a0f-4e0f-9832-25c12fdd9288,872,Salomonsbesök,P,54,Tommy Magnusson
+79,Tommy,Magnusson,kurtrune@hotmail.com,Haddingen 57,M,1958.0,Tavelsjö,070-6448710,15,e3578fb9-4a0f-4e0f-9832-25c12fdd9288,2675,Haddingen 57,P,54,Tommy Magnusson
+80,Maria,Ekegren,mia.ekegren@sv.se,Taborvägen 4,F,,Uddevalla,0708-553034,1336,ee5b759b-e66e-46c5-b13f-d5939d3d9459,2713,Taborsvägen 4,P,54,Maria Ekegren
+81,Anders,Johansson,ajohansson0628@gmail.com,Godhemsgatan 32a,M,,Göteborg,0702-904843,1543,e617f0db-efc4-440d-a778-803f61c2eaa6,2879,Sjöhagen 333,P,54,Anders Johansson
+82,Åsa,Forsberg,asa.forsberg@lansstyrelsen.se,Gammelbo 219,F,,Ramsberg,070-7657608,320,473acd85-f206-420f-9fbf-826253ac9f82,2860,Stora Nyckelbäcken 1:11,P,54,Åsa Forsberg
+83,Gunilla,Dahlquist,gunilla_dahlquist@yahoo.se,Boge midsommarvägen 10,F,1938.0,Slite,070-9247071,366,8c16133d-e8be-4aa8-b931-f0cf9ff67e6a,307,Tjelderstrand,P,54,Gunilla Dahlquist
+84,Kjetil,Jensen,kjetil.jensen@spray.se,Sunnanvindsgatan 22,M,1931.0,Västerås,070-6801037,375,8f7a0c32-bc5a-4061-b405-d0bba7402661,2768,"Kocktorp 2, Ängsö",P,54,Kjetil Jensen
+85,Fredrik,Adolfsson,fred.adolfsson@gmail.com,"Döbelnsgatan 79, lgh 1402",M,1965.0,Stockholm,,16,92641ccf-5d94-47dc-a17e-f16794b82462,576,Källbo,P,54,Fredrik Adolfsson
+86,Fredrik,Adolfsson,fred.adolfsson@gmail.com,"Döbelnsgatan 79, lgh 1402",M,1965.0,Stockholm,,16,92641ccf-5d94-47dc-a17e-f16794b82462,752,"Matskålsängarna, mitt",P,54,Fredrik Adolfsson
+87,Hanna,Stahle,stahle.medbo@gmail.com,Sjöholms Skola 1,F,1964.0,Katrineholm,076-1144666,719,b8b7d413-7fe8-4c7c-8162-379a2e635e9b,695,Sjöholms skola,P,54,Hanna Stahle
+88,Cecilia,Åström,,Utmarksvägen 20,F,,Umeå,070-3989686,1528,e2a6a071-fcf4-4d5d-8ee6-96c09c8a3c4d,2841,Umeå universitetscampus 2b,P,54,Cecilia Åström
+89,Cecilia,Åström,,Utmarksvägen 20,F,,Umeå,070-3989686,1528,e2a6a071-fcf4-4d5d-8ee6-96c09c8a3c4d,2843,Umeå universitetscampus 3,P,54,Cecilia Åström
+90,Rosita,Brolin,rosita.brolin@gmail.com,Buttle Buttlegårde 130,F,1958.0,Romakloster,070-4970723,115,4a79c7e8-9d6e-4900-b9d0-d183551ee1a6,173,Buttle Kalkbrott,P,54,Rosita Brolin
+91,Rosita,Brolin,rosita.brolin@gmail.com,Buttle Buttlegårde 130,F,1958.0,Romakloster,070-4970723,115,4a79c7e8-9d6e-4900-b9d0-d183551ee1a6,174,Buttlegårde 130,P,54,Rosita Brolin
+92,Annika,Gustafsson,,Armévägen 11,F,1951.0,Luleå,070-5166565,456,a5498987-9010-4507-8ac5-a4426756dee2,286,Mjöfjärden 568,P,54,Annika Gustafsson
+93,Carolina,Dahlberg,carolina.dahlberg@gmail.com,,F,,,070-3371985,1364,e31fed08-5982-4a4e-adf9-5c687537577f,2746,Ulvarp 11,P,54,Carolina Dahlberg
+94,Tina,Nordberg,pkenneth.nordberg@gmail.com,Våsjö Skola 3,F,1956.0,Kolsva,,1003,a24cc51e-9c59-4868-9784-3a42204e8cee,1088,"Nyhammar, Kolsva",P,54,Tina Nordberg
+95,Tina,Nordberg,pkenneth.nordberg@gmail.com,Våsjö Skola 3,F,1956.0,Kolsva,,1003,a24cc51e-9c59-4868-9784-3a42204e8cee,1089,Norsa,P,54,Tina Nordberg
+96,Tina,Nordberg,pkenneth.nordberg@gmail.com,Våsjö Skola 3,F,1956.0,Kolsva,,1003,a24cc51e-9c59-4868-9784-3a42204e8cee,1090,Timmerkajen,P,54,Tina Nordberg
+97,Tina,Nordberg,pkenneth.nordberg@gmail.com,Våsjö Skola 3,F,1956.0,Kolsva,,1003,a24cc51e-9c59-4868-9784-3a42204e8cee,1091,Malmviken,P,54,Tina Nordberg
+98,Kent,Hjorthage,kent.hjorthage@tele2.se,"Bragnum, Brottsgården 4",M,1960.0,Länghem,070-9576894,783,01451bca-d30f-49d1-b2f0-f761375cbc11,261,"Bragnum, Brottsgården 4",P,54,Kent Hjorthage
+99,Tage,Kyrk,tage.kyrk@tele2.se,Timotejvägen 14,M,1944.0,Åmål,070-3092397,330,c145751c-648a-4198-90a2-743551b69426,360,"Kasen, Känsbyn",P,54,Tage Kyrk
+100,Ellen,Karelid,ellen.lindstrom@live.se,Karintorp 10,F,1983.0,Kvillsfors,0705386152,455,de4811c0-6560-4f79-a85c-ca691fd8847d,368,Karintorp,P,54,Ellen Karelid
+101,Leif,Olsson,leif.t.olsson@telia.com,Nedre Genvägen 64,M,1946.0,Niemisel,070-2212959,669,de652c1b-9aad-461f-bcd9-0ab31d917f04,610,"Nedre Genvägen, Niemisel",P,54,Leif Olsson
+102,Gabriella,Malmborg,gabriella.malmborg@gmail.com,Kaptensgatan 17 A,F,1982.0,Göteborg,070-9997559,694,52156847-c2e0-4de5-a3ab-7c01fb79e64a,624,Ersdalens naturreservat,P,54,Gabriella Malmborg
+103,Gabriella,Malmborg,gabriella.malmborg@gmail.com,Kaptensgatan 17 A,F,1982.0,Göteborg,070-9997559,694,52156847-c2e0-4de5-a3ab-7c01fb79e64a,625,Ersdalsvägen 65,P,54,Gabriella Malmborg
+104,Lena,Jernehov,lenajernehov@gmail.com,Blåbärsåsvägen 72,F,1961.0,Floda,0705-607790,702,c7fa3a5f-3ef3-4c93-b9fb-bfca2ba13137,629,Blåbärsåsvägen 72,P,54,Lena Jernehov
+105,Dan,Mangsbo,dan.mangsbo@lansstyrelsen.se,Älvdalsvägen 59,M,1968.0,Deje,070-5749227,710,4d28c1e6-bc87-4469-9f64-e2120f412898,686,"Jordberg, östra infarten",P,54,Dan Mangsbo
+106,Dan,Mangsbo,dan.mangsbo@lansstyrelsen.se,Älvdalsvägen 59,M,1968.0,Deje,070-5749227,710,4d28c1e6-bc87-4469-9f64-e2120f412898,687,Jordberg,P,54,Dan Mangsbo
+107,Dan,Mangsbo,dan.mangsbo@lansstyrelsen.se,Älvdalsvägen 59,M,1968.0,Deje,070-5749227,710,4d28c1e6-bc87-4469-9f64-e2120f412898,688,"Jordberg, västra infarten",P,54,Dan Mangsbo
+108,Dan,Mangsbo,dan.mangsbo@lansstyrelsen.se,Älvdalsvägen 59,M,1968.0,Deje,070-5749227,710,4d28c1e6-bc87-4469-9f64-e2120f412898,689,"Åsen, Sunne",P,54,Dan Mangsbo
+109,Dan,Mangsbo,dan.mangsbo@lansstyrelsen.se,Älvdalsvägen 59,M,1968.0,Deje,070-5749227,710,4d28c1e6-bc87-4469-9f64-e2120f412898,690,"Höglunda, östra infarten",P,54,Dan Mangsbo
+110,Dan,Mangsbo,dan.mangsbo@lansstyrelsen.se,Älvdalsvägen 59,M,1968.0,Deje,070-5749227,710,4d28c1e6-bc87-4469-9f64-e2120f412898,691,"Höglunda, västra infarten",P,54,Dan Mangsbo
+111,Krister,Wadén,k.waden@gmail.com,Markaskälsvägen 27,M,1944.0,Lund,,11,814371c8-4299-4467-99a7-9bc692bd0a65,232,"Snapparp, Klangstorp",P,54,Krister Wadén
+112,Mildred,Nyström,mildred.nystrom@gmail.com,Sandviksgatan 78B,F,1946.0,Luleå,070-3513074,457,b2e1ad28-65d8-4fc6-a1be-1666d86368c0,408,Stormviken,P,54,Mildred Nyström
+113,Robert,Gahnfeldt,,Gothem Septembervägen 8,M,1950.0,Slite,0739-252514,99,9d851099-cdf1-452f-82be-218f65a4eed8,41,Gothemhammar,P,54,Robert Gahnfeldt
+114,Artur,Larsson,Artur.Larsson@slu.se,Giresta Länsmansbärby 2,M,1969.0,Örsundsbro,070-2604896,886,619908b7-f08d-4bfa-9ced-386ab724a19d,884,"Länsmansbärby, fjärilsrabatten",P,54,Artur Larsson
+115,Gunnar,Thornell,gunnar.thornell@telia.com,Idegränd 8,M,1945.0,Laholm,070-5605138,889,63dfe4ee-20a4-4d1b-8371-06514d5e205d,986,"Idgränd 8, Laholm",P,54,Gunnar Thornell
+116,Gunnar,Thornell,gunnar.thornell@telia.com,Idegränd 8,M,1945.0,Laholm,070-5605138,889,63dfe4ee-20a4-4d1b-8371-06514d5e205d,987,"Sjövägen, Kämpinge",P,54,Gunnar Thornell
+117,Joakim,Kälvegren,joakim.kalvegren@advania.se,Överstad Solberga 1,M,1971.0,Linghem,076-1400252,849,b1d141d0-8d47-416b-a869-a4172a0d4dd7,979,Askeby,P,54,Joakim Kälvegren
+118,Rickard,Burhagen,rburhagen@gmail.com,Grenvägen 3,M,1953.0,Höllviken,0706-453950,33,ebb15f15-f7c7-4912-ac44-ca6a91db17f7,71,Grenvägen 3,P,54,Rickard Burhagen
+119,Tomas,Bergsand,bergsand@telia.com,Lingonvägen 14,M,1969.0,Floda,070-7760625,716,ccefb8d3-3aa8-4ee0-b967-db02cea7587f,677,"Lingonvägen, Floda",P,54,Tomas Bergsand
+120,Lars,Brostad,,Pilotvägen 3,M,1939.0,Boden,070-3121107,960,81076f89-1881-495c-8098-4c631e4d84e4,1079,"Pilotvägen 3, Boden",P,54,Lars Brostad
+121,Ingvar,Isfeldt,ingvar.isfeldt3@gmail.com,Gråstensvägen 7,M,1947.0,Täby,073-9873130,927,56e371b5-887c-4cad-b662-6d242bd844a0,948,Forsa,P,54,Ingvar Isfeldt
+122,Jan Olof,Skantz,JO.Skantz@hotmail.com,Björkslingan 23,M,,Lundsbrunn,,1006,25efd3c6-447a-4c48-ac45-57398372b01f,2748,Törestorps Boställe,P,54,Jan Olof Skantz
+123,Tor,Udd,tor_udd@hotmail.com,Västra Promenaden 2 lgh 1101,M,1956.0,Ängelholm,073-9052699,979,123ecc85-aae6-4fe5-b593-1ad520ad3f96,966,Slätthult,P,54,Tor Udd
+124,Ingvar,Mellbrand,,Örngatan 4,M,1947.0,Blentarp,070-2138488,667,75daa839-fa1f-4c05-9773-4c45e75d087e,609,Örngatan 4,P,54,Ingvar Mellbrand
+125,Ylva,Engström,kodings@telia.com,Kodings 515 Hemse,F,1950.0,Hemse,,158,e2efa433-481d-4849-925a-482dfd5454bf,55,Kodings 2:1,P,54,Ylva Engström
+126,Naturum Ånge och,Turistbyrå,naturum@ange.se,Borgsjöbyn,N,,Erikslund,,55,518d6e2b-2c96-4611-b88d-0320fd389996,65,Naturum Ånge,P,54,Naturum Ånge och Turistbyrå
+127,Ingela,Sörqvist,ingela@trossonatur.se,Kalvö 9,F,1968.0,Havstenssund,070-3326126,444,c5483aa8-f1c1-4ace-a051-94b2a065ad36,358,Silltäck,P,54,Ingela Sörqvist
+128,Lena,Smith,chris.j.smith@tele2.se,Rådmansgatan 6,F,1955.0,Kungälv,0733-450759,445,826e8d4e-62f1-4b86-8391-f184ddfef3db,629,Blåbärsåsvägen 72,P,54,Lena Smith
+129,Marianne,Holm,,"Träkumla, Invards 235",F,1936.0,Visby,,184,a3be067d-bd08-4152-9626-c50e84b69c91,42,Ingvards 235 Träkumla,P,54,Marianne Holm
+130,Stig,Helgesson,stig@helgard.se,Skogsmilsgatan 7,M,1949.0,Västra Frölunda,076-7883031,482,af1b2cd6-9a46-4bdb-84b8-a60542642a26,406,Fredenslund Linneberg 1:4,P,54,Stig Helgesson
+131,Göran,Lindgren,,,M,1941.0,,,137,3cc41db2-d542-4151-af7c-ee29ce0c86be,60,Dammhult,P,54,Göran Lindgren
+132,Mari,Friberg,mari.friberg@telia.com,Storgatan 30,F,1962.0,Falköping,0703-213216,493,e610c21f-6f1c-4a1c-9057-bd593cb42cdd,403,Fahls,P,54,Mari Friberg
+133,Jan,Johansson,jaggen45@hotmail.com,Wetterlinsgatan 11B,M,1945.0,Falköping,0703-213224,494,a0aab8d1-e9e6-4cd5-a632-8f6ef8dde11e,403,Fahls,P,54,Jan Johansson
+134,Lisa,Olsson,lisa@lisasliv.se,Hagagatan 4,F,1978.0,Kågeröd,073-9951616,626,8dfa743f-9de7-459b-a5cd-dcc62f5c7fa9,581,"Hagagatan, Kågeröd",P,54,Lisa Olsson
+135,Lars A.,Jones,lars.a.jones@gmail.com,Kapstigen 46A,M,1948.0,Borlänge,070-4099290,628,229da058-184e-4009-a432-8add08f43529,694,Björkberget Siljansnäs,P,54,Lars A. Jones
+136,Claes,Lindahl,claes.lindahl@hotmail.com,Graneryd Norregård,M,1951.0,Virestad,,675,0f9a7321-2c55-46bd-8720-7cf98eb933be,614,Graneryd,P,54,Claes Lindahl
+137,Dick,Arvidsson,dicarv@telia.com,Box 82,M,1956.0,Hästveda,070-6280099,678,1a345bf0-fd44-4f96-89ba-c7da62bb0f0a,684,"Norrevång östra, Sonaboda",P,54,Dick Arvidsson
+138,Dick,Arvidsson,dicarv@telia.com,Box 82,M,1956.0,Hästveda,070-6280099,678,1a345bf0-fd44-4f96-89ba-c7da62bb0f0a,727,"Rasmus norra, Sonaboda",P,54,Dick Arvidsson
+139,Dick,Arvidsson,dicarv@telia.com,Box 82,M,1956.0,Hästveda,070-6280099,678,1a345bf0-fd44-4f96-89ba-c7da62bb0f0a,728,"Rasmus södra, Sonaboda",P,54,Dick Arvidsson
+140,Dick,Arvidsson,dicarv@telia.com,Box 82,M,1956.0,Hästveda,070-6280099,678,1a345bf0-fd44-4f96-89ba-c7da62bb0f0a,729,"Främre Kransavången, Sonaboda",P,54,Dick Arvidsson
+141,Dick,Arvidsson,dicarv@telia.com,Box 82,M,1956.0,Hästveda,070-6280099,678,1a345bf0-fd44-4f96-89ba-c7da62bb0f0a,730,"Alevången, Sonaboda",P,54,Dick Arvidsson
+142,Christina,Fagerström,utopiakalmar@gmail.com,Ågården 1,F,1954.0,Gullaskruv,076-0395835,679,61f6a836-08e4-4b42-b5e1-f6f9a66077b2,618,Gullaskruv,P,54,Christina Fagerström
+143,Gunhild,Gröndalen,gunhildgn@gmail.com,Gisslaboda 2357,F,1966.0,Lönsboda,,699,0b806754-8bfb-4cda-94a0-a1d9015b57b6,628,Gisslaboda 2357,P,54,Gunhild Gröndalen
+144,Anders,Fransson,andersfransson71@gmail.com,Kyrkbyn Bredgården 1,M,1942.0,Holsljunga,070-5771035,732,89d63332-76a3-4ef6-a000-bf80ed577f9f,766,Bredgården Holsljunga,P,54,Anders Fransson
+145,Anders,Fransson,andersfransson71@gmail.com,Kyrkbyn Bredgården 1,M,1942.0,Holsljunga,070-5771035,732,89d63332-76a3-4ef6-a000-bf80ed577f9f,767,Grustäkt Holsljunga,P,54,Anders Fransson
+146,Anders,Fransson,andersfransson71@gmail.com,Kyrkbyn Bredgården 1,M,1942.0,Holsljunga,070-5771035,732,89d63332-76a3-4ef6-a000-bf80ed577f9f,768,Skjutbana Holsljunga,P,54,Anders Fransson
+147,Anders,Fransson,andersfransson71@gmail.com,Kyrkbyn Bredgården 1,M,1942.0,Holsljunga,070-5771035,732,89d63332-76a3-4ef6-a000-bf80ed577f9f,1081,Stubbatorpet i Fällhult,P,54,Anders Fransson
+148,Monica,Larsson,molarsson@hotmail.com,Skäggsta 136,F,1966.0,Söråker,,741,66a30cbc-4088-45db-8c37-d36bcabba846,716,"Skäggsta, Tynderö",P,54,Monica Larsson
+149,Ronny,Johansson,ronnywjohansson@hotmail.com,Rallaregatan 30C,M,1955.0,Kattarp,073-7720032,673,e128ba3a-61bf-4573-b457-cea234aa03ad,634,Äppleskogen,P,54,Ronny Johansson
+150,Ronny,Johansson,ronnywjohansson@hotmail.com,Rallaregatan 30C,M,1955.0,Kattarp,073-7720032,673,e128ba3a-61bf-4573-b457-cea234aa03ad,786,Rallaregatan 30,P,54,Ronny Johansson
+151,Björn,Morin,bjorn.morin@home.se,Tellusvägen 7,M,1946.0,Åkersberga,0707-578291,495,c07a80c9-afe3-4b23-8671-596515230c72,405,"Tellusvägen 7, Åkersberga",P,54,Björn Morin
+152,Björn,Morin,bjorn.morin@home.se,Tellusvägen 7,M,1946.0,Åkersberga,0707-578291,495,c07a80c9-afe3-4b23-8671-596515230c72,533,"Lassas hagar, Svartlöga",P,54,Björn Morin
+153,Tore,Nilsson,malmbergarn.tn@gmail.com,Skogsmyrgatan 29 A,M,1954.0,Luleå,0730-891503,879,0747a1c6-0e7e-4ed3-9b49-573ac2e1b6c7,978,Aftonstigen Malmberget,P,54,Tore Nilsson
+154,Tore,Nilsson,malmbergarn.tn@gmail.com,Skogsmyrgatan 29 A,M,1954.0,Luleå,0730-891503,879,0747a1c6-0e7e-4ed3-9b49-573ac2e1b6c7,2731,"Pitevägen 38, Abborträsk",P,54,Tore Nilsson
+155,Erik,Nordström,,Lyktgubbens Väg 7,M,1941.0,Trelleborg,,613,c1f0a38b-6209-4a9e-bbd1-b05886a1af94,627,Modeshögsvägen 1,P,54,Erik Nordström
+156,Lars,Andersson,larsansgpost@gmail.com,Lövgatan 4: 1303,M,1959.0,Luleå,076-7895964,938,a76be49c-07b0-4d3b-9d44-57ecb01414f9,949,Solglimt,P,54,Lars Andersson
+157,Jan,Dunfjäll,skogssnigeln.1964@gmail.com,Malmgatan 39,M,1964.0,Mörbylånga,,646,aa607378-a21f-45d9-a050-8dc29bb41296,595,Linnebjer,P,54,Jan Dunfjäll
+158,Jan,Dunfjäll,skogssnigeln.1964@gmail.com,Malmgatan 39,M,1964.0,Mörbylånga,,646,aa607378-a21f-45d9-a050-8dc29bb41296,596,Odarslöv,P,54,Jan Dunfjäll
+159,Jan,Dunfjäll,skogssnigeln.1964@gmail.com,Malmgatan 39,M,1964.0,Mörbylånga,,646,aa607378-a21f-45d9-a050-8dc29bb41296,600,Räften,P,54,Jan Dunfjäll
+160,Jan,Dunfjäll,skogssnigeln.1964@gmail.com,Malmgatan 39,M,1964.0,Mörbylånga,,646,aa607378-a21f-45d9-a050-8dc29bb41296,710,Övedskloster,T,54,Jan Dunfjäll
+161,Jan,Dunfjäll,skogssnigeln.1964@gmail.com,Malmgatan 39,M,1964.0,Mörbylånga,,646,aa607378-a21f-45d9-a050-8dc29bb41296,711,Äskebäskan,T,54,Jan Dunfjäll
+162,Jan,Dunfjäll,skogssnigeln.1964@gmail.com,Malmgatan 39,M,1964.0,Mörbylånga,,646,aa607378-a21f-45d9-a050-8dc29bb41296,2880,Stora Frö,P,54,Jan Dunfjäll
+163,Nils-Gustaf,Nilsson,nilssonnilsgustaf@gmail.com,Vidablicksvägen 25,M,1941.0,Falkenberg,0704-960499,551,01da47d9-92fb-4db4-8116-fbc1d951e349,451,Vidablicksvägen 25,P,54,Nils-Gustaf Nilsson
+164,Ann-Charlott,Lidfors,annlife@live.se,Kungsgatan 15,F,1952.0,Boden,073-8194969,459,a76851f3-9f90-4b1f-b38b-19ca75614655,392,"Kungsgatan 15-19, Boden",P,54,Ann-Charlott Lidfors
+165,Gunnel,Davidsson,gunnel.davidsson@gmail.com,Gärdesvägen 30A,F,1944.0,Gränna,,245,d9d47921-59a0-426f-9888-4920873a6439,198,"Hultsjö 1-8, Gränna",P,54,Gunnel Davidsson
+166,Moa,Petersén,petersenmoa@gmail.com,Bodarpsvägen 242-0,F,1981.0,Trelleborg,0704-884481,483,efad4e90-1b74-49a6-9596-aa461a6f6a25,389,Bodarp,P,54,Moa Petersén
+167,Anders,Hallengren,anders.hallengren@lansstyrelsen.se,Trädgårdsvägen 1,M,1970.0,Kristianstad,073-4331188,263,290b3ba3-4f8b-4a9e-b537-f4cd9363dca7,202,Kungsborg,T,54,Anders Hallengren
+168,Pia,Linde,sydostis@icloud.com,Söftestorp Abrahams gård 10,F,,Väckelsång,,1605,ef486f30-58e2-44f8-b0f0-5499db12f96a,2930,Abrahams gård 10,P,54,Pia Linde
+169,Clas,Rosander,clas.rosander@kungsbacka.se,Gällingeskolan Förlandavägen 5,M,,Fjärås,0763-102640,627,bd931739-15f3-4896-bf03-958efa4642d4,582,Gällingeskolan,P,54,Clas Rosander
+170,Malin,Fridström,malin.fridstrom@lansstyrelsen.se,Vattenvårdsenheten Länsstyrelsen Västra Götalands län,F,,Mariestad,,636,306a64e8-bb75-463d-96dc-2de78c53f9d9,604,"Stenvik, Oxelösund",P,54,Malin Fridström
+171,Jørgen,Eilenberg,jei@life.ku.dk,Fyrreknolden 14,M,,Jægerspris,,608,728a9e48-0661-4091-9ea3-b17468cda5a5,306,Karstorp,P,54,Jørgen Eilenberg
+172,Jørgen,Eilenberg,jei@life.ku.dk,Fyrreknolden 14,M,,Jægerspris,,608,728a9e48-0661-4091-9ea3-b17468cda5a5,704,Granstorp,P,54,Jørgen Eilenberg
+173,Ingela,Lingensjö,ingelalingensjo@hotmail.com,Theodor Hellmans väg 51,F,,Härnösand,,1619,2798e573-ea2e-4b31-b15e-075024fb82c9,2906,Filitjärn,P,54,Ingela Lingensjö
+174,Thorild,Jonsson,thorild.jonsson@gmail.com,Trädgårdsgatan 2,M,1940.0,Ludvika,,479,c715988f-4482-49a6-8672-b1a8b0fcf8ee,458,Bangårdsområdet,P,54,Thorild Jonsson
+175,Thorild,Jonsson,thorild.jonsson@gmail.com,Trädgårdsgatan 2,M,1940.0,Ludvika,,479,c715988f-4482-49a6-8672-b1a8b0fcf8ee,460,Storgårdsängarna Brunnsvik,P,54,Thorild Jonsson
+176,Thorild,Jonsson,thorild.jonsson@gmail.com,Trädgårdsgatan 2,M,1940.0,Ludvika,,479,c715988f-4482-49a6-8672-b1a8b0fcf8ee,899,Nedre Malsjö,P,54,Thorild Jonsson
+177,Thorild,Jonsson,thorild.jonsson@gmail.com,Trädgårdsgatan 2,M,1940.0,Ludvika,,479,c715988f-4482-49a6-8672-b1a8b0fcf8ee,900,Hammarbacken,P,54,Thorild Jonsson
+178,Thomas,Wallin,thomas@putni.se,Sockerbruksgatan 12 B,M,1950.0,Ängelholm,070-6449660,349,a3c667d5-8b0d-4108-816b-bacd3ae52c10,387,Klören,T,54,Thomas Wallin
+179,Per,Hedenbo,Per.Hedenbo@lansstyrelsen.se,Naturvårdsenheten Länsstyrelsen Västmanlands län,M,1960.0,Västerås,,379,fb636f7e-780d-4a59-96ea-8e0a8e62b5f5,318,Abborrtjärntorpet,P,54,Per Hedenbo
+180,Anders,Helseth,anders_helseth@yahoo.com,Slättingebygd 117,M,1982.0,Nybro,0730-930945,437,d2ea0606-024c-4d3b-9bfb-6dff94f54aa5,354,Slättingebygd,P,54,Anders Helseth
+181,Mary-Ann,Brimstedt,mary@brimstedt.se,Älmhult Toratorpet,F,1950.0,Mjöbäck,0732-772118,442,de86bbc9-b798-418f-9601-9b15dd1ea0d3,2638,Toratorpet Mjöbäck,P,54,Mary-Ann Brimstedt
+182,Hillevi,Upmanis,humbohuset@hotmail.com,Flateby 240,F,1970.0,Harestad,,449,52f5ce60-4414-4042-9984-7e8be3b0752f,479,Flateby Harestad,P,54,Hillevi Upmanis
+183,Ida,Lundberg,barracuda_200@hotmail.com,Tollesbyn 311,F,1986.0,Ånimskog,,173,7f38243e-c107-4670-aabd-797ac3d52810,130,Tollesbyn,P,54,Ida Lundberg
+184,Tommy,Bystedt,tombys@telia.com,Gränsvägen 12,M,1950.0,Norrfjärden,070-2701616,543,458063cc-ac94-4d28-bcec-ea21a3bc33fd,484,"Gränsvägen, Norrfjärden",P,54,Tommy Bystedt
+185,Kerstin,Paulsson,kerstin.ib.paulsson@gmail.com,Floravägen 33,F,1944.0,Kristianstad,,119,8a1b94b4-c3b8-464b-8746-4b1513ae4b4c,27,Bredavik 19:32 (Sturkö),P,54,Kerstin Paulsson
+186,Carin,Gondesen,cgondesen@gmail.com,Leopolds gata 27,F,1931.0,Linköping,,193,fc919d5f-17fc-4656-a1cf-102e0c45f613,2919,Svalsjö Fjärilsruta,P,54,Carin Gondesen
+187,Bärbel,Ivarsson,,Sjöhagsvägen 8,F,1940.0,Sjövik,,529,6d4988a6-55be-47b4-938f-5f1b74a6d6c3,425,Sjöhagsvägen 8,P,54,Bärbel Ivarsson
+188,Rune,Gerell,rune.gerell@sjobo.nu,Tomelillavägen 456-72,M,1933.0,Sjöbo,,197,787e4e0e-a7ea-4507-896b-a62885a02e98,213,Tågratorp,P,54,Rune Gerell
+189,Rune,Gerell,rune.gerell@sjobo.nu,Tomelillavägen 456-72,M,1933.0,Sjöbo,,197,787e4e0e-a7ea-4507-896b-a62885a02e98,587,Björkafältet,T,54,Rune Gerell
+190,Ulla,Korp,,,F,1941.0,,,625,3e0f5abd-6eb0-49a1-b3bf-c03ad3b4b166,579,Åbacken,P,54,Ulla Korp
+191,Marta,,,,F,,,,1635,38ac10fc-c9df-4461-ab0d-23ff13547a0c,2904,Bråttensby,P,54,Marta 
+192,Olle,,,,M,,,,1636,be4b181d-5e9a-4414-aa1c-2ecef08c2a4c,2904,Bråttensby,P,54,Olle 
+193,Alma,,,,F,,,,1637,5bffae73-8472-41fc-a375-61ab1890e834,2904,Bråttensby,P,54,Alma 
+194,Agneta,Virsberg,evbl@rsv.se,Hageby Etelhem,F,1957.0,Stånga,,106,9cc92245-44e2-42ce-b30f-d1e652445b88,58,Trädgård i Etelhem,P,54,Agneta Virsberg
+195,Gunilla,Sundberg,gunillasundberg@hotmail.se,Östergarn Hallgårds 137,F,1958.0,Katthammarsvik,,123,8f2615aa-18da-4c7f-9a28-2b06c7dced12,46,Hallgårds 137,P,54,Gunilla Sundberg
+196,Kristoffer,Lager,koffelager@hotmail.com,Klarviksvägen 5,M,1983.0,Bohus-Björkö,0702-761808,128,e6060b34-351b-46e1-bd80-e752047958b1,40,"Stagneliusgatan 21, Mörbylånga",P,54,Kristoffer Lager
+197,Charlotte,Jonsson,charlotte.g.jonsson@vgregion.se,Stigbergsliden 17,F,1970.0,Göteborg,0702-015023,26,3c192ebc-5fa2-4940-85e7-8303739e9e0c,119,Sjöbergen,P,54,Charlotte Jonsson
+198,Magnus,Magnusson,magnus.mson@gmail.com,Älvans väg 169: 1101,M,1982.0,Umeå,073-0215266,27,ef5978d9-57a3-4eef-9df2-fe337dd381a9,752,"Matskålsängarna, mitt",P,54,Magnus Magnusson
+199,Magnus,Magnusson,magnus.mson@gmail.com,Älvans väg 169: 1101,M,1982.0,Umeå,073-0215266,27,ef5978d9-57a3-4eef-9df2-fe337dd381a9,2625,"Matskålsängarna, norra",P,54,Magnus Magnusson
+200,Magnus,Magnusson,magnus.mson@gmail.com,Älvans väg 169: 1101,M,1982.0,Umeå,073-0215266,27,ef5978d9-57a3-4eef-9df2-fe337dd381a9,2626,"Matskålsängarna, södra",P,54,Magnus Magnusson
+201,Pär,Svantesson,par.svantesson@jonkoping.se,Blåklintsvägen 32,M,,Huskvarna,,1512,8b35dc6f-386a-44fc-b827-4380789d77fe,2814,Asklanda,P,54,Pär Svantesson
+202,Joana,Pereira,jgpereira_92@hotmail.com,Sakföraregatan 2: 1002,F,1992.0,Lund,,758,d3ce7bc5-15c7-4063-835b-945305aa98af,25,Lunds ladugårdsstråk,T,54,Joana Pereira
+203,Maj,Jensen,,,F,1960.0,,,591,dfaa3b06-18a6-4a48-b68c-b35878f9b64f,531,Uvberget i Vilstaskogen,P,54,Maj Jensen
+204,Sara,Bladh Emilsson,sara.e.christiansson@gmail.com,Mårdstigen 9,F,1977.0,Obbola,070-3228922,29,77bbb03b-5e6d-4e95-bb6e-bcc905f8a3a3,164,Sävar Skogsfork UmeAsp fältet,P,54,Sara Bladh Emilsson
+205,Bengt-Erik,Bengtsson,proetus@telia.com,Rodergatan 82,M,1945.0,Trosa,070-8778345,30,68953628-4be8-4e47-8f55-64745dc63038,321,Stensund,P,54,Bengt-Erik Bengtsson
+206,Bengt-Erik,Bengtsson,proetus@telia.com,Rodergatan 82,M,1945.0,Trosa,070-8778345,30,68953628-4be8-4e47-8f55-64745dc63038,322,Norra Askö,P,54,Bengt-Erik Bengtsson
+207,Bengt-Erik,Bengtsson,proetus@telia.com,Rodergatan 82,M,1945.0,Trosa,070-8778345,30,68953628-4be8-4e47-8f55-64745dc63038,453,Viksberget,P,54,Bengt-Erik Bengtsson
+208,Erik,Öckinger,Erik.Ockinger@slu.se,Råby Karlberg 10,M,1977.0,Uppsala,,31,b76cd180-3506-433b-b526-f267ebdd5f84,146,"Bastbolvägen 15, Husby-Långhundra, Knvista",P,54,Erik Öckinger
+209,Erik,Öckinger,Erik.Ockinger@slu.se,Råby Karlberg 10,M,1977.0,Uppsala,,31,b76cd180-3506-433b-b526-f267ebdd5f84,1094,Råby Karlberg,P,54,Erik Öckinger
+210,Bibbi,Nyman,bibbinyman@gmail.com,Lyngby skola 182,F,1954.0,Genarp,0734-344984,58,7d2cd94f-b9f7-411a-a3fa-57748308b41a,14,Lyngby skola 182,P,54,Bibbi Nyman
+211,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,23,Enningervägen,P,54,Linda Birkedal
+212,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,24,Johanneshus,P,54,Linda Birkedal
+213,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,543,Södra Rörum S slinga,T,63,Linda Birkedal
+214,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,565,Södra Rörum N transekter,T,63,Linda Birkedal
+215,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,566,Södra Rörum N slinga,T,63,Linda Birkedal
+216,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,567,Södra Rörum S transekter,T,63,Linda Birkedal
+217,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,635,Holma ängar,P,54,Linda Birkedal
+218,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,666,Björkåsen slinga,T,63,Linda Birkedal
+219,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,667,Ry slinga,T,63,Linda Birkedal
+220,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,668,Ry transekter,T,63,Linda Birkedal
+221,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,673,Ringsjön transekter,T,63,Linda Birkedal
+222,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,674,Ringsjön slinga,T,63,Linda Birkedal
+223,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,675,Agnes källa transekter,T,63,Linda Birkedal
+224,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,676,Agnes källa slinga,T,63,Linda Birkedal
+225,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,1071,Torastorp slinga,T,63,Linda Birkedal
+226,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,1072,Torastorp transekter,T,63,Linda Birkedal
+227,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,1073,Kyle slinga,T,63,Linda Birkedal
+228,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,1074,Kyle transekter,T,63,Linda Birkedal
+229,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,1075,Ekeröd slinga,T,63,Linda Birkedal
+230,Linda,Birkedal,linda.birkedal@naturskyddsforeningen.se,Enningervägen 12,F,1977.0,Höör,070-5303686,42,2715ff43-b004-4f41-9f78-d94c4393dd5e,1076,Ekeröd transekter,T,63,Linda Birkedal
+231,Hjördis Katarina,Lundmark,hjordis.katarina@telia.com,"Mellbyvägen 106, Kyrkdal",F,1940.0,Bollstabruk,070-2104960,56,c98a80f4-f3d7-4623-821b-1046691e2a24,64,Mällby,P,54,Hjördis Katarina Lundmark
+232,Merete,Carlsson,Ljungabolet@telia.com,Ljungabolsvägen 29,F,1937.0,Munka-Ljungby,,36,b02791d5-0693-4255-8ab9-ec5577929c61,70,"Ljungabolet, punkt",P,54,Merete Carlsson
+233,Bertil,Vilhelmson,Bertil.Vilhelmson@geography.gu.se,Cedergatan 26,M,1952.0,Västra Frölunda,,40,30fb5dad-7715-4dc8-b345-6251b87b3787,126,Gullmarsberg 511,P,54,Bertil Vilhelmson
+234,Magnus,Persson,Magnus.Persson@tvrl.lth.se,Hellstorpsvägen 2,M,1969.0,Torna Hällestad,070-4387012,45,83617cc6-d87c-46a5-bd8d-800c4e3431fe,17,NV Krankesjön,T,54,Magnus Persson
+235,Magnus,Persson,Magnus.Persson@tvrl.lth.se,Hellstorpsvägen 2,M,1969.0,Torna Hällestad,070-4387012,45,83617cc6-d87c-46a5-bd8d-800c4e3431fe,18,"Sandbymosse, grustaget",P,54,Magnus Persson
+236,Magnus,Persson,Magnus.Persson@tvrl.lth.se,Hellstorpsvägen 2,M,1969.0,Torna Hällestad,070-4387012,45,83617cc6-d87c-46a5-bd8d-800c4e3431fe,335,Måryd - Torna Hällestad,P,54,Magnus Persson
+237,Hans,Karlsson,ka.hans@telia.com,Dörby Malm 310,M,1946.0,Färjestaden,070-5924773,48,390c81f0-e04b-44c2-b6a9-73600021af53,100,Dörby Malm,P,54,Hans Karlsson
+238,Bengt,Dahlin,,Almekärrsvägen 15A,M,1930.0,Lerum,,35,257d8e9f-d9d8-42ce-b705-3b99719a9628,128,"Morkullen, Kåröd, Stillingsön, Orust",P,54,Bengt Dahlin
+239,Evald,Jonsson,evald.jonsson@telia.com,S. Bondetorp,M,1948.0,Vittaryd,,43,af42775f-c070-486d-bbf6-382951c2901e,31,Bondetorp,P,54,Evald Jonsson
+240,Sara,Birkedal,,,F,,,,1582,1974bf4e-090a-4dcd-ae43-524da1b51163,2915,"Åhus, Lingonstigen 8",P,54,Sara Birkedal
+241,Lillemor,Bonde,lillemor.bonde45@gmail.com,Hansbogatan 16,F,1945.0,Sandviken,0703655171,79,4402d835-de9c-45cd-ac32-03a837a3324f,26,Hemsjö,P,54,Lillemor Bonde
+242,Lillemor,Bonde,lillemor.bonde45@gmail.com,Hansbogatan 16,F,1945.0,Sandviken,0703655171,79,4402d835-de9c-45cd-ac32-03a837a3324f,514,Hansbogatan 16,P,54,Lillemor Bonde
+243,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,77,Bårabygd altanen,P,54,Stefan Lithner
+244,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,78,Bårabygd kfukslok,P,54,Stefan Lithner
+245,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,79,Bårabygd klyvningen,P,54,Stefan Lithner
+246,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,80,Bårabygd ängen,P,54,Stefan Lithner
+247,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,81,Bårabygd tåtelhörnet,P,54,Stefan Lithner
+248,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,82,Bårabygd-vägen-krönet,P,54,Stefan Lithner
+249,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,83,Bårabygd-vägen 25 N björkridån,P,54,Stefan Lithner
+250,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,84,Linjevägen pkt 1,P,54,Stefan Lithner
+251,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,85,Linjevägen pkt 2 1/2 vändpl,P,54,Stefan Lithner
+252,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,86,Linjevägen pkt 3 - grusgropen,P,54,Stefan Lithner
+253,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,87,Linjevägen pkt 5 1/2 - jakttornet,P,54,Stefan Lithner
+254,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,88,Linjevägen pkt 7 - kärrkanten,P,54,Stefan Lithner
+255,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,89,Linjevägen Tranerås pkt 14,P,54,Stefan Lithner
+256,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,90,Linjevägen pkt 4 1/2 hyggeskanten,P,54,Stefan Lithner
+257,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,91,Linjevägen pkt 18,P,54,Stefan Lithner
+258,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,92,Sjöarp-3-bäcken,P,54,Stefan Lithner
+259,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,93,Sjöarp VF-lokalen,P,54,Stefan Lithner
+260,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,94,Sjöarp-torpet,P,54,Stefan Lithner
+261,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,95,Sjöarp-3-torpet-4pÖ,P,54,Stefan Lithner
+262,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,96,Sjöarp-BårkullensSV-översiln,P,54,Stefan Lithner
+263,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,97,Sjöarp-Bårkullen-Tågsvackan,P,54,Stefan Lithner
+264,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,98,Sjöarp-ren.verket,P,54,Stefan Lithner
+265,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,336,Sjöarp-Bårkullen-vändplatsen,P,54,Stefan Lithner
+266,Stefan,Lithner,slithner@outlook.com,Vinkelgatan 26 B,M,1951.0,Karlshamn,0708-462862,66,549a1fd6-bf4a-41c8-917d-17b6e1d899fe,1004,Sjöarp-Emilshem,P,54,Stefan Lithner
+267,Rose-Marie,Andersson,,Ardre Bringsarve,F,1959.0,Ljugarn,,129,116c9011-b340-474b-88b3-3e42ae9ae637,44,Ljugarns föräldrakooperativ Bikupan,P,54,Rose-Marie Andersson
+268,Per,Lindegård,per.lindegaard@telia.com,När Graunänge 502 F,M,1947.0,Stånga,070-3453458,95,3da5b4bb-f42f-4764-aa09-3df78d737761,50,När Graunänge,P,54,Per Lindegård
+269,Ulf,Lundwall,u.lundwall@telia.com,Sakförarevägen 4,M,1950.0,Lund,,83,67f91f57-14dc-450c-bb69-28ee84678517,25,Lunds ladugårdsstråk,T,54,Ulf Lundwall
+270,Ulf,Lundwall,u.lundwall@telia.com,Sakförarevägen 4,M,1950.0,Lund,,83,67f91f57-14dc-450c-bb69-28ee84678517,537,Sakförarevägen 4,P,54,Ulf Lundwall
+271,Annelie,Thor,annelie.thor@gmail.com,Västra Skagene 832,F,1982.0,Hammarö,0702-139103,85,a268fd91-b9a7-47a8-9cd4-8f8de60ed52c,155,Hammars Hammar 32,P,54,Annelie Thor
+272,Annelie,Thor,annelie.thor@gmail.com,Västra Skagene 832,F,1982.0,Hammarö,0702-139103,85,a268fd91-b9a7-47a8-9cd4-8f8de60ed52c,500,Östra Speke,P,54,Annelie Thor
+273,Lars-Inge,Larsson,5477larsson@telia.com,Lau Sunnkyrke 216,M,1955.0,Ljugarn,,97,14d05d2e-8593-4fda-a9a6-af228c79b743,598,Käldänget,P,54,Lars-Inge Larsson
+274,Gun,Ingmansson,gun.ingmansson@telia.com,Vinkelgatan 2B,F,1948.0,Visby,076-8323123,98,86e2aca8-2235-463d-8941-86a29de1f27f,109,Nyman Fröjel -punkt,P,54,Gun Ingmansson
+275,Christer,Larsson,natur.christer@gmail.com,Åskärret 1,M,1954.0,Hova,00-48088,127,1c0309eb-5a35-467f-851c-4722a8373b93,258,Åskärr,P,54,Christer Larsson
+276,Kristina,Tofftén,kristina.tofften@telia.com,Syrengatan 11,F,1951.0,Visby,072-5610922,104,7115c5cf-1444-4590-86f3-7e0e64049f85,104,Mästerby Ringome 1:39,P,54,Kristina Tofftén
+277,Britta,Levin,braiten@hotmail.com,Norra Hultseröd 105,F,1981.0,Billinge,073-7721805,108,7a765a8d-9887-4e55-a064-991300e91dec,115,Kryddträdgården Botaniska trädgården,P,54,Britta Levin
+278,Britta,Levin,braiten@hotmail.com,Norra Hultseröd 105,F,1981.0,Billinge,073-7721805,108,7a765a8d-9887-4e55-a064-991300e91dec,606,Ellensro,P,54,Britta Levin
+279,Britta,Levin,braiten@hotmail.com,Norra Hultseröd 105,F,1981.0,Billinge,073-7721805,108,7a765a8d-9887-4e55-a064-991300e91dec,1099,Skäralid,P,54,Britta Levin
+280,Ingrid,Angelöf,gerum.redovisning@gotlandica.se,Gerum Mickelbys 130,F,1956.0,Hemse,,109,e176fbaf-83a6-44ca-af71-b90c91d3b055,56,Mallgårds Klint,T,54,Ingrid Angelöf
+281,Ingrid,Angelöf,gerum.redovisning@gotlandica.se,Gerum Mickelbys 130,F,1956.0,Hemse,,109,e176fbaf-83a6-44ca-af71-b90c91d3b055,57,Russparkens vinterhage,T,54,Ingrid Angelöf
+282,Tina,Ollberg,tina.haglund@telia.com,Burs Ammunde 417,F,1964.0,Stånga,,113,86d0bc98-25c9-4dd0-9adf-16561e79fec5,112,Burs Ammunde 417,P,54,Tina Ollberg
+283,Margareta,Ohné,margareta.ohne@gmt.su.se,Allévägen 14C,F,1949.0,Bromma,,116,5c558481-9a2e-4053-8710-c766448f5113,38,Strandvägen,P,54,Margareta Ohné
+284,Margareta,Ohné,margareta.ohne@gmt.su.se,Allévägen 14C,F,1949.0,Bromma,,116,5c558481-9a2e-4053-8710-c766448f5113,39,Jordtorpsåsen,T,54,Margareta Ohné
+285,Margareta,Ohné,margareta.ohne@gmt.su.se,Allévägen 14C,F,1949.0,Bromma,,116,5c558481-9a2e-4053-8710-c766448f5113,147,Snäcktorp,P,54,Margareta Ohné
+286,Margareta,Ohné,margareta.ohne@gmt.su.se,Allévägen 14C,F,1949.0,Bromma,,116,5c558481-9a2e-4053-8710-c766448f5113,898,Skarpa Alby,P,54,Margareta Ohné
+287,Åke,Nyman,40202@telia.com,Björkvägen 6,M,1932.0,Länghem,070-5840202,133,241e07b3-493b-4c00-8ad5-4d1b15d4a736,120,"Björkvägen 6, 514 43 Länghem",P,54,Åke Nyman
+288,Sven,Gustavi,,Jönköpingsgatan 40 A,M,1948.0,Helsingborg,,989,a6921d9e-e5da-4cde-b3dd-2512189546f3,2781,"Hultsjö 1, Sävsjö",P,54,Sven Gustavi
+289,Margareta,Jacobsson,margareta.jacobsson@telia.com,Fröjel Frejs väg 10 A,F,1954.0,Klintehamn,073-6968392,100,ada088ba-6ab6-49f0-b7bd-b06016d5a0eb,45,Rone Domerarve,T,54,Margareta Jacobsson
+290,Margareta,Jacobsson,margareta.jacobsson@telia.com,Fröjel Frejs väg 10 A,F,1954.0,Klintehamn,073-6968392,100,ada088ba-6ab6-49f0-b7bd-b06016d5a0eb,219,Domerarve punkt,P,54,Margareta Jacobsson
+291,Margareta,Jacobsson,margareta.jacobsson@telia.com,Fröjel Frejs väg 10 A,F,1954.0,Klintehamn,073-6968392,100,ada088ba-6ab6-49f0-b7bd-b06016d5a0eb,588,Norsbro punkt,P,54,Margareta Jacobsson
+292,Susanne,Appelqvist,Seat0071@gmail.com,Norrbackavägen 10,F,1971.0,Visby,,122,f5c184d3-6cac-45b0-b6b6-3ec1cfdfc5fc,43,Norrbackagatan 10,P,54,Susanne Appelqvist
+293,Git,Bergman,,,F,1956.0,,,78,7f3decf7-4e2c-4471-ab05-b8ea07d81c67,29,"Körvelgången 17, Laholm",P,54,Git Bergman
+294,Birgit,Söderman,birgit.soderman@telia.com,Dragonstigen 24,F,1941.0,Ludvika,,70,71d24c72-3f29-41c1-aae3-5190245a7da5,159,Lappugglan 9,P,54,Birgit Söderman
+295,Kristina,Eriksson,kristina.tommered@gmail.com,Tommeredsv 23,F,1948.0,Lindome,070-6099433,94,a5543c8a-707d-4a4e-a523-6e75b154167d,121,Hällesåker 1,P,54,Kristina Eriksson
+296,Berndt,Godin,berndt.godin@gmail.com,Mickelsbo 210,M,1944.0,Tierp,070-6116070,138,0ef53e73-a45a-4e45-9737-abe6402f10c4,445,Vreten,P,54,Berndt Godin
+297,Åke,Berg,Ake.Berg@ekol.slu.se,Herrhagsvägen 271,M,1956.0,Uppsala,070-2159251,174,26cd78c0-6066-42ae-9ae9-4ab8286a4055,363,Västra Röllingen,P,54,Åke Berg
+298,Lars,Bergendorf,lars.bergendorf@comhem.se,Elinebergsplatsen 8,M,1951.0,Helsingborg,,171,ffb3cd99-2e4e-4ef8-8a21-331a638abd96,72,Båvs yttre stenbrott,P,54,Lars Bergendorf
+299,Lars G. R.,Nilsson,larsgr53@gmail.com,Kämpagränden 21 B,M,1953.0,Lund,,168,7018c6d2-f44a-421a-9446-8667d18e4aea,182,Lottagården,P,54,Lars G. R. Nilsson
+300,Lars G. R.,Nilsson,larsgr53@gmail.com,Kämpagränden 21 B,M,1953.0,Lund,,168,7018c6d2-f44a-421a-9446-8667d18e4aea,183,Silvåkratornet,P,54,Lars G. R. Nilsson
+301,Lars G. R.,Nilsson,larsgr53@gmail.com,Kämpagränden 21 B,M,1953.0,Lund,,168,7018c6d2-f44a-421a-9446-8667d18e4aea,184,Vombs vattenverk p-plats,P,54,Lars G. R. Nilsson
+302,Erik,Svensson,erik.svensson@biol.lu.se,Doppingvägen 2C,M,1967.0,Lund,070-5970403,145,e2a1c381-8a80-4f6e-97c4-d3843d287730,33,"Lyftvägen 10, Dalby",P,54,Erik Svensson
+303,Arne,Pettersson,arne.p.pettersson@skogsstyrelsen.se,Järnvägsgatan 49,M,1950.0,Visby,070-5218007,125,5e40d3a2-5cbb-4f82-869d-17548afb89ad,56,Mallgårds Klint,T,54,Arne Pettersson
+304,Arne,Pettersson,arne.p.pettersson@skogsstyrelsen.se,Järnvägsgatan 49,M,1950.0,Visby,070-5218007,125,5e40d3a2-5cbb-4f82-869d-17548afb89ad,57,Russparkens vinterhage,T,54,Arne Pettersson
+305,Christer,Sjöäng,christer.sjoang@comhem.se,Herrgårdsvägen 7 B,M,1950.0,Skara,070-8456984,165,0cc1ed13-6e61-492e-b782-5301c6655674,224,Tempelbacken,P,54,Christer Sjöäng
+306,Jan,Janthe,janne.janthe@gmail.com,Vibble Kneippbygatan 8,M,1945.0,Visby,070-2299444,169,005d0cb9-675e-401d-bc81-b388e461b3ae,114,Gotlands Veteranbilsmuseum,P,54,Jan Janthe
+307,Kjell,Antonsson,Kjell.Antonsson@lansstyrelsen.se,Länsstyrelsen Östergötland,M,1956.0,Linköping,,153,12c5de2c-6806-4c71-b5c9-fd2b794fa9da,180,"Fridhem, Dags mosse",P,54,Kjell Antonsson
+308,Lena,Franzén,billy.franzen@telia.com,Tegvägen 7,F,1945.0,Lindås,,157,0ed5149e-1f4c-469d-ac46-4f2a4ef0f558,34,Hunshult 3,P,54,Lena Franzén
+309,Christer,Nilsson,christer@linnekulla.se,Linnekullavägen 100-22,M,1950.0,Tollarp,00-75349,167,9c4f4d48-792c-436b-a06a-febafc94819f,73,"Linnekullav 100-22, 258 91 Tollarp",P,54,Christer Nilsson
+310,Kerstin,Kvinné,kerstin.kvinne@gmail.com,Meteorgatan 16,F,1958.0,Göteborg,,166,1f8090f6-d7dc-4a5e-94f2-89b95074ac21,127,Smärtungen,P,54,Kerstin Kvinné
+311,Monika,Carlsson,monika.granshult@gmail.com,Granshult Södergård 2,F,1955.0,Bankeryd,,186,0d8397dd-795f-43bf-afab-ad6f2f0489df,36,Granshult 7:2,P,54,Monika Carlsson
+312,Olle,Holst,olle.holst@biotek.lu.se,Parternas Gränd 69,M,1954.0,Lund,070-5212707,143,976eb9b8-c938-4883-9a27-ea4719b9ad5d,102,Svanhalla 12:23,P,54,Olle Holst
+313,Håkan,Skoglund,skoglund4@gmail.com,Spexarevägen 10 B,M,1948.0,Lund,,176,8cbaa2bf-d55e-4a6f-a188-4201a515a604,172,"Björkhem, Kalvsvik, Växjö",P,54,Håkan Skoglund
+314,Båtel,Enekvist,batel.enekvist@svenskaspel.se,Smidskovägen 15,M,1958.0,Gotlands Tofta,070-2083909,183,439ceb70-1034-4625-bf6b-f32bb47eb554,175,Anderbåtels,P,54,Båtel Enekvist
+315,Per,Baldetorp,per.baldetorp@gmail.com,Reallinjen 14,M,1944.0,Lund,070-849971,198,99702ab7-e0c5-4385-8bfc-2b2b9bf84618,66,"Reallinjen, Lund",P,54,Per Baldetorp
+316,Per,Baldetorp,per.baldetorp@gmail.com,Reallinjen 14,M,1944.0,Lund,070-849971,198,99702ab7-e0c5-4385-8bfc-2b2b9bf84618,67,"Kungsmarken, Lund",T,54,Per Baldetorp
+317,Ann-Kristin,Tornberg,tornberg1@telia.com,"Tofta, Villa Toftasjö 223",F,1944.0,Halmstad,,185,d4af62d6-43d1-497c-a4bb-2142d668e0be,30,"Trädgården till Tofta, Villa Toftasjö 223",P,54,Ann-Kristin Tornberg
+318,Leif,Törnqvist,leif.tornqvist@ronneby.se,Lilla Silpingevägen 28,M,1946.0,Ronneby,076-8318167,192,0cde09db-4e7f-4826-8a78-7b282a1c67b0,131,"Dammen, Närke",P,54,Leif Törnqvist
+319,Lennart,Andersson,gunillaa23@gmail.com,"Öventorp, Kvarnängen",M,1932.0,Trollhättan,,149,0c00dfea-e40c-40b1-b834-c67f7d62794c,331,Kalkvägen Ö Jonstorpsmossen Ringvägen Hunneberg,P,54,Lennart Andersson
+320,Lennart,Andersson,gunillaa23@gmail.com,"Öventorp, Kvarnängen",M,1932.0,Trollhättan,,149,0c00dfea-e40c-40b1-b834-c67f7d62794c,332,Mötesplats virkesupplag Hunneberg,P,54,Lennart Andersson
+321,Sven,Björnbom,svengb@telia.com,Bjurängsvägen 3,M,1945.0,Malmköping,070-3153279,209,2a3ea387-0bf7-4098-9e8f-fb584214e575,169,Borsbäcken,P,54,Sven Björnbom
+322,Sven,Björnbom,svengb@telia.com,Bjurängsvägen 3,M,1945.0,Malmköping,070-3153279,209,2a3ea387-0bf7-4098-9e8f-fb584214e575,732,Sandåsen,P,54,Sven Björnbom
+323,Sven,Björnbom,svengb@telia.com,Bjurängsvägen 3,M,1945.0,Malmköping,070-3153279,209,2a3ea387-0bf7-4098-9e8f-fb584214e575,746,Solmora,P,54,Sven Björnbom
+324,Sven,Björnbom,svengb@telia.com,Bjurängsvägen 3,M,1945.0,Malmköping,070-3153279,209,2a3ea387-0bf7-4098-9e8f-fb584214e575,747,"Lillsjön norra, Malmköping",P,54,Sven Björnbom
+325,Simon,Divall,simon.divall@tacticus.se,Långstorp 207,M,1966.0,Höör,073-3325346,170,a862407b-3662-4c10-9066-c30a5ad4aa2c,21,Gudmuntorp 102,P,54,Simon Divall
+326,Erling,Jirle,Erling.Jirle@biol.lu.se,"Ekologihuset, Sölvegatan 37",M,1955.0,Lund,0708-224996,217,1e293f50-c46f-479f-815e-1fcc1cd4ee48,574,Ekologihusets äng,P,54,Erling Jirle
+327,Anders,Eliasson,anders.l.eliasson@telia.com,Drevstigen 6,M,1960.0,Öjersjö,0708-911188,201,af7aecd4-34de-41a6-b292-172bfb8b22d9,118,"Drevstigen 6, 433 50 Öjersjö",P,54,Anders Eliasson
+328,Claes-Göran,Nilsson,marnil@telia.com,Blomstervägen 23,M,1942.0,Visby,,203,7d71e8fe-ff56-481d-ad95-a9214b3db24c,48,Blomstervägen 23,P,54,Claes-Göran Nilsson
+329,Anders,Ivarsson,helium@telia.com,Dubbarp 3644,M,1946.0,Osby,,205,0db73d62-c220-4740-95cc-4766aaf9e2a6,297,"Strömsborg, Osby",P,54,Anders Ivarsson
+330,Christian,Lagerblad,christian.lagerblad@gmail.com,Flyingeby 552,M,1947.0,Flyinge,,228,ffbe6628-89a4-4cbc-80b5-a8faa2506d2f,348,Flyingeängen,P,54,Christian Lagerblad
+331,Birgitta,Nilsson,birgitta.nilsson8@gmail.com,Fjärdingsmansvägen 8,F,1952.0,Förslöv,,212,e4f48f37-f056-411e-be60-85af5942f322,22,Fjärdingsmansvägen,P,54,Birgitta Nilsson
+332,Christer,Sjögren,alstadcity@telia.com,"Stenekullevägen 3, Alstad",M,1952.0,Trelleborg,0733-945192,218,cef6400f-c9bb-42ec-9ee6-3b13751eb517,16,"Alstad, Stenekullevägen 3",P,54,Christer Sjögren
+333,Christer,Sjögren,alstadcity@telia.com,"Stenekullevägen 3, Alstad",M,1952.0,Trelleborg,0733-945192,218,cef6400f-c9bb-42ec-9ee6-3b13751eb517,1104,Näsbyholm slinga,T,63,Christer Sjögren
+334,Christer,Sjögren,alstadcity@telia.com,"Stenekullevägen 3, Alstad",M,1952.0,Trelleborg,0733-945192,218,cef6400f-c9bb-42ec-9ee6-3b13751eb517,1105,Näsbyholm transekter,T,63,Christer Sjögren
+335,Mikael,Süld,mikael.suld@live.se,Marbäck 154,M,1963.0,Marbäck,076-6347444,195,3ece714d-ec45-425d-9a34-6a1a517c623d,125,Marbäck 10:3,P,54,Mikael Süld
+336,Svante,Ståhl,,Ravinstigen 15,M,1935.0,Visby,,255,7bb143a6-b3a5-4073-8d6b-a7851f81eeb9,212,Sundre Socken,P,54,Svante Ståhl
+337,Anders,Borgehed,borgehed@gmail.com,Ängsvägen 7,M,1979.0,Urshult,,222,9943deba-d9ee-4a4a-9dbb-cd185b854276,709,Ängsvägen 7,P,54,Anders Borgehed
+338,Ronnie,Liljegren,ronnie.liljegren@telia.com,Tullsåkra 9258,M,1945.0,Hörby,,224,d923253a-2e32-4d5b-850d-d1f59963fadb,69,"Tullsåkra, punkt",P,54,Ronnie Liljegren
+339,Michael,Andersson,michael.ason@gmail.com,Gripenbergsgatan 64,M,1962.0,Huskvarna,076-8447070,226,80ef7f5b-5a93-4cf4-a0ee-9ba68fd1b067,193,"Gripenbergsgatan, Norrängen",P,54,Michael Andersson
+340,Suzanne,Schlyter,Snnsch@gmail.com,Södra Rörum Häglingevägen 9,F,1944.0,Hörby,0734-035542,235,89369b04-a30a-481e-bc2e-2e53e9276168,241,Nabben,T,54,Suzanne Schlyter
+341,Staffan,Nilsson,staffan.u.nilsson@gmail.com,Kärleksgatan 4,M,1991.0,Veberöd,,240,bf8a1464-08a2-4be7-9451-82e95abf7074,190,Beddingestrand,T,54,Staffan Nilsson
+342,Staffan,Nilsson,staffan.u.nilsson@gmail.com,Kärleksgatan 4,M,1991.0,Veberöd,,240,bf8a1464-08a2-4be7-9451-82e95abf7074,462,Hunneröds mosse,T,54,Staffan Nilsson
+343,Staffan,Nilsson,staffan.u.nilsson@gmail.com,Kärleksgatan 4,M,1991.0,Veberöd,,240,bf8a1464-08a2-4be7-9451-82e95abf7074,499,Killerödsvägen,T,54,Staffan Nilsson
+344,Kristina,Lundblad,kristina.lundblad@kultur.lu.se,Slussgatan 14:11,F,1965.0,Malmö,,241,a2c9bbcf-47d5-45a0-8aff-3d99a2016f76,191,Rostock Hornsö,P,54,Kristina Lundblad
+345,Nils,Rosenlund,,Nissakäll 315,M,1939.0,Örkelljunga,,219,82c12b81-8ee6-48cc-a291-92c62acfea80,20,Nissakäll 9:10,P,54,Nils Rosenlund
+346,Sten,Fällström,fallstrom@berghamra.se,Kättilstad Berghamra,M,1940.0,Rimforsa,070-3242200,253,091404a9-b1b4-4922-8fe1-dbd94dcc2af6,199,Berghamra,P,54,Sten Fällström
+347,Sten,Fällström,fallstrom@berghamra.se,Kättilstad Berghamra,M,1940.0,Rimforsa,070-3242200,253,091404a9-b1b4-4922-8fe1-dbd94dcc2af6,755,Söderö skola 600 m SO,P,54,Sten Fällström
+348,Astrid,Andersen,naturjobb@gmail.com,Älvhyttan 503,F,1952.0,Gyttorp,0730-633235,233,cf5ff5e9-6f95-433c-b3d7-754a640155f8,252,Älvhöjden,P,54,Astrid Andersen
+349,Astrid,Andersen,naturjobb@gmail.com,Älvhyttan 503,F,1952.0,Gyttorp,0730-633235,233,cf5ff5e9-6f95-433c-b3d7-754a640155f8,788,Bäcketorp 2:3,P,54,Astrid Andersen
+350,Lars,Leonardson,larsleonardson@gmail.com,Ågerupsvägen 177,M,1944.0,Blentarp,0706-913186,257,7ad5a759-8bca-4bff-aa76-c61684e772f1,271,Ågerups skola,P,54,Lars Leonardson
+351,Carina,Larsson,carinaelisa204@gmail.com,Hjalmar Söderbergs väg 16 A,F,1959.0,Stockholm,,211,9708f778-1da8-46ce-a177-a6882dc353a3,260,Kristinebergs klipporna,P,54,Carina Larsson
+352,Carina,Larsson,carinaelisa204@gmail.com,Hjalmar Söderbergs väg 16 A,F,1959.0,Stockholm,,211,9708f778-1da8-46ce-a177-a6882dc353a3,439,Johannelunds koloniträdgårdar,P,54,Carina Larsson
+353,Ulf,Gärdenfors,ulf.gardenfors@gmail.com,Spröjtagränd 6,M,1953.0,Degeberga,,215,ec46d2f0-b698-4049-ac49-8c08db306cbc,63,"Trunelän, Maglehem",T,54,Ulf Gärdenfors
+354,Per,Nyström,per.nystrom@ekoll.net,Hökgatan 2,M,1960.0,Blentarp,0704-932786,258,b3eb1458-163c-44bd-a4da-0fe23cd6cbdb,239,Västra Blentarp,P,54,Per Nyström
+355,Thomas,Ekman,thomas.ekman.te@gmail.com,Östra Hansegatan 26,M,1948.0,Visby,,260,1268371b-25e6-43e7-b0d1-5065d7bb65f5,200,Tyrvalds 105,P,54,Thomas Ekman
+356,Svante,Sjöstedt,ssjostedt@tele2.se,"Carnegiegatan 8, lgh 1101",M,1968.0,Göteborg,,307,0eaa227f-45bd-4629-96a9-29bef91db31f,253,Sjögården,P,54,Svante Sjöstedt
+357,Stefan,Nordberg,nordbergstefan@hotmail.com,Krukmakargatan 9,M,1976.0,Stockholm,,268,93c067fe-995b-4f5b-9a87-dc91071590e7,210,"Haga, Gibbenäs",P,54,Stefan Nordberg
+358,Sture,Hermansson,sture@sturehermansson.se,Soldatvägen 11,M,1950.0,Hallsberg,0733-251112,269,822e4bcc-0a88-4549-8f8e-8ca3f0580e73,539,Soldatvägen 11-12,P,54,Sture Hermansson
+359,Ronnie,Lindqvist,lindqvist_ronnie@hotmail.com,Bertil Waldéns gata 6,M,1954.0,Örebro,070-2621417,270,5d3d902a-20aa-4472-aa70-8e1cda8f858a,216,Fjärilslunden,P,54,Ronnie Lindqvist
+360,Ronnie,Lindqvist,lindqvist_ronnie@hotmail.com,Bertil Waldéns gata 6,M,1954.0,Örebro,070-2621417,270,5d3d902a-20aa-4472-aa70-8e1cda8f858a,217,Kullängsstugan,P,54,Ronnie Lindqvist
+361,Gudrun,Eriksson-Lindgren,gudrun.eriksson.lindgren@telia.com,"Djupebovägen 63, Norrgården",F,1957.0,Surahammar,073-7854138,283,dad6a27e-18de-44b7-b7fb-cb01abead3d8,249,Norrgården,P,54,Gudrun Eriksson-Lindgren
+362,Gudrun,Eriksson-Lindgren,gudrun.eriksson.lindgren@telia.com,"Djupebovägen 63, Norrgården",F,1957.0,Surahammar,073-7854138,283,dad6a27e-18de-44b7-b7fb-cb01abead3d8,250,Sångkärrsbacken,P,54,Gudrun Eriksson-Lindgren
+363,Gudrun,Eriksson-Lindgren,gudrun.eriksson.lindgren@telia.com,"Djupebovägen 63, Norrgården",F,1957.0,Surahammar,073-7854138,283,dad6a27e-18de-44b7-b7fb-cb01abead3d8,777,Uvsjövägen 1,P,54,Gudrun Eriksson-Lindgren
+364,Gudrun,Eriksson-Lindgren,gudrun.eriksson.lindgren@telia.com,"Djupebovägen 63, Norrgården",F,1957.0,Surahammar,073-7854138,283,dad6a27e-18de-44b7-b7fb-cb01abead3d8,778,Färnebovägen 1,P,54,Gudrun Eriksson-Lindgren
+365,Gudrun,Eriksson-Lindgren,gudrun.eriksson.lindgren@telia.com,"Djupebovägen 63, Norrgården",F,1957.0,Surahammar,073-7854138,283,dad6a27e-18de-44b7-b7fb-cb01abead3d8,779,Färnebovägen 2,P,54,Gudrun Eriksson-Lindgren
+366,Gudrun,Eriksson-Lindgren,gudrun.eriksson.lindgren@telia.com,"Djupebovägen 63, Norrgården",F,1957.0,Surahammar,073-7854138,283,dad6a27e-18de-44b7-b7fb-cb01abead3d8,780,Färnebovägen 3,P,54,Gudrun Eriksson-Lindgren
+367,Gudrun,Eriksson-Lindgren,gudrun.eriksson.lindgren@telia.com,"Djupebovägen 63, Norrgården",F,1957.0,Surahammar,073-7854138,283,dad6a27e-18de-44b7-b7fb-cb01abead3d8,781,Vallsjövägen 1,P,54,Gudrun Eriksson-Lindgren
+368,Gudrun,Eriksson-Lindgren,gudrun.eriksson.lindgren@telia.com,"Djupebovägen 63, Norrgården",F,1957.0,Surahammar,073-7854138,283,dad6a27e-18de-44b7-b7fb-cb01abead3d8,782,Vallsjövägen 2,P,54,Gudrun Eriksson-Lindgren
+369,Gudrun,Eriksson-Lindgren,gudrun.eriksson.lindgren@telia.com,"Djupebovägen 63, Norrgården",F,1957.0,Surahammar,073-7854138,283,dad6a27e-18de-44b7-b7fb-cb01abead3d8,783,Vallsjövägen 3,P,54,Gudrun Eriksson-Lindgren
+370,Gudrun,Eriksson-Lindgren,gudrun.eriksson.lindgren@telia.com,"Djupebovägen 63, Norrgården",F,1957.0,Surahammar,073-7854138,283,dad6a27e-18de-44b7-b7fb-cb01abead3d8,784,Vallsjövägen 4,P,54,Gudrun Eriksson-Lindgren
+371,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,227,Rydebäck,P,54,Linda Strand
+372,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,465,Hålebäckseröd slinga,T,63,Linda Strand
+373,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,466,Hålebäckseröd transekter,T,63,Linda Strand
+374,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,471,Lya ljunghed slinga,T,63,Linda Strand
+375,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,472,Lya ljunghed transekter,T,63,Linda Strand
+376,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,473,Måryd naturreservat slinga,T,63,Linda Strand
+377,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,474,Måryd naturreservat transekter,T,63,Linda Strand
+378,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,475,Skälsböke slinga,T,63,Linda Strand
+379,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,476,Skälsböke transekter,T,63,Linda Strand
+380,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,483,Lilla Mörshög,P,54,Linda Strand
+381,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,545,Vomb transekter,T,63,Linda Strand
+382,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,546,Vomb slinga,T,63,Linda Strand
+383,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,547,Prästängen transekter,T,63,Linda Strand
+384,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,548,Prästängen slinga,T,63,Linda Strand
+385,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,549,Kjugekull transekter,T,63,Linda Strand
+386,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,550,Kjugekull slinga,T,63,Linda Strand
+387,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,551,Rövarekulan transekter,T,63,Linda Strand
+388,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,552,Rövarekulan slinga,T,63,Linda Strand
+389,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,553,Herrevadskloster transekter,T,63,Linda Strand
+390,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,554,Herrevadskloster slinga,T,63,Linda Strand
+391,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,555,Boarps hed transekter,T,63,Linda Strand
+392,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,556,Boarps hed slinga 1,T,63,Linda Strand
+393,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,557,Dalby Fälad no 5 transekter,T,63,Linda Strand
+394,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,558,Dalby Fälad no 5 slinga,T,63,Linda Strand
+395,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,559,"Oremöllan, Ry transekter",T,63,Linda Strand
+396,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,560,"Oremöllan, Ry slinga",T,63,Linda Strand
+397,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,561,Gummastorp Kristianstad transekter,T,63,Linda Strand
+398,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,562,Gummastorp Kristianstad slinga,T,63,Linda Strand
+399,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,563,Annehem transekter,T,63,Linda Strand
+400,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,564,Annehem slinga,T,63,Linda Strand
+401,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,575,Sörby Tall,P,54,Linda Strand
+402,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,640,Drakamöllan slinga,T,63,Linda Strand
+403,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,641,Drakamöllan transekter,T,63,Linda Strand
+404,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,642,Vitemölla strandbackar slinga 1,T,63,Linda Strand
+405,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,643,Vitemölla strandbackar transekter,T,63,Linda Strand
+406,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,644,Högestads mosse slinga 1,T,63,Linda Strand
+407,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,645,Högestads mosse transekter,T,63,Linda Strand
+408,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,646,Gråshult slinga,T,63,Linda Strand
+409,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,647,Gråshult transekter,T,63,Linda Strand
+410,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,648,Sporrakulla slinga,T,63,Linda Strand
+411,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,649,Sporrakulla transekter,T,63,Linda Strand
+412,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,650,Lilla Hammars näs slinga,T,63,Linda Strand
+413,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,651,Lilla Hammars näs transekter,T,63,Linda Strand
+414,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,652,Ubbalt slinga,T,63,Linda Strand
+415,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,653,Ubbalt transekter,T,63,Linda Strand
+416,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,669,Dalby transekter,T,63,Linda Strand
+417,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,670,Dalby slinga,T,63,Linda Strand
+418,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,671,Gummastorp Perstorp slinga,T,63,Linda Strand
+419,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,672,Gummastorp Perstorp transekter,T,63,Linda Strand
+420,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,812,Bjäresjö transekter,T,63,Linda Strand
+421,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,813,Bjäresjö slinga,T,63,Linda Strand
+422,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,815,Everöds utmark transekter,T,63,Linda Strand
+423,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,816,Everöds utmark slinga,T,63,Linda Strand
+424,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,820,Humlarödshus fälad transekter,T,63,Linda Strand
+425,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,821,Humlarödshus fälad slinga,T,63,Linda Strand
+426,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,826,Kvidinge transekter,T,63,Linda Strand
+427,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,827,Kvidinge slinga,T,63,Linda Strand
+428,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,828,Malshult transekter,T,63,Linda Strand
+429,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,829,Malshult slinga,T,63,Linda Strand
+430,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,830,Mannagården transekter,T,63,Linda Strand
+431,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,831,Mannagården slinga,T,63,Linda Strand
+432,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,833,Skillinge transekter,T,63,Linda Strand
+433,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,834,Skillinge slinga,T,63,Linda Strand
+434,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,835,Tosteberga ängar transekter,T,63,Linda Strand
+435,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,836,Tosteberga ängar slinga,T,63,Linda Strand
+436,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,837,Åvarps fälad transekter,T,63,Linda Strand
+437,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,838,Åvarps fälad slinga,T,63,Linda Strand
+438,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,1069,"Betesmark öster om Dalby, transekter",T,63,Linda Strand
+439,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,1070,"Betesmark öster om Dalby, slinga",T,63,Linda Strand
+440,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,1077,Rögle fälad slinga,T,63,Linda Strand
+441,Linda,Strand,lindisstrand@gmail.com,Kamrersgatan 3,F,1976.0,Mörarp,0703-175936,284,ef26159c-c718-41cc-998c-569208c32af2,1078,Rögle fälad transekter,T,63,Linda Strand
+442,Hans,Terelius,hans.terelius@gmail.com,Alvikens Gårdsväg 18,M,1953.0,Stenhamra,0708-904013,273,6da25b6c-d7a5-4423-9f45-3b25de00d57b,218,Alviken,P,54,Hans Terelius
+443,Uno,Milberg,uno.milberg@telia.com,Utterbäcksvägen 9,M,1944.0,Karlskoga,070-5628550,281,73227a12-a75e-4614-9c15-d3a208bb3a1a,367,Utterbäcksvägen 9,P,54,Uno Milberg
+444,Lennart,Urby,lennart.urby@telia.com,Barkarö Bygata 371,M,1935.0,Västerås,070-3175542,312,38fccb15-ca61-421f-9191-79154d5ca69c,254,Sandtorpet,P,54,Lennart Urby
+445,Lennart,Urby,lennart.urby@telia.com,Barkarö Bygata 371,M,1935.0,Västerås,070-3175542,312,38fccb15-ca61-421f-9191-79154d5ca69c,351,Trädgård Urby,P,54,Lennart Urby
+446,Mikael,Järlestedt,jarlestedt@tele2.se,Övertänger 393,M,1953.0,Enviken,070-5661393,295,e3122597-acb3-408f-90d2-a8dec1e62cf7,233,Anderses,P,54,Mikael Järlestedt
+447,Bengt,Stridh,stridh.bengt@telia.com,Gäddeholm 73,M,1957.0,Västerås,070-5323067,298,88c6d23f-0c1f-4826-bf1e-d55f75512df2,236,Dyuddens sydspets,P,54,Bengt Stridh
+448,Kurt,Norell,kurt.norell@comhem.se,Kungsängsgatan 57 F,M,1950.0,Uppsala,0733-827049,297,45bad092-658e-4806-9fa6-fc6f1f3f214e,235,Grindtorpet,P,54,Kurt Norell
+449,Krister,Ekman,kristerekman@hotmail.se,Strandvägen 19 D,M,1950.0,Sala,,296,c0164939-4a79-4310-b215-49f0e2bbaf60,234,Gruvbyhagen,P,54,Krister Ekman
+450,Per,Löfgren,per.g.lofgren@gmail.com,Gvorrskäret 36,M,1952.0,Lögdeå,070-2515818,265,90b0766b-bdc0-4d13-91e0-345ca2190c78,204,Överboda,P,54,Per Löfgren
+451,Per,Löfgren,per.g.lofgren@gmail.com,Gvorrskäret 36,M,1952.0,Lögdeå,070-2515818,265,90b0766b-bdc0-4d13-91e0-345ca2190c78,2674,"Gvorrskäret, Ava",P,54,Per Löfgren
+452,Berit,Axelsson,berit@flum.net,Säter Stenbäcken1,F,1950.0,Skövde,0703-490809,301,3c124e3e-3240-4619-8779-72dce1403403,243,Säter Stenbäcken,P,54,Berit Axelsson
+453,Leif,Paakkonen,leif.paakkonen@outokumpu.com,Fågelåsen 430,M,1961.0,Åtorp,,302,27a0c099-3dd7-4f59-a299-8163f1ac2c11,244,Fågelåsen,P,54,Leif Paakkonen
+454,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,246,L:a Avlången,P,54,Solveig Wadelius
+455,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,247,St Avlången N,P,54,Solveig Wadelius
+456,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,248,St Avlången S,P,54,Solveig Wadelius
+457,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,486,"Virsbo, Skräddartorp",P,54,Solveig Wadelius
+458,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,519,Avlångskullen,P,54,Solveig Wadelius
+459,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,520,Lefelingskorset,P,54,Solveig Wadelius
+460,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,697,Nordanö grusgrop,P,54,Solveig Wadelius
+461,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,860,Brandområdet N1,P,54,Solveig Wadelius
+462,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,861,Brandområdet N2,P,54,Solveig Wadelius
+463,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,862,Brandområdet N3,P,54,Solveig Wadelius
+464,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,863,Brandområdet Ö1,P,54,Solveig Wadelius
+465,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,865,Brandområdet Ö2,P,54,Solveig Wadelius
+466,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,866,Brandområdet Ö3,P,54,Solveig Wadelius
+467,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,867,Trollmossen 1,P,54,Solveig Wadelius
+468,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,868,Trollmossen 2,P,54,Solveig Wadelius
+469,Solveig,Wadelius,k_s_wadelius@hotmail.com,Enebbavägen 40,F,1943.0,Virsbo,070-5951910,303,be85bc3f-8fb3-47bd-9f64-23fc8722d309,869,Trollmossen 3,P,54,Solveig Wadelius
+470,Staffan,Börjesson,staffan.borjesson@klostersfalad.se,Gässlingavägen 5A,M,1953.0,Lund,,310,52efe5be-8934-45cf-9fcb-276ed8d23f4d,288,Blistorp,P,54,Staffan Börjesson
+471,Staffan,Börjesson,staffan.borjesson@klostersfalad.se,Gässlingavägen 5A,M,1953.0,Lund,,310,52efe5be-8934-45cf-9fcb-276ed8d23f4d,291,Leingaryd,P,54,Staffan Börjesson
+472,Staffan,Börjesson,staffan.borjesson@klostersfalad.se,Gässlingavägen 5A,M,1953.0,Lund,,310,52efe5be-8934-45cf-9fcb-276ed8d23f4d,292,Gudahagen,P,54,Staffan Börjesson
+473,Staffan,Börjesson,staffan.borjesson@klostersfalad.se,Gässlingavägen 5A,M,1953.0,Lund,,310,52efe5be-8934-45cf-9fcb-276ed8d23f4d,306,Karstorp,P,54,Staffan Börjesson
+474,Staffan,Börjesson,staffan.borjesson@klostersfalad.se,Gässlingavägen 5A,M,1953.0,Lund,,310,52efe5be-8934-45cf-9fcb-276ed8d23f4d,341,Hagstad,P,54,Staffan Börjesson
+475,Staffan,Börjesson,staffan.borjesson@klostersfalad.se,Gässlingavägen 5A,M,1953.0,Lund,,310,52efe5be-8934-45cf-9fcb-276ed8d23f4d,342,Sibbarp,P,54,Staffan Börjesson
+476,Mats,Hansson,mats.hansson@skolverket.se,Skolverket,M,1954.0,Stockholm,,308,23d3040a-f054-4117-9fff-4b8992f28f9a,428,Viggbyholm,P,54,Mats Hansson
+477,Mats,Hansson,mats.hansson@skolverket.se,Skolverket,M,1954.0,Stockholm,,308,23d3040a-f054-4117-9fff-4b8992f28f9a,433,"Hemavan, Blå vägen",P,54,Mats Hansson
+478,Mats,Hansson,mats.hansson@skolverket.se,Skolverket,M,1954.0,Stockholm,,308,23d3040a-f054-4117-9fff-4b8992f28f9a,490,Ängsö Nationalpark,P,54,Mats Hansson
+479,Mats,Hansson,mats.hansson@skolverket.se,Skolverket,M,1954.0,Stockholm,,308,23d3040a-f054-4117-9fff-4b8992f28f9a,680,Häxberget- Bollstabruk,P,54,Mats Hansson
+480,Mats,Hansson,mats.hansson@skolverket.se,Skolverket,M,1954.0,Stockholm,,308,23d3040a-f054-4117-9fff-4b8992f28f9a,2651,Torö-Örudden,P,54,Mats Hansson
+481,Mats,Hansson,mats.hansson@skolverket.se,Skolverket,M,1954.0,Stockholm,,308,23d3040a-f054-4117-9fff-4b8992f28f9a,2653,"E 45 SV Björnängen, Vilhelmina",P,54,Mats Hansson
+482,Mats,Hansson,mats.hansson@skolverket.se,Skolverket,M,1954.0,Stockholm,,308,23d3040a-f054-4117-9fff-4b8992f28f9a,2654,"Ekeviken, Fårö",P,54,Mats Hansson
+483,Mats,Hansson,mats.hansson@skolverket.se,Skolverket,M,1954.0,Stockholm,,308,23d3040a-f054-4117-9fff-4b8992f28f9a,2657,Skirsjöedet - NO Strömsund,P,54,Mats Hansson
+484,Mats,Hansson,mats.hansson@skolverket.se,Skolverket,M,1954.0,Stockholm,,308,23d3040a-f054-4117-9fff-4b8992f28f9a,2658,"Skarvsjön, Storuman",P,54,Mats Hansson
+485,Mats,Hansson,mats.hansson@skolverket.se,Skolverket,M,1954.0,Stockholm,,308,23d3040a-f054-4117-9fff-4b8992f28f9a,2662,Oviken-Side,P,54,Mats Hansson
+486,Mats,Hansson,mats.hansson@skolverket.se,Skolverket,M,1954.0,Stockholm,,308,23d3040a-f054-4117-9fff-4b8992f28f9a,2663,"Näcksta, Hackås",P,54,Mats Hansson
+487,Mats,Hansson,mats.hansson@skolverket.se,Skolverket,M,1954.0,Stockholm,,308,23d3040a-f054-4117-9fff-4b8992f28f9a,2664,"Friggars, Fårö",P,54,Mats Hansson
+488,Mats,Hansson,mats.hansson@skolverket.se,Skolverket,M,1954.0,Stockholm,,308,23d3040a-f054-4117-9fff-4b8992f28f9a,2665,Klangahamn,P,54,Mats Hansson
+489,Mats,Hansson,mats.hansson@skolverket.se,Skolverket,M,1954.0,Stockholm,,308,23d3040a-f054-4117-9fff-4b8992f28f9a,2666,Järflotta,P,54,Mats Hansson
+490,Mats,Hansson,mats.hansson@skolverket.se,Skolverket,M,1954.0,Stockholm,,308,23d3040a-f054-4117-9fff-4b8992f28f9a,2868,Lilla Sandskär,P,54,Mats Hansson
+491,Torsten,Thorwalls,torstenbritt@live.se,Kumlavägen 14,M,1947.0,Sala,073-2228813,306,1fbe04b7-99a3-4d7c-bc04-baccd5ef6d0d,334,"Hembygdsgården, Kumla kyrkby",P,54,Torsten Thorwalls
+492,Bengt,Pettersson,varglav@telia.com,Trollsåsen 236,M,1949.0,Nälden,,322,4f9b359b-c3c8-46a7-b1e3-81492d8e7868,277,Trollsåsen 1:23,P,54,Bengt Pettersson
+493,Per-Olof,Bengtsson,kpob102@hotmail.com,Lillegårdsvägen 25,M,1953.0,Skövde,070-5248395,290,f1f4833a-f1bc-4f58-bc72-73e2e95861be,2778,"Västra ringvägen, norra delen",P,54,Per-Olof Bengtsson
+494,Joakim,Ekman,joakim.ekman@icloud.com,"Öregrundsgatan 4, lgh 1306",M,1960.0,Stockholm,,316,7f8ea57d-bdcf-49bc-bcac-c9aa21f51d30,270,Granvik,P,54,Joakim Ekman
+495,P-G,Larsson,,Astervägen 6,M,1947.0,Arlöv,,262,8b5aeede-7a86-420a-8c11-99c78466189f,262,Resåkra,P,54,P-G Larsson
+496,P-G,Larsson,,Astervägen 6,M,1947.0,Arlöv,,262,8b5aeede-7a86-420a-8c11-99c78466189f,263,Sjölunda,P,54,P-G Larsson
+497,P-G,Larsson,,Astervägen 6,M,1947.0,Arlöv,,262,8b5aeede-7a86-420a-8c11-99c78466189f,264,Alnarps västerskog,P,54,P-G Larsson
+498,Göthe,Eriksson,,Sulvik Lunden,M,1947.0,Arvika,076-7922370,277,7f6dd26a-5328-4f36-9ea5-79aa88503387,221,Sulvik Lunden,P,54,Göthe Eriksson
+499,Maj-Lis,Palmén,daltofta@blentarp.nu,Agronomvägen 4,F,1948.0,Lund,0705-984872,305,5d6afdc7-9549-4f1f-a1f8-1eb6895890a1,251,Daltofta,P,54,Maj-Lis Palmén
+500,Anders,Ohlsson,andersohlsson2@gmail.com,Södra vägen 13,M,1951.0,Lund,,325,6ba9002e-cbe6-4a3a-a19b-f8303efcb5dc,2949,Klammersbäck transekter,T,63,Anders Ohlsson
+501,Anders,Ohlsson,andersohlsson2@gmail.com,Södra vägen 13,M,1951.0,Lund,,325,6ba9002e-cbe6-4a3a-a19b-f8303efcb5dc,2950,Klammersbäck slinga,T,63,Anders Ohlsson
+502,Karl-Gunnar,Lindberg,kgl@mail.se,Hömyrfallet 1,M,1947.0,Robertsfors,070-6305256,339,bc0c2267-ea2b-45cb-bb2a-4a36f085c24e,385,Hömyrfallet,P,54,Karl-Gunnar Lindberg
+503,Gunhild,Svensson,gunhild_svensson@hotmail.com,Järbo Berg 6,F,1953.0,Högsäter,0738-410430,340,0ff4e7d3-83da-4461-b717-dbfed26714cc,326,Järbo Berg 6,P,54,Gunhild Svensson
+504,Carina,Karlsson,carina.e.karlsson@hotmail.com,Löts-Eneby 7,F,1967.0,Grillby,073-9961063,344,66e9c772-43fd-4f71-ab16-3e6ca7711428,284,Löts-Eneby 7,P,54,Carina Karlsson
+505,Kjell,Westermark,k.westermark@tele2.se,Mälby Skräddartorp,M,1947.0,Torshälla,070-6443078,346,5571fca4-5a4f-47dd-9700-a8ace84300fd,285,Skräddartorp,P,54,Kjell Westermark
+506,Anders,Hansson,anders.hansson@repona.com,Fru Hammars väg 6,M,1957.0,Brösarp,0708-152029,347,ed880e28-997c-4d18-8d0c-c215db4bf147,287,Fru Hammars väg 6,P,54,Anders Hansson
+507,Jonas,Grahn,jynx@snipabacken.se,Orrböle 8,M,1973.0,Vännäs,,355,2ad20100-5f18-4939-ae5d-8ae2b807f1d6,379,"Orrböle 8, Tväråbäck",P,54,Jonas Grahn
+508,Anneli,Kihl,anneli.kihl@telia.com,Hällebergsvägen 53,F,1942.0,Huddinge,,362,2180faf1-c936-46fb-9102-77bda2091757,303,"Höglunda, Hacksjön",P,54,Anneli Kihl
+509,Inger,Borg,skattegarden6@hotmail.com,Gillstad Skattegården 3,F,,Lidköping,070-2418082,1284,d1d13068-1785-4f92-b56a-b6dea5d518fc,2692,Gillstad,P,54,Inger Borg
+510,Hildegard,Nufer,hildegard.nufer@gmail.com,Hallsta mellankvarn,F,1954.0,Rimforsa,,370,f786db80-01fe-4a2e-b892-b6c9acd007e5,311,Surklev,P,54,Hildegard Nufer
+511,Charlotte,Lundqvist,lotta-lundqvist@telia.com,Brattefors 10,F,1953.0,Dingle,070-6485376,373,a4ee56ad-6a87-46ec-8bed-a6afd86b6631,316,Brattefors 10,P,54,Charlotte Lundqvist
+512,Björn,Nordzell,bjorn.nordzell@telia.com,Gäddestavägen 26,M,1930.0,Örebro,070-8835974,361,860beee9-49a2-45b5-abbb-65bb2c51e124,365,Axsjöfallet P,P,54,Björn Nordzell
+513,Maj,Karsten,maj.i.furnas@telia.com,Furnäsvägen 104,F,1940.0,Surahammar,,376,e73f1abe-77e7-4b26-8753-b6554f7d8b67,349,Furnäs,P,54,Maj Karsten
+514,Maj,Karsten,maj.i.furnas@telia.com,Furnäsvägen 104,F,1940.0,Surahammar,,376,e73f1abe-77e7-4b26-8753-b6554f7d8b67,2688,Stora Källmora norra,P,54,Maj Karsten
+515,Maj,Karsten,maj.i.furnas@telia.com,Furnäsvägen 104,F,1940.0,Surahammar,,376,e73f1abe-77e7-4b26-8753-b6554f7d8b67,2689,Stora Källmora södra,P,54,Maj Karsten
+516,Per,Sonnvik,personnvik@hotmail.com,Skolgatan 63,M,,Östersund,070-5322467,348,4fcdf0c5-cc12-4f28-b7a7-382e7f7ae810,983,Frimansvägen 3,P,54,Per Sonnvik
+517,Barry,Campling,barrycampling@yahoo.se,Gadderåsvägen 3,M,1954.0,Orrefors,,338,b8a67bc5-31ce-4d9a-8482-d3eb909fc102,485,Stibbetorp 106,P,54,Barry Campling
+518,Bengt,Gustafsson,bengt.e.gustafsson@gmail.com,Verkmästargatan 5C,M,1950.0,Uppsala,072-7483377,334,80015e23-5e77-47ea-85c3-1fb919bb31d6,397,Rossholm,P,54,Bengt Gustafsson
+519,Eva,Tossavainen,,Ingels väg 147,F,1950.0,Falun,,381,ba32230c-d5e5-45a8-9745-ead3890b0e13,323,Sjöstugan,P,54,Eva Tossavainen
+520,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,357,Norrby,P,54,Sören Larsson
+521,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,463,Läkärret,P,54,Sören Larsson
+522,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,464,Lönnbromossen,P,54,Sören Larsson
+523,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,935,Bergtorpsvägen punkt 1,P,54,Sören Larsson
+524,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,936,Bergtorpsvägen punkt 2,P,54,Sören Larsson
+525,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,937,Bergtorpsvägen punkt 3,P,54,Sören Larsson
+526,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,938,Bergtorpsvägen punkt 4,P,54,Sören Larsson
+527,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,939,Bergtorpsvägen punkt 5,P,54,Sören Larsson
+528,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,940,Bergtorpsvägen punkt 6,P,54,Sören Larsson
+529,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,941,Öjesjöbrännan punkt 1,P,54,Sören Larsson
+530,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,942,Öjesjöbrännan punkt 2,P,54,Sören Larsson
+531,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,943,Öjesjöbrännan punkt 3,P,54,Sören Larsson
+532,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,944,Öjesjöbrännan punkt 4,P,54,Sören Larsson
+533,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,945,Öjesjöbrännan punkt 5,P,54,Sören Larsson
+534,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,946,Öjesjöbrännan punkt 6,P,54,Sören Larsson
+535,Sören,Larsson,soren20@telia.com,Norrbyvägen 38,M,1944.0,Ramnäs,,377,0a63485c-5274-4c74-bc38-a28cc486368b,2834,Fågeltäppa,P,54,Sören Larsson
+536,Inger,Rosvall,inger.rosvall@telia.com,Södra Kustvägen 4,F,1936.0,Klintehamn,073-8315151,380,d3605991-a199-4118-a517-f317ca0349fc,320,"Sicklings, Klintehamn",P,54,Inger Rosvall
+537,Claes,Eliasson,claes.u.eliasson@gmail.com,"Bäcktorpet, Torphyttan 222",M,1953.0,Lindesberg,070-2764192,382,486320eb-39f0-4ce6-90ac-06d98959df2d,352,"Bäcktorpet, Torphyttan",P,54,Claes Eliasson
+538,Lena,von Heidenstam,Heidenstam@hotmail.com,Dalby Uddeberg 316,F,1946.0,Zinkgruvan,0703-418101,433,9867528f-5f1d-4f68-ad2f-d04d42e9a575,343,Uddeberg,P,54,Lena von Heidenstam
+539,Lena,von Heidenstam,Heidenstam@hotmail.com,Dalby Uddeberg 316,F,1946.0,Zinkgruvan,0703-418101,433,9867528f-5f1d-4f68-ad2f-d04d42e9a575,344,Sundsö,P,54,Lena von Heidenstam
+540,Johan,Franzén,johan.ml.franzen@gmail.com,Stora Kvinns Väg 76,M,1971.0,Älvsjö,,436,70df3d39-a472-4afd-b608-3d4816f35fbf,353,Björkbacken,P,54,Johan Franzén
+541,Majwi,Rosquist,majwi.rosquist@gmail.com,Hovslagaregatan 4,F,1937.0,Trelleborg,,453,240645c5-85db-4132-a930-4586a0ec6ce7,359,Gabeljung,T,54,Majwi Rosquist
+542,Zara,Hallman,zarahallman@gmail.com,pl. 139 Valvträsk,F,1955.0,Gunnarsbyn,,460,21ccec2f-12d8-41fd-9ee3-bc5f7058f3fc,501,Valvfors,P,54,Zara Hallman
+543,Erik,Olofsson,sodra.bfs@gmail.com,Södra Harads 27,M,1951.0,Harads,073-0537091,462,7220db70-33db-4d7e-aa2d-ddb7e07e8bdf,414,Södra Harads,P,54,Erik Olofsson
+544,Annica,Jakobsson,jacobssonannika@gmail.com,N. Glasmästargatan 6,F,1953.0,Visby,,490,34735e80-54e6-4077-b354-a618a784fd46,398,"N Glasmästargatan 6, Visby",P,54,Annica Jakobsson
+545,Leif,Danielson,leif.deson@telia.com,Alekärrsvägen 5,M,1942.0,Alafors,070-6036701,468,8903e1e8-f341-4283-8942-7cfdf68aa696,450,"Hällen, Jennylund",P,54,Leif Danielson
+546,Kent,Åström,Kent.Astrom@ekorot.se,Gamla Lövskärsvägen 305,M,1947.0,Luleå,,476,602df8a5-b5d1-47ff-ad50-a32cd83d51ab,544,Luleå,P,54,Kent Åström
+547,Sofia,Åhrman,sofia.ahrman@friaformer.net,Alveredsvägen 19,F,1972.0,Mölndal,0708-144104,480,840a3282-e8d0-4fa7-b25c-544431b71a63,395,Alvered 1:14,P,54,Sofia Åhrman
+548,Mats,Karström,mats.karstrom@naturskyddsforeningen.se,Älvvägen 4,M,1957.0,Vuollerim,,485,e0ba551b-5123-4272-8052-78331ea67930,523,Vuollerim,P,54,Mats Karström
+549,Mats,Karström,mats.karstrom@naturskyddsforeningen.se,Älvvägen 4,M,1957.0,Vuollerim,,485,e0ba551b-5123-4272-8052-78331ea67930,538,Laxholmen,P,54,Mats Karström
+550,Staffan,Åström,carex47@gmail.com,Näsevägen 185,M,1947.0,Aspås,070-6868274,443,60b377f9-9bb6-4660-8466-ac1b16f76bf5,393,Ren 2:2,P,54,Staffan Åström
+551,Göran,Johansson,,Långgatan 19,M,1943.0,Herrljunga,,478,7488a0cd-0498-451b-a69d-71787a1dcbbb,448,Haraberget,P,54,Göran Johansson
+552,Leif,Björk,fambjork@arvidsjaurnet.se,Järvträsk 24,M,1964.0,Glommersträsk,070-5172050,486,2b7ca464-8538-4039-bad9-f40aaf7cf39a,577,Södra Järvträsk,P,54,Leif Björk
+553,Leif,Björk,fambjork@arvidsjaurnet.se,Järvträsk 24,M,1964.0,Glommersträsk,070-5172050,486,2b7ca464-8538-4039-bad9-f40aaf7cf39a,723,Järvträsk 24,P,54,Leif Björk
+554,Leif,Björk,fambjork@arvidsjaurnet.se,Järvträsk 24,M,1964.0,Glommersträsk,070-5172050,486,2b7ca464-8538-4039-bad9-f40aaf7cf39a,724,Svartliden myren,P,54,Leif Björk
+555,Leif,Björk,fambjork@arvidsjaurnet.se,Järvträsk 24,M,1964.0,Glommersträsk,070-5172050,486,2b7ca464-8538-4039-bad9-f40aaf7cf39a,871,Norra Bergmyran,P,54,Leif Björk
+556,Kristian,Nordström,kristian.nords@telia.com,Violvägen 6,M,1973.0,Vänersborg,0708-437203,469,28153588-230e-43e0-a72f-bf3a8f88d421,374,Nygårdsängens naturreservat,P,54,Kristian Nordström
+557,Henrik,Josefsson,hikjon72@hotmail.com,Filipshyttan 334,M,1972.0,Örebro,070-2977390,474,860b7299-a824-4699-968f-34593954c93c,383,Korrasjö,P,54,Henrik Josefsson
+558,Ulf,Eriksson,ulf.eriksson@iluren.se,Österängsgatan 39,M,1953.0,Uppsala,070-5735220,498,229ac25b-3f43-4f8e-9941-1641ffedaa00,409,"Söderboda, Gräsö",P,54,Ulf Eriksson
+559,Martin,Svensson,swensonmartin@gmail.com,Storgatan 32,M,1983.0,Tibro,,514,619d9942-de90-40d5-822c-0c9fa100e75b,444,Hönsa,P,54,Martin Svensson
+560,Ollas Ann-Mari,Grönkvist,gronkvist@telia.com,Åtorps Udde 12,F,1940.0,Lerum,,516,195c0014-2169-4f27-ae80-0167a240e7fa,423,Flylidenvägen 27,P,54,Ollas Ann-Mari Grönkvist
+561,Ollas Ann-Mari,Grönkvist,gronkvist@telia.com,Åtorps Udde 12,F,1940.0,Lerum,,516,195c0014-2169-4f27-ae80-0167a240e7fa,702,Östanfors 9:4,P,54,Ollas Ann-Mari Grönkvist
+562,Ollas Ann-Mari,Grönkvist,gronkvist@telia.com,Åtorps Udde 12,F,1940.0,Lerum,,516,195c0014-2169-4f27-ae80-0167a240e7fa,706,Åtorps Udde 12,P,54,Ollas Ann-Mari Grönkvist
+563,Christer,Pålsson,chrpal56@gmail.com,Tängvägen 84,M,1956.0,Ås,070-6485970,521,2493cd7f-da9f-4aaa-8109-5072d27d51b8,421,Birkakärret,P,54,Christer Pålsson
+564,Ingrid,Tillberg,goran@gtillberg.se,Bofinksgatan 12,F,1946.0,Vellinge,070-3721717,522,a41163ce-0205-47ab-b9d3-37cfea8b9d41,422,Barum 2:12,P,54,Ingrid Tillberg
+565,May-Britt,Mellgren,may-britt.mellgren@swipnet.se,Tryffelvägen 22,F,1944.0,Saltsjö-Boo,,527,2a9339ec-c865-4797-8734-777fb50c1902,502,Tryffelvägen 22,P,54,May-Britt Mellgren
+566,Linnea,Nilsson,linneanil@hotmail.com,Langs väg 21,F,1979.0,Visby,070-4933056,511,be733e3a-fbec-495b-9c92-b57e4f76a79e,416,Östra Sommarstaden,P,54,Linnea Nilsson
+567,Susanne,Åhrén,Susanne.ahren@lansstyrelsen.se,Öringe 154,F,1958.0,Laholm,070-2904173,515,2ab73baf-e60a-40a3-aeb9-250899d2f8f0,417,Öringe,P,54,Susanne Åhrén
+568,Anders,Lundström,a-k.lu@telia.com,Väringgatan 14,M,,Luleå,,533,2d022c58-3972-46a0-849c-af944c1b61cd,748,Väringgatan Luleå,P,54,Anders Lundström
+569,Martina,Karlsson,martina.karlsson@ub.gu.se,Gulmåravägen 22,F,1972.0,Gråbo,070-4645327,534,6ed03715-ad33-488d-8ab6-43248e1c8c11,435,Älebräckevägen 12,P,54,Martina Karlsson
+570,Inger,Bjärnebrand,inger.bjarnebrand@telia.com,Trädgårdsgatan 311,F,1951.0,Visby,,496,923304c7-a632-479d-b6e0-cc5ae9d5c005,407,"Furulunds koloniområde, Visby",P,54,Inger Bjärnebrand
+571,Cecilia,Ljung,cecilialjung@hotmail.com,Karl Johansgatan 49 E,F,1963.0,Göteborg,0708-711325,503,1733405b-d098-48e4-b1c8-ae9527f37c0f,524,"Gamla grustaget, Norrhult",P,54,Cecilia Ljung
+572,Cecilia,Ljung,cecilialjung@hotmail.com,Karl Johansgatan 49 E,F,1963.0,Göteborg,0708-711325,503,1733405b-d098-48e4-b1c8-ae9527f37c0f,2622,"Aspan, punkt",P,54,Cecilia Ljung
+573,Ann-Marie,Andersson,ama.dag@hotmail.com,Byvägen 17 lgh 1405,F,1955.0,Bohus,0736-722190,550,323f39c0-88f4-4047-bbbf-9ae0aacdb525,450,"Hällen, Jennylund",P,54,Ann-Marie Andersson
+574,Lars,Henriksson,lars.o.henriksson@gmail.com,Baldersgången 27,M,1943.0,Vellinge,,553,5f422d2b-2f9b-4d13-8d04-44c0d9fb5165,461,Torsgårdsparken,T,54,Lars Henriksson
+575,Lars,Henriksson,lars.o.henriksson@gmail.com,Baldersgången 27,M,1943.0,Vellinge,,553,5f422d2b-2f9b-4d13-8d04-44c0d9fb5165,658,Bastardssvärmarerundan,T,54,Lars Henriksson
+576,Maj-Britt,Svensson,majbritt.svensson@telia.com,Torstövägen 5,F,1951.0,Sjövik,0702-592758,497,16988e5e-6d41-4c16-b816-2515bf7bcc03,424,Torstövägen 5,P,54,Maj-Britt Svensson
+577,Karl Tony,Olson,karl.tony@hotmail.com,Brusängsvägen 21,M,1952.0,Gävle,070-2303397,518,955b034d-e0ce-4fd4-b750-ad106a043b0a,455,Harkskär,P,54,Karl Tony Olson
+578,Margareta,Dahlgren,dahlgren.penarp@telia.com,Penarp 1168,F,1947.0,Klippan,,635,594edb87-eaed-4e54-9c92-d51b17bca99d,591,Penarp,T,54,Margareta Dahlgren
+579,Margareta,Dahlgren,dahlgren.penarp@telia.com,Penarp 1168,F,1947.0,Klippan,,635,594edb87-eaed-4e54-9c92-d51b17bca99d,592,"Bjärkefall, Hästhagen",P,54,Margareta Dahlgren
+580,Håkan,Andersson,hakan.andersson@calluna.se,"Calluna AB, Linköpings slott",M,1962.0,Linköping,0734-231140,647,78b72217-7bb1-44bc-9eea-ba5123a08905,272,Frihult,T,54,Håkan Andersson
+581,Tord,Karlsson,tikey@telia.com,Eslövsvägen 14,M,1963.0,Johanneshov,,571,5af356c2-c796-4c8b-96d7-bc79ffaf2d12,700,Oppeby 3:39,P,54,Tord Karlsson
+582,Matti,Dahlbom,matti.dahlbom@comhem.se,Folkungagatan 11,M,1956.0,Borås,,590,55d8eb1c-232f-41ae-9261-797d721877bc,602,Blomsholm punkt,P,54,Matti Dahlbom
+583,Jan,Kuylenstierna,janstierna@gmail.com,Cypressvägen 7,M,1941.0,Fjärås,,603,d1366224-91a6-44e3-82f0-a11c23fac32e,528,Davids lycka,P,54,Jan Kuylenstierna
+584,Carin,Kullberg,carin@ckg.se,Norra Listre 609,F,1960.0,Dyltabruk,070-6715459,611,54c9c55e-14c4-46e4-80e1-07869eec1e84,536,Listrehagen,P,54,Carin Kullberg
+585,Carin,Kullberg,carin@ckg.se,Norra Listre 609,F,1960.0,Dyltabruk,070-6715459,611,54c9c55e-14c4-46e4-80e1-07869eec1e84,593,Listregården,P,54,Carin Kullberg
+586,Carin,Kullberg,carin@ckg.se,Norra Listre 609,F,1960.0,Dyltabruk,070-6715459,611,54c9c55e-14c4-46e4-80e1-07869eec1e84,965,Stormossen,P,54,Carin Kullberg
+587,Hans,Ivarsson,hasse.ag@telia.com,Skogsvägen 20,M,,Söderhamn,070-5751166,668,60b5cd8f-3f92-4215-9b7d-8c1d87457174,2786,Norrmyran,P,54,Hans Ivarsson
+588,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,465,Hålebäckseröd slinga,T,63,Roine Strandberg
+589,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,466,Hålebäckseröd transekter,T,63,Roine Strandberg
+590,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,467,Fjällmossen slinga,T,63,Roine Strandberg
+591,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,468,Fjällmossen transekter,T,63,Roine Strandberg
+592,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,469,Åraslövs mosse slinga,T,63,Roine Strandberg
+593,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,470,Åraslövs mosse transekter,T,63,Roine Strandberg
+594,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,471,Lya ljunghed slinga,T,63,Roine Strandberg
+595,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,472,Lya ljunghed transekter,T,63,Roine Strandberg
+596,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,477,Mariedal - Östra Vram slinga 2,T,63,Roine Strandberg
+597,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,478,Mariedal - Östra Vram transekter,T,63,Roine Strandberg
+598,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,547,Prästängen transekter,T,63,Roine Strandberg
+599,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,548,Prästängen slinga,T,63,Roine Strandberg
+600,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,640,Drakamöllan slinga,T,63,Roine Strandberg
+601,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,641,Drakamöllan transekter,T,63,Roine Strandberg
+602,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,643,Vitemölla strandbackar transekter,T,63,Roine Strandberg
+603,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,659,Näsby fält - Norra transekter,T,63,Roine Strandberg
+604,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,660,Näsby fält - Norra slinga,T,63,Roine Strandberg
+605,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,661,Näsby fält - Södra transekterer,T,63,Roine Strandberg
+606,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,662,Näsby fält - Södra slinga,T,63,Roine Strandberg
+607,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,663,Norra Mosslunda transekter,T,63,Roine Strandberg
+608,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,664,Norra Mosslunda slinga,T,63,Roine Strandberg
+609,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,1103,Ignaberga flygplats transekter,T,63,Roine Strandberg
+610,Roine,Strandberg,roine.strandberg@gmail.com,Gamla vägen 107 B: 1101,M,1968.0,Fjälkinge,,554,87fc1e3f-797b-4cc0-bc35-23f9a977cea7,2953,Ignaberga flygplats slinga 2,T,63,Roine Strandberg
+611,Patrik,Hansson,patrik@ezzet.se,Sollerövägen 149,M,1967.0,Mora,,660,a225e585-6686-4cf6-9c1e-3e8748fe9335,607,Ezzet 1,P,54,Patrik Hansson
+612,Ingela,Källén,ingela.kallen@gmail.com,Västra Jössefors 12,F,1990.0,Arvika,070-5284021,663,3cec6bb0-1748-49e0-8be1-1292e6d121cd,952,Granberget,P,54,Ingela Källén
+613,Åsa,Gustafsson,asa.g70@gmail.com,Rosenstigen 4,F,1970.0,Kalmar,0730-490606,653,b7060ea7-d764-47a0-baa2-1be8194c4bde,601,Krankelösa,P,54,Åsa Gustafsson
+614,Fredrik,Ullén,Fredrik.Ullen@ki.se,Folkungavägen 32 M,M,1968.0,Sollentuna,,684,fe87d887-5a4b-48f9-a1db-04657761e862,631,Ravalen,P,54,Fredrik Ullén
+615,Fredrik,Ullén,Fredrik.Ullen@ki.se,Folkungavägen 32 M,M,1968.0,Sollentuna,,684,fe87d887-5a4b-48f9-a1db-04657761e862,682,Knista Hammar,P,54,Fredrik Ullén
+616,Stefan,Stjernberg,stjernberg@gmail.com,Grönsta 1,M,1962.0,Nynäshamn,070-3596431,683,3eadf0f5-75fc-4a1d-835f-7c20e45c8ee0,617,Grönsta,P,54,Stefan Stjernberg
+617,Pelle,Adenäs,per.adenas@telia.com,Mystigen 10,M,1958.0,Ludvika,,697,0b56888e-553c-46ee-b290-be5729c005c5,626,Högbergets gamla slalombacke,P,54,Pelle Adenäs
+618,Magnus,Fredriksson,magfred@telia.com,Alsätravägen 194,M,1971.0,Skärholmen,0736-323254,705,7a8744ea-cb55-411f-b53c-56faad460fa5,683,Sätraskogen,P,54,Magnus Fredriksson
+619,Ann-Sofie,Österberg,ann-sofie.osterberg9002@stud.hkr.se,Barkskeppsvägen 25,F,1973.0,Åhus,,722,fdaa8e21-d398-4055-b867-7eff41202f1c,659,Näsby fält - Norra transekter,T,63,Ann-Sofie Österberg
+620,Ann-Sofie,Österberg,ann-sofie.osterberg9002@stud.hkr.se,Barkskeppsvägen 25,F,1973.0,Åhus,,722,fdaa8e21-d398-4055-b867-7eff41202f1c,660,Näsby fält - Norra slinga,T,63,Ann-Sofie Österberg
+621,Ann-Sofie,Österberg,ann-sofie.osterberg9002@stud.hkr.se,Barkskeppsvägen 25,F,1973.0,Åhus,,722,fdaa8e21-d398-4055-b867-7eff41202f1c,661,Näsby fält - Södra transekterer,T,63,Ann-Sofie Österberg
+622,Ann-Sofie,Österberg,ann-sofie.osterberg9002@stud.hkr.se,Barkskeppsvägen 25,F,1973.0,Åhus,,722,fdaa8e21-d398-4055-b867-7eff41202f1c,662,Näsby fält - Södra slinga,T,63,Ann-Sofie Österberg
+623,Ann-Sofie,Österberg,ann-sofie.osterberg9002@stud.hkr.se,Barkskeppsvägen 25,F,1973.0,Åhus,,722,fdaa8e21-d398-4055-b867-7eff41202f1c,663,Norra Mosslunda transekter,T,63,Ann-Sofie Österberg
+624,Ann-Sofie,Österberg,ann-sofie.osterberg9002@stud.hkr.se,Barkskeppsvägen 25,F,1973.0,Åhus,,722,fdaa8e21-d398-4055-b867-7eff41202f1c,664,Norra Mosslunda slinga,T,63,Ann-Sofie Österberg
+625,Martin,Pettersson,,Lyftvägen 39,M,2005.0,Dalby,,987,70bc34b4-1238-4389-9c59-b16c1c3577fb,410,"Botan, Lund",T,54,Martin Pettersson
+626,Martin,Pettersson,,Lyftvägen 39,M,2005.0,Dalby,,987,70bc34b4-1238-4389-9c59-b16c1c3577fb,752,"Matskålsängarna, mitt",P,54,Martin Pettersson
+627,Martin,Pettersson,,Lyftvägen 39,M,2005.0,Dalby,,987,70bc34b4-1238-4389-9c59-b16c1c3577fb,2625,"Matskålsängarna, norra",P,54,Martin Pettersson
+628,Martin,Pettersson,,Lyftvägen 39,M,2005.0,Dalby,,987,70bc34b4-1238-4389-9c59-b16c1c3577fb,2626,"Matskålsängarna, södra",P,54,Martin Pettersson
+629,Martin,Pettersson,,Lyftvägen 39,M,2005.0,Dalby,,987,70bc34b4-1238-4389-9c59-b16c1c3577fb,2634,"Blomsterslingan, Gierrovardo Hemavan",T,54,Martin Pettersson
+630,Martin,Pettersson,,Lyftvägen 39,M,2005.0,Dalby,,987,70bc34b4-1238-4389-9c59-b16c1c3577fb,2636,"Naturum Abisko, vägkanten",P,54,Martin Pettersson
+631,Martin,Pettersson,,Lyftvägen 39,M,2005.0,Dalby,,987,70bc34b4-1238-4389-9c59-b16c1c3577fb,2641,"SV Storkitteltjärnen, Hemavan",P,54,Martin Pettersson
+632,Martin,Pettersson,,Lyftvägen 39,M,2005.0,Dalby,,987,70bc34b4-1238-4389-9c59-b16c1c3577fb,2642,"V Öörjelnjuenie, Hemavan",P,54,Martin Pettersson
+633,Åke,Lindström,ake.lindstrom@biol.lu.se,Byvägen 9,M,1961.0,Torna Hällestad,070-6975931,752,fcdf6a71-9e1e-4ce5-9ef7-9dcace8c83b1,6,Rökepipan,T,54,Åke Lindström
+634,Åke,Lindström,ake.lindstrom@biol.lu.se,Byvägen 9,M,1961.0,Torna Hällestad,070-6975931,752,fcdf6a71-9e1e-4ce5-9ef7-9dcace8c83b1,735,Heden Stenshuvud,T,54,Åke Lindström
+635,Åke,Lindström,ake.lindstrom@biol.lu.se,Byvägen 9,M,1961.0,Torna Hällestad,070-6975931,752,fcdf6a71-9e1e-4ce5-9ef7-9dcace8c83b1,2618,"Ammarnäs 1, Forskningsstationen",P,54,Åke Lindström
+636,Åke,Lindström,ake.lindstrom@biol.lu.se,Byvägen 9,M,1961.0,Torna Hällestad,070-6975931,752,fcdf6a71-9e1e-4ce5-9ef7-9dcace8c83b1,2619,"Ammarnäs 2, Joubmovare",P,54,Åke Lindström
+637,Åke,Lindström,ake.lindstrom@biol.lu.se,Byvägen 9,M,1961.0,Torna Hällestad,070-6975931,752,fcdf6a71-9e1e-4ce5-9ef7-9dcace8c83b1,2620,"Ammarnäs 3, Karsbäcksmyren",P,54,Åke Lindström
+638,Åke,Lindström,ake.lindstrom@biol.lu.se,Byvägen 9,M,1961.0,Torna Hällestad,070-6975931,752,fcdf6a71-9e1e-4ce5-9ef7-9dcace8c83b1,2621,"Ammarnäs 4, Radhusmyren Tjulträsk",P,54,Åke Lindström
+639,Mikael,Strandh,Mikael.Strandh@oriola.com,Hulta Hägnen 4,M,1976.0,Sätila,0705292121,723,e2ca3a75-db3a-40b9-a1cc-e118cc47099f,698,Sätila Hulta Hägnen,P,54,Mikael Strandh
+640,Tove,Adelsköld,tove.adelskold@gmail.com,"Redbergsvägen 13B, lgh 1002",F,1985.0,Göteborg,073-6675331,735,8b915b7d-2180-41a4-a2da-8cb164454987,712,"Odlingslotterna, Stora Torps Odlareförening",P,54,Tove Adelsköld
+641,Janni,Servin,janniservin@hotmail.com,S:t Persgatan 45A: 1303,F,1985.0,Norrköping,,721,2f22c928-5179-4653-9325-cfd95111e909,659,Näsby fält - Norra transekter,T,63,Janni Servin
+642,Janni,Servin,janniservin@hotmail.com,S:t Persgatan 45A: 1303,F,1985.0,Norrköping,,721,2f22c928-5179-4653-9325-cfd95111e909,660,Näsby fält - Norra slinga,T,63,Janni Servin
+643,Janni,Servin,janniservin@hotmail.com,S:t Persgatan 45A: 1303,F,1985.0,Norrköping,,721,2f22c928-5179-4653-9325-cfd95111e909,661,Näsby fält - Södra transekterer,T,63,Janni Servin
+644,Janni,Servin,janniservin@hotmail.com,S:t Persgatan 45A: 1303,F,1985.0,Norrköping,,721,2f22c928-5179-4653-9325-cfd95111e909,662,Näsby fält - Södra slinga,T,63,Janni Servin
+645,Janni,Servin,janniservin@hotmail.com,S:t Persgatan 45A: 1303,F,1985.0,Norrköping,,721,2f22c928-5179-4653-9325-cfd95111e909,663,Norra Mosslunda transekter,T,63,Janni Servin
+646,Janni,Servin,janniservin@hotmail.com,S:t Persgatan 45A: 1303,F,1985.0,Norrköping,,721,2f22c928-5179-4653-9325-cfd95111e909,664,Norra Mosslunda slinga,T,63,Janni Servin
+647,Therese,Johannesson,johannesson.therese@gmail.com,Lotsgatan 17,F,1974.0,Göteborg,0707-920890,711,1c52a5cf-75b1-4a53-8f32-0109dfa4da2f,639,"Rundö, Märrhagen",P,54,Therese Johannesson
+648,Billy,Lindblom,billy_90lindblom@hotmail.com,Skolgatan 58B lgh 1301,M,1990.0,Umeå,076-2016437,720,671d49d5-5bdc-4929-b67c-41c6d66f8467,696,Dohnaforsån,P,54,Billy Lindblom
+649,Simon,Eriksson,bratten110@gmail.com,Glöskär 205,M,,Kärna,,751,32ed8607-7ea2-4e49-bb69-8e01ce22130e,734,Glöskär 6:46,P,54,Simon Eriksson
+650,Caroline,Sjöström,caroline.sjo@gmail.com,"c/o Bryntesson, Nybohovsbacken 71",F,1983.0,Stockholm,073-7266008,755,c858b2a4-da78-41ff-b505-7a392a949def,241,Nabben,T,54,Caroline Sjöström
+651,Caroline,Sjöström,caroline.sjo@gmail.com,"c/o Bryntesson, Nybohovsbacken 71",F,1983.0,Stockholm,073-7266008,755,c858b2a4-da78-41ff-b505-7a392a949def,743,Ängsnäset,P,54,Caroline Sjöström
+652,Caroline,Sjöström,caroline.sjo@gmail.com,"c/o Bryntesson, Nybohovsbacken 71",F,1983.0,Stockholm,073-7266008,755,c858b2a4-da78-41ff-b505-7a392a949def,744,Falsterbo Fågelstation,P,54,Caroline Sjöström
+653,Caroline,Sjöström,caroline.sjo@gmail.com,"c/o Bryntesson, Nybohovsbacken 71",F,1983.0,Stockholm,073-7266008,755,c858b2a4-da78-41ff-b505-7a392a949def,745,"Knösen, punkt",P,54,Caroline Sjöström
+654,Jimmy,Nyman,jimmy.nyman@mail.se,Sikeå 161,M,,Robertsfors,,769,5682aaa9-e84f-47bf-a750-6142aa2f99c3,787,Sikeå 161,P,54,Jimmy Nyman
+655,Sophie,Enbom,sophie.ehnbom@gmail.com,Fyrvägen 35,F,1967.0,Falsterbo,070-5685810,775,e7b2714d-d413-43b9-b5f6-78e18e97b284,241,Nabben,T,54,Sophie Enbom
+656,Sophie,Enbom,sophie.ehnbom@gmail.com,Fyrvägen 35,F,1967.0,Falsterbo,070-5685810,775,e7b2714d-d413-43b9-b5f6-78e18e97b284,743,Ängsnäset,P,54,Sophie Enbom
+657,Sophie,Enbom,sophie.ehnbom@gmail.com,Fyrvägen 35,F,1967.0,Falsterbo,070-5685810,775,e7b2714d-d413-43b9-b5f6-78e18e97b284,744,Falsterbo Fågelstation,P,54,Sophie Enbom
+658,Sophie,Enbom,sophie.ehnbom@gmail.com,Fyrvägen 35,F,1967.0,Falsterbo,070-5685810,775,e7b2714d-d413-43b9-b5f6-78e18e97b284,745,"Knösen, punkt",P,54,Sophie Enbom
+659,Sven-Åke,Kraft,kraft.0855240803@telia.com,Eldarevägen 21,M,1944.0,Nykvarn,070-3191228,34,0c67483c-708a-4983-9fa4-e0e709b31035,139,Eldarevägen 21,P,54,Sven-Åke Kraft
+660,Elsa,Zetterberg,elsa.zeta705@gmail.com,Kniva 253,F,1946.0,Falun,,52,ad5903c8-58b5-4a5e-a5af-801294c699c9,160,Kniva 253,P,54,Elsa Zetterberg
+661,Marianne,Larsson,5477larsson@telia.com,Lau Sunnkyrke 216,F,1955.0,Ljugarn,,792,771120d7-3df5-4261-9132-d42ae663519f,598,Käldänget,P,54,Marianne Larsson
+662,Hans,Norrby,hans_norrby@hotmail.com,Tillflykten Box 29,M,1950.0,Grödinge,,53,b7caf64b-d42f-4325-8098-8e9935fe6998,142,Tillflykten,P,54,Hans Norrby
+663,Jan-Erik,Pettersson,jep@allt1.se,Bissjön 115,M,1940.0,Lövånger,070-3667869,560,51a349c5-16e5-4ae3-8363-57673cc8c679,540,Bissjön,P,54,Jan-Erik Pettersson
+664,Birger,Eskilson,birger.eskilson@hogsby.net,Släthult 111,M,1941.0,Berga,0706339554,738,9eed6631-d79f-49fa-920f-13fafa30b5e7,714,Släthult,P,54,Birger Eskilson
+665,Per,Österman,,,M,,,,784,e9e3b253-dd47-4428-8c31-94ae147509b2,449,"Ölands södra udde, slinga",T,54,Per Österman
+666,Linda,Karlsson,,,F,,,,785,6d70cf89-89f5-4986-8e97-0e27340f481e,624,Ersdalens naturreservat,P,54,Linda Karlsson
+667,Margareta,Gustavsson,,,F,,,,787,e0afc70f-025d-4f91-8ec0-880dd8363988,438,Fabriksgatan 10,P,54,Margareta Gustavsson
+668,Hans,Odelholm,nyspray@gmail.com,Studievägen 12,M,,Örebro,,767,8b6227b3-1a43-459a-87dd-e24e19eea0f8,800,Ässkogstorp,P,54,Hans Odelholm
+669,Hans,Odelholm,nyspray@gmail.com,Studievägen 12,M,,Örebro,,767,8b6227b3-1a43-459a-87dd-e24e19eea0f8,801,"Granvägen, Brickebacken",P,54,Hans Odelholm
+670,Hans,Odelholm,nyspray@gmail.com,Studievägen 12,M,,Örebro,,767,8b6227b3-1a43-459a-87dd-e24e19eea0f8,802,Markaskogen,P,54,Hans Odelholm
+671,Ulf,Johansson,ujohansson39@gmail.com,"Domaregatan 7, lgh 1204",M,1939.0,Eksjö,0702193656,743,f43ad72a-9158-4d2e-a22b-dca7af910610,718,"Furustigen 2, Eksjö",P,54,Ulf Johansson
+672,Agne,Karlsson,agne.karlsson@hotmail.com,Gamla Övägen 7B,M,,Norrköping,0709-852156,749,077cfbc4-e7dc-42dc-9130-b2fa928b6f34,722,Syntorp 1:17,P,54,Agne Karlsson
+673,Britt,Larsson,Britt.Larsson@Trelleborg.se,Lyngsjö Bygata 71,F,1954.0,Everöd,070-8428237,754,7c47edcb-20da-429e-92ac-9ebea65e5275,749,"Lilla delen, Lyngsjö",T,54,Britt Larsson
+674,Britt,Larsson,Britt.Larsson@Trelleborg.se,Lyngsjö Bygata 71,F,1954.0,Everöd,070-8428237,754,7c47edcb-20da-429e-92ac-9ebea65e5275,750,"Stora delen, Lyngsjö",T,54,Britt Larsson
+675,Britt,Larsson,Britt.Larsson@Trelleborg.se,Lyngsjö Bygata 71,F,1954.0,Everöd,070-8428237,754,7c47edcb-20da-429e-92ac-9ebea65e5275,751,"Trädgården, Lyngsjö",P,54,Britt Larsson
+676,Hans,Lindfors,hansroland.lindfors@telia.com,Klangstorp 11,M,,Töllsjö,,1494,63e02685-eed3-4415-80e5-ffdc7cfba66a,2822,Klangstorp 11,P,54,Hans Lindfors
+677,Lindha,Thellenberg,lindha.thellenberg@gmail.com,Marmorvägen 11C: 1304,F,,Uppsala,,831,0b0ecc00-cd92-4fec-9126-ff98cb4128cc,776,Stering,P,54,Lindha Thellenberg
+678,Margitta,Skavsjö,margitta.skavsjo@hotmail.com,Petter Matsvägen 42,F,,Trönödal,070-6502651,841,31e3de82-c8dc-47c3-bd2c-91d8fcd5af49,896,Trönödal,P,54,Margitta Skavsjö
+679,Monica,Björsell,bjorsellmonica@gmail.com,Solhällsvägen 36,F,,Huskvarna,,850,21da5083-8d61-4a38-80e1-c49f3c739a04,792,Sinnerum,P,54,Monica Björsell
+680,Eva,Szávay,genuinseriositet@gmail.com,Tyngel Modala,F,1971.0,Hillerstorp,,852,93476210-14c8-4104-9211-2a6149e165a8,805,Modala 1,P,54,Eva Szávay
+681,Lars J.,Jonsson,lars.jonsson@hkr.se,Backavägen 17,M,,Höganäs,,828,ea9c976f-a308-437c-9487-2cba53ba9e10,981,Flyktinggatan 14,P,54,Lars J. Jonsson
+682,Per,Springe,perspringe@hotmail.com,Källgatan 16,M,1985.0,Borlänge,073-0893383,833,22a99fbe-b132-4a21-99cd-a17f3c42d085,870,Sveg,P,54,Per Springe
+683,Helena,Irenesson,helena.irenesson@yahoo.se,Odlarevägen 20 B,F,1974.0,Västra Frölunda,,868,2dcb41c2-bafe-43dc-b14b-23832cae8073,807,Rörbäck,P,54,Helena Irenesson
+684,Johan,Molin,johan.e.molin@gmail.com,Industrigatan 42: 1201,M,1990.0,Linköping,0708-362963,883,fd6c23de-b4c4-474f-9d3a-94eb96d769ec,846,"Österås, N Byasjön",P,54,Johan Molin
+685,Johan,Molin,johan.e.molin@gmail.com,Industrigatan 42: 1201,M,1990.0,Linköping,0708-362963,883,fd6c23de-b4c4-474f-9d3a-94eb96d769ec,847,"Linneberg, Tidersrum",P,54,Johan Molin
+686,Svante,Gynnemo,,Danska vägen 169 lgh 1001,M,1934.0,Falköping,,884,b24fc1e0-13e9-4d78-a79b-b14423e643d2,848,Föllingsö,P,54,Svante Gynnemo
+687,Naturum,Ottenby,naturum@ottenby.se,Pl 1500,N,,Degerhamn,,411,661e073a-a693-428a-8ac8-f67c38e031af,449,"Ölands södra udde, slinga",T,54,Naturum Ottenby
+688,Lars,Hansson,lars.g@telia.com,Rosenvägen 10,M,1966.0,Billeberga,070-6942540,902,63c145f4-f565-4620-90f1-27bcf849c631,960,"Rosenvägen, Billeberga",P,54,Lars Hansson
+689,Lars,Davner,lars.davner@gmail.com,Klara Östra Kyrkogata 8,M,,Stockholm,,912,6feaac6a-30eb-4ae0-8e9b-c927a7837c37,895,Hålstorp,P,54,Lars Davner
+690,Eva,Andersson,evaandersson573@gmail.com,Färnebovägen 175,F,,Årsunda,073-7168258,1313,a6e8f808-d51c-4dcb-a5dd-55840ee597ff,575,Sörby Tall,P,54,Eva Andersson
+691,Eva,Andersson,evaandersson573@gmail.com,Färnebovägen 175,F,,Årsunda,073-7168258,1313,a6e8f808-d51c-4dcb-a5dd-55840ee597ff,2795,Östanhede punkt,P,54,Eva Andersson
+692,Agneta,Torell,agneta.torell@gmail.com,Knektvägen 2,F,,Stenungsund,,1300,5458c4b1-a2c5-4b75-84ab-111bfc11c380,2755,Knektvägen,P,54,Agneta Torell
+693,Annika,Hjelte,annika.m.hjelte@gmail.com,Skogvaktaregatan 22,F,,Norrköping,,1312,34c25a00-cf93-4f53-baf9-f85484b5763f,2828,Ämtö,P,54,Annika Hjelte
+694,Jörgen,Naalisvaara,jorgen.naalisvaara@lansstyrelsen.se,Drabantgatan 8,M,1972.0,Luleå,070-6265472,947,d59b533e-5f1c-41ca-9eee-fdee01a119f2,2742,Kätkesuando,P,54,Jörgen Naalisvaara
+695,Anders,Göthberg,anders.b.gothberg@gmail.com,Bjälbovägen 63,M,1943.0,Vadstena,,266,1aef87d4-0a04-49d1-82a2-f36fb606ca12,205,Bjälbovägen 63,P,54,Anders Göthberg
+696,Anders,Göthberg,anders.b.gothberg@gmail.com,Bjälbovägen 63,M,1943.0,Vadstena,,266,1aef87d4-0a04-49d1-82a2-f36fb606ca12,206,Pelarbo punkt,P,54,Anders Göthberg
+697,Krister,Nilsson,krister-nilsson@spray.se,Malmgatan 2,M,1947.0,Klippan,0705-422257,951,582e36b2-3ec1-462c-8bcd-31e106b415fd,2728,"Martins Fälad, Stidsvig",P,54,Krister Nilsson
+698,Lars,Ehrsson,,,M,,,,962,c5f6d24c-9cd4-4a8b-88d1-66ba9e3c1a37,72,Båvs yttre stenbrott,P,54,Lars Ehrsson
+699,Patrik,Johansson,patrik@kyanos.se,Hästängegatan 16,M,,Vänersborg,,980,77f983d2-31c9-4ca6-bc75-8a8815600756,998,Yttre Åsen,P,54,Patrik Johansson
+700,Timothy,Karlsson,,,M,,,,964,735c9a00-6178-44e1-bf1a-225732ba6306,193,"Gripenbergsgatan, Norrängen",P,54,Timothy Karlsson
+701,Gabriel,Tjernberg,,,M,,,,966,e1a88d66-e81b-459a-9427-681691872b68,884,"Länsmansbärby, fjärilsrabatten",P,54,Gabriel Tjernberg
+702,Brita T.,Norberg,,,F,1938.0,,,216,472aa626-d72a-49fd-8615-dad8aa0024eb,280,Nösund,P,54,Brita T. Norberg
+703,Stina,Berglind,,,F,,,,1516,d087adc9-155a-4c46-8799-ac96fedb97f5,102,Svanhalla 12:23,P,54,Stina Berglind
+704,Thomas,Arnström,,,M,,,,1520,4069f8f4-8f63-43b9-bdc0-5531fab9e09d,72,Båvs yttre stenbrott,P,54,Thomas Arnström
+705,Malte,Kronholm,,Vibble Kneippbygatan 3,M,1943.0,Visby,,172,f1504ab0-7746-4c2e-81d1-d7183bbd7a5f,103,Enbjänne 1:38 Hogrän,P,54,Malte Kronholm
+706,Swen-Arne,Wighammar,,Själsövägen 37,M,1932.0,Visby,,221,cca0b27d-0ad7-48fd-a26b-45ecab8eaf71,62,Väskinds 2:3,P,54,Swen-Arne Wighammar
+707,Leif,Henriksson,,Stentorgsgatan 3,M,1941.0,Taberg,070-4833171,788,45f0382c-ccd3-49af-afee-74e468af83b7,201,Taberg,P,54,Leif Henriksson
+708,Leif,Henriksson,,Stentorgsgatan 3,M,1941.0,Taberg,070-4833171,788,45f0382c-ccd3-49af-afee-74e468af83b7,456,Västra bergstoppen,P,54,Leif Henriksson
+709,Anki,Ramnelid,,Torpet 245,F,1958.0,Ljungskile,,981,b8968a52-7220-4274-ba81-0f5ba85792a1,951,Torpet 1:6 trädgård,P,54,Anki Ramnelid
+710,Guillermo,Aguilera,,,M,,,,973,09f8d8fe-729c-401f-ba80-1007dbabdb48,25,Lunds ladugårdsstråk,T,54,Guillermo Aguilera
+711,Lars-Bertil,Nilsson,,,M,,,,974,1573d175-c704-4a0a-9568-45309f9c979c,72,Båvs yttre stenbrott,P,54,Lars-Bertil Nilsson
+712,Bo,Holst,,,M,,,,975,75347e16-fc4d-44ee-b132-703974b158d2,102,Svanhalla 12:23,P,54,Bo Holst
+713,Embla,Leppälä Wadelius,,Björkbacksvägen 8,F,,Kolbäck,,911,aa92b1b4-a8ef-4a51-bab3-8be2cecbdc15,867,Trollmossen 1,P,54,Embla Leppälä Wadelius
+714,Embla,Leppälä Wadelius,,Björkbacksvägen 8,F,,Kolbäck,,911,aa92b1b4-a8ef-4a51-bab3-8be2cecbdc15,868,Trollmossen 2,P,54,Embla Leppälä Wadelius
+715,Embla,Leppälä Wadelius,,Björkbacksvägen 8,F,,Kolbäck,,911,aa92b1b4-a8ef-4a51-bab3-8be2cecbdc15,869,Trollmossen 3,P,54,Embla Leppälä Wadelius
+716,Maria,Palmlöf,,Dansbanegatan 22,F,1972.0,Vännäs,0730-294496,958,811ddd7d-684c-4cf7-940e-0acc1ba23e3d,990,Raggavaudden 4,P,54,Maria Palmlöf
+717,Elsa,Hjorthage,,"Bragnum, Brottsgården 4",F,2002.0,Länghem,,150,70b43469-e795-4091-87d9-55880ca541a8,261,"Bragnum, Brottsgården 4",P,54,Elsa Hjorthage
+718,Susan,Suokas,,Smålarp 1117,F,1970.0,Klippan,073-6242142,943,b40a7c09-3d65-4244-bdd3-e98ab85fc90c,994,Smålarp 1117,P,54,Susan Suokas
+719,Christer,Jönsson,,,M,,,,1028,97c4e199-69ef-4497-9813-c247b78fc46a,575,Sörby Tall,P,54,Christer Jönsson
+720,Christer,Jönsson,,,M,,,,1028,97c4e199-69ef-4497-9813-c247b78fc46a,1102,Ignaberga flygplats slinga,T,63,Christer Jönsson
+721,Christer,Jönsson,,,M,,,,1028,97c4e199-69ef-4497-9813-c247b78fc46a,1103,Ignaberga flygplats transekter,T,63,Christer Jönsson
+722,Mattias,Bäcklin,,Västmannagatan 97: 1102,M,1969.0,Stockholm,,650,d5fd437d-bd5e-49e6-a14a-41819e45f7bf,590,Menhammarsviken,P,54,Mattias Bäcklin
+723,Carl,Edström,carl.edstrom@lansstyrelsen.se,Instrumentvägen 1,M,1973.0,Mariestad,070-7991468,343,f1871530-8794-4d15-9fe6-7f0f5e24f359,283,Rosenfors,P,54,Carl Edström
+724,Anders,Pleijel,anders.pleijel@telia.com,Uppegårds-Nyhamn,M,1944.0,Lärbro,0730-618911,188,b0f4987b-77bb-4ba9-8a46-07a5742a95d1,59,Uppegårds- Nyhamn Lärbro,P,54,Anders Pleijel
+725,Klas,Palmén,klas.palmen@telia.com,Utsiktsgatan 5,M,,Lysekil,070-2111277,1346,935d5cc6-ef1f-4eba-9585-1db6540f1e34,2708,"Utsiktsgatan 5, Lysekil",P,54,Klas Palmén
+726,Peter,Möller,peter.l.moller@gmail.com,Vadbacken 7,M,,Uddevalla,072-5644646,1305,b33ecce8-2820-495e-9454-1d4e95b3c614,2680,Vadbacken,P,54,Peter Möller
+727,Oskar,Karlberg,,Lyckan 6,M,,Kungälv,,1343,564c2149-f773-4a90-a979-00a4bd77e5d1,2704,Lyckan 6,P,54,Oskar Karlberg
+728,Tord,Gustafsson,gustafssontord@gmail.com,Armévägen 11,M,1948.0,Luleå,070-5166565,780,c8635efe-0f74-4701-adbe-599d4aad8cca,286,Mjöfjärden 568,P,54,Tord Gustafsson
+729,Lennart,Palmén,daltofta@blentarp.nu,Agronomvägen 4,M,1944.0,Lund,0705-984872,796,85f1c8b7-fbbd-49e9-8a68-04faf2bc5308,251,Daltofta,P,54,Lennart Palmén
+730,Britt-Marie,Gärdenfors,,Spröjtagränd 6,F,1954.0,Degeberga,,824,b9eca063-e16d-4cb5-9c5b-42013df0510d,63,"Trunelän, Maglehem",T,54,Britt-Marie Gärdenfors
+731,Alvina,Herbinger Rygne,,Loggatan 13,F,,Örebro,070-3971977,786,1830756b-9759-433a-9697-7d1ef4559ec9,179,Källtorp,P,54,Alvina Herbinger Rygne
+732,Håkan,Jernehov,lenajernehov@gmail.com,Blåbärsåsvägen 72,M,1962.0,Floda,0705-607790,805,e7a661d6-755e-435b-a789-e78d4d1a971e,629,Blåbärsåsvägen 72,P,54,Håkan Jernehov
+733,Beatrix,Janthe,janne.janthe@gmail.com,Vibble Kneippbygatan 8,F,1964.0,Visby,070-2299444,789,87076149-a0f2-402b-a93b-1ae6ce8ad5fe,114,Gotlands Veteranbilsmuseum,P,54,Beatrix Janthe
+734,Ove,Karlsson,kamstrupvej43@gmail.com,Kamstrupvej 43,M,,Rødovre,,887,cf89e1f1-da00-4aab-a46d-45320ad7a9e9,793,Bohult,P,54,Ove Karlsson
+735,Sol-Britte,Fällström,fallstrom@berghamra.se,Kättilstad Berghamra,F,1938.0,Rimforsa,073-3122040,254,37a3dccf-a842-48cf-87b7-400520cdeb70,199,Berghamra,P,54,Sol-Britte Fällström
+736,Sol-Britte,Fällström,fallstrom@berghamra.se,Kättilstad Berghamra,F,1938.0,Rimforsa,073-3122040,254,37a3dccf-a842-48cf-87b7-400520cdeb70,755,Söderö skola 600 m SO,P,54,Sol-Britte Fällström
+737,Ylva,Terelius,ylva.terelius@gmail.com,Alvikens Gårdsväg 18,F,1954.0,Stenhamra,0708-904013,274,89f71d79-a68a-412a-89ec-7f35ba02ccc2,218,Alviken,P,54,Ylva Terelius
+738,Torbjörn,Tyler,torbjorn.tyler@biol.lu.se,Enningervägen 12,M,1973.0,Höör,,709,a63103d0-29a3-495e-8074-cce9f0f7cb00,23,Enningervägen,P,54,Torbjörn Tyler
+739,Torbjörn,Tyler,torbjorn.tyler@biol.lu.se,Enningervägen 12,M,1973.0,Höör,,709,a63103d0-29a3-495e-8074-cce9f0f7cb00,24,Johanneshus,P,54,Torbjörn Tyler
+740,Torbjörn,Tyler,torbjorn.tyler@biol.lu.se,Enningervägen 12,M,1973.0,Höör,,709,a63103d0-29a3-495e-8074-cce9f0f7cb00,635,Holma ängar,P,54,Torbjörn Tyler
+741,Karin,Andersson,alstadcity@telia.com,"Stenekullevägen 3, Alstad",F,1938.0,Trelleborg,0733-945192,776,96f51148-e3c2-496b-b35c-7961af63d5f1,16,"Alstad, Stenekullevägen 3",P,54,Karin Andersson
+742,Staffan,Kihl,anneli.kihl@telia.com,Hällebergsvägen 53,M,1944.0,Huddinge,,779,f495da29-755a-40a6-8814-0b83e9860dfb,303,"Höglunda, Hacksjön",P,54,Staffan Kihl
+743,Billy,Axelsson,berit@flum.net,Säter Stenbäcken1,M,1949.0,Skövde,0703-490809,781,ed308f68-9d02-4afc-a84f-d91404752371,243,Säter Stenbäcken,P,54,Billy Axelsson
+744,Marianne,Nilsson,marnil1944@gmail.com,Blomstervägen 23,F,1944.0,Visby,,782,6bf6c7a6-dbce-4de9-8950-41181999a511,48,Blomstervägen 23,P,54,Marianne Nilsson
+745,Eva-Karin,Leonardson,larsleonardson@gmail.com,Ågerupsvägen 177,F,1946.0,Blentarp,0706-913186,790,21a26081-a9d3-4069-bc4f-c5bc4fcf0272,271,Ågerups skola,P,54,Eva-Karin Leonardson
+746,Billy,Franzén,billy.franzen@telia.com,Tegvägen 7,M,1946.0,Lindås,,794,652927ac-e9be-468b-aabd-57193cd2156e,34,Hunshult 3,P,54,Billy Franzén
+747,Gert,Rosquist,majwi.rosquist@gmail.com,Hovslagaregatan 4,M,1936.0,Trelleborg,,800,d1971853-7535-4421-af44-3fc0db0b35ab,359,Gabeljung,T,54,Gert Rosquist
+748,Bodil,Baldetorp,per.baldetorp@bredband.net,Reallinjen 14,F,1946.0,Lund,070-849971,820,996b1e49-edb5-4ab3-b9bd-610374a1fa85,66,"Reallinjen, Lund",P,54,Bodil Baldetorp
+749,Bodil,Baldetorp,per.baldetorp@bredband.net,Reallinjen 14,F,1946.0,Lund,070-849971,820,996b1e49-edb5-4ab3-b9bd-610374a1fa85,67,"Kungsmarken, Lund",T,54,Bodil Baldetorp
+750,Lars-Olof,Ramnelid,Lars-Olof.Ramnelid@lansstyrelsen.se,Torpet 245,M,1958.0,Ljungskile,,874,41893df5-2af2-4ab9-af22-b51eb660a75e,365,Axsjöfallet P,P,54,Lars-Olof Ramnelid
+751,Lars-Olof,Ramnelid,Lars-Olof.Ramnelid@lansstyrelsen.se,Torpet 245,M,1958.0,Ljungskile,,874,41893df5-2af2-4ab9-af22-b51eb660a75e,951,Torpet 1:6 trädgård,P,54,Lars-Olof Ramnelid
+752,Kerstin,Urby,lennart.urby@telia.com,Barkarö Bygata 371,F,1934.0,Västerås,070-3175542,797,7908c474-443e-494b-8fc5-fd88c8432f5f,351,Trädgård Urby,P,54,Kerstin Urby
+753,Flemming,Askengren,askengren@gmail.com,Angelbos Simunds 1920,M,1953.0,Lärbro,073-7138065,778,232b28e5-28b6-4e56-b41a-eaccfc153c6c,106,"Lärbo, Angelbos 1920",P,54,Flemming Askengren
+754,Olof,Strand,lindisstrand@gmail.com,Kamrersgatan 3,M,1983.0,Mörarp,0703-175936,808,a07e1d0c-dc71-4867-ba0c-cabd247735d4,473,Måryd naturreservat slinga,T,63,Olof Strand
+755,Olof,Strand,lindisstrand@gmail.com,Kamrersgatan 3,M,1983.0,Mörarp,0703-175936,808,a07e1d0c-dc71-4867-ba0c-cabd247735d4,474,Måryd naturreservat transekter,T,63,Olof Strand
+756,Olof,Strand,lindisstrand@gmail.com,Kamrersgatan 3,M,1983.0,Mörarp,0703-175936,808,a07e1d0c-dc71-4867-ba0c-cabd247735d4,483,Lilla Mörshög,P,54,Olof Strand
+757,Olof,Strand,lindisstrand@gmail.com,Kamrersgatan 3,M,1983.0,Mörarp,0703-175936,808,a07e1d0c-dc71-4867-ba0c-cabd247735d4,557,Dalby Fälad no 5 transekter,T,63,Olof Strand
+758,Olof,Strand,lindisstrand@gmail.com,Kamrersgatan 3,M,1983.0,Mörarp,0703-175936,808,a07e1d0c-dc71-4867-ba0c-cabd247735d4,558,Dalby Fälad no 5 slinga,T,63,Olof Strand
+759,Olof,Strand,lindisstrand@gmail.com,Kamrersgatan 3,M,1983.0,Mörarp,0703-175936,808,a07e1d0c-dc71-4867-ba0c-cabd247735d4,575,Sörby Tall,P,54,Olof Strand
+760,Olof,Strand,lindisstrand@gmail.com,Kamrersgatan 3,M,1983.0,Mörarp,0703-175936,808,a07e1d0c-dc71-4867-ba0c-cabd247735d4,1069,"Betesmark öster om Dalby, transekter",T,63,Olof Strand
+761,Olof,Strand,lindisstrand@gmail.com,Kamrersgatan 3,M,1983.0,Mörarp,0703-175936,808,a07e1d0c-dc71-4867-ba0c-cabd247735d4,1070,"Betesmark öster om Dalby, slinga",T,63,Olof Strand
+762,Olof,Strand,lindisstrand@gmail.com,Kamrersgatan 3,M,1983.0,Mörarp,0703-175936,808,a07e1d0c-dc71-4867-ba0c-cabd247735d4,1077,Rögle fälad slinga,T,63,Olof Strand
+763,Olof,Strand,lindisstrand@gmail.com,Kamrersgatan 3,M,1983.0,Mörarp,0703-175936,808,a07e1d0c-dc71-4867-ba0c-cabd247735d4,1078,Rögle fälad transekter,T,63,Olof Strand
+764,Gunilla,Andersson,,"Öventorp, Kvarnängen",F,1942.0,Trollhättan,,807,5490a310-9fd8-43f6-9749-f7f99d844254,331,Kalkvägen Ö Jonstorpsmossen Ringvägen Hunneberg,P,54,Gunilla Andersson
+765,Gunilla,Andersson,,"Öventorp, Kvarnängen",F,1942.0,Trollhättan,,807,5490a310-9fd8-43f6-9749-f7f99d844254,332,Mötesplats virkesupplag Hunneberg,P,54,Gunilla Andersson
+766,Ture,Birkedal,,Enningervägen 12,M,,Höör,,823,cebbbd20-499f-408f-a320-89cedb223802,23,Enningervägen,P,54,Ture Birkedal
+767,Ture,Birkedal,,Enningervägen 12,M,,Höör,,823,cebbbd20-499f-408f-a320-89cedb223802,24,Johanneshus,P,54,Ture Birkedal
+768,Ture,Birkedal,,Enningervägen 12,M,,Höör,,823,cebbbd20-499f-408f-a320-89cedb223802,635,Holma ängar,P,54,Ture Birkedal
+769,Inger,Henriksson,,Stentorgsgatan 3,F,1943.0,Taberg,070-4833171,261,ef5f5f0c-973e-4905-b589-39c6c1bd65d2,201,Taberg,P,54,Inger Henriksson
+770,Inger,Henriksson,,Stentorgsgatan 3,F,1943.0,Taberg,070-4833171,261,ef5f5f0c-973e-4905-b589-39c6c1bd65d2,456,Västra bergstoppen,P,54,Inger Henriksson
+771,Fredrik,Linde,,Söftestorp Abrahams gård 10,F,,Väckelsång,,1606,d2cffc3e-4825-4052-874a-c605db3121e2,2930,Abrahams gård 10,P,54,Fredrik Linde
+772,Melanie,Karlsson,,,F,,,,963,c9c21410-1908-43dd-a0ab-604fb546ae44,193,"Gripenbergsgatan, Norrängen",P,54,Melanie Karlsson
+773,Anna,Grahn,,,F,,,,967,d58b15e3-875c-4d22-8d6b-7176190e41cb,910,Röbäcks koloniområde,P,54,Anna Grahn
+774,Eva,Eriksson,eva.z.eriksson@lansstyrelsen.se,"Länsstyrelsen Jämtlands län, Naturum Vålådale",F,,Vålådalen,010-2253471,939,a78a9fd5-0a86-4e5a-97db-e89b4e6b3132,988,Naturum Vålådalen punkt,P,54,Eva Eriksson
+775,Marlijn,Sterenborg,marlijnsterenborg@hotmail.com,"c/o L. Leidersten, Solvägen 4",F,1985.0,Tullinge,073-0592607,915,92613bc8-f0c8-45d6-9fb4-9123a12c6842,974,Begravningsplats Sundbyberg,P,54,Marlijn Sterenborg
+776,Kristina,Höök Patriksson,Kristina.Hook-Patriksson@lansstyrelsen.se,Timmersdala Postgården 2,F,1968.0,Timmersdala,,922,e4ea0453-f851-4470-9e38-5afe9e26690f,950,"Postgården 2, Timmersdala",P,54,Kristina Höök Patriksson
+777,Pernilla,Fischerström,pernilla.fischerstrom@lansstyrelsen.se,Tranum Sandebo 1,F,1972.0,Tun,,926,423a51fc-ab49-4408-bdff-5a51ac239089,1080,Tranum Sandebo,P,54,Pernilla Fischerström
+778,Klara,Eklund,klara.eklund.hemma@gmail.com,Rörflatsvägen 7,F,1971.0,Billdal,,952,403f3165-f49c-433e-a14c-289017638735,992,Rörflatsvägen 7,P,54,Klara Eklund
+779,Bengt,Lundborg,bengt.lundborg@telia.com,Snöklintsvägen 80,M,,Ludvika,,1510,7e0f18fa-8c42-4421-8123-ce1545890d7b,2815,Gökbodarna,P,54,Bengt Lundborg
+780,Johan,Falk,johan@stationlunda.se,Danmarks Lunda 21,M,,Uppsala,,1511,cb6dabbf-5052-4274-b3dc-e8e588e4b9cc,2816,Station Lunda,P,54,Johan Falk
+781,Wiktor,Bergsand,,,M,,,,971,b104a389-77ee-4301-a953-b05079034d5f,677,"Lingonvägen, Floda",P,54,Wiktor Bergsand
+782,Elisabet,Dimming,Elisabet.Dimming@lansstyrelsen.se,Råbäcksgatan 1C,F,,Göteborg,0761-298007,921,ab42cb3e-24e3-40b7-b0c5-217aca0cc73d,2617,Råbäcksgatan,P,54,Elisabet Dimming
+783,Henrik,Fridlund,spenke1@hotmail.com,Smålarp 1117,M,1980.0,Klippan,073-3946702,944,a53f3c3c-7707-4e61-a0a8-e08025ff58a5,994,Smålarp 1117,P,54,Henrik Fridlund
+784,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,469,Åraslövs mosse slinga,T,63,Per-Magnus Åhrén
+785,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,470,Åraslövs mosse transekter,T,63,Per-Magnus Åhrén
+786,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,471,Lya ljunghed slinga,T,63,Per-Magnus Åhrén
+787,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,472,Lya ljunghed transekter,T,63,Per-Magnus Åhrén
+788,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,473,Måryd naturreservat slinga,T,63,Per-Magnus Åhrén
+789,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,474,Måryd naturreservat transekter,T,63,Per-Magnus Åhrén
+790,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,549,Kjugekull transekter,T,63,Per-Magnus Åhrén
+791,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,550,Kjugekull slinga,T,63,Per-Magnus Åhrén
+792,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,551,Rövarekulan transekter,T,63,Per-Magnus Åhrén
+793,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,552,Rövarekulan slinga,T,63,Per-Magnus Åhrén
+794,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,554,Herrevadskloster slinga,T,63,Per-Magnus Åhrén
+795,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,645,Högestads mosse transekter,T,63,Per-Magnus Åhrén
+796,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,646,Gråshult slinga,T,63,Per-Magnus Åhrén
+797,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,647,Gråshult transekter,T,63,Per-Magnus Åhrén
+798,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,648,Sporrakulla slinga,T,63,Per-Magnus Åhrén
+799,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,649,Sporrakulla transekter,T,63,Per-Magnus Åhrén
+800,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,650,Lilla Hammars näs slinga,T,63,Per-Magnus Åhrén
+801,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,651,Lilla Hammars näs transekter,T,63,Per-Magnus Åhrén
+802,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,652,Ubbalt slinga,T,63,Per-Magnus Åhrén
+803,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,653,Ubbalt transekter,T,63,Per-Magnus Åhrén
+804,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,815,Everöds utmark transekter,T,63,Per-Magnus Åhrén
+805,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,816,Everöds utmark slinga,T,63,Per-Magnus Åhrén
+806,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,820,Humlarödshus fälad transekter,T,63,Per-Magnus Åhrén
+807,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,821,Humlarödshus fälad slinga,T,63,Per-Magnus Åhrén
+808,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,828,Malshult transekter,T,63,Per-Magnus Åhrén
+809,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,829,Malshult slinga,T,63,Per-Magnus Åhrén
+810,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,830,Mannagården transekter,T,63,Per-Magnus Åhrén
+811,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,831,Mannagården slinga,T,63,Per-Magnus Åhrén
+812,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,833,Skillinge transekter,T,63,Per-Magnus Åhrén
+813,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,834,Skillinge slinga,T,63,Per-Magnus Åhrén
+814,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,835,Tosteberga ängar transekter,T,63,Per-Magnus Åhrén
+815,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,836,Tosteberga ängar slinga,T,63,Per-Magnus Åhrén
+816,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,837,Åvarps fälad transekter,T,63,Per-Magnus Åhrén
+817,Per-Magnus,Åhrén,per.magnus.ahren@icloud.com,Lotsgatan 39E,M,,Limhamn,,1428,15103512-76b8-4c8a-bc71-1501da5f10ec,838,Åvarps fälad slinga,T,63,Per-Magnus Åhrén
+818,Karin,Larsson,,Tallvägen 30,F,1952.0,Täby,,558,7b69be79-d224-416b-a740-b3d2a1408f55,428,Viggbyholm,P,54,Karin Larsson
+819,Karin,Larsson,,Tallvägen 30,F,1952.0,Täby,,558,7b69be79-d224-416b-a740-b3d2a1408f55,433,"Hemavan, Blå vägen",P,54,Karin Larsson
+820,Karin,Larsson,,Tallvägen 30,F,1952.0,Täby,,558,7b69be79-d224-416b-a740-b3d2a1408f55,490,Ängsö Nationalpark,P,54,Karin Larsson
+821,Karin,Larsson,,Tallvägen 30,F,1952.0,Täby,,558,7b69be79-d224-416b-a740-b3d2a1408f55,680,Häxberget- Bollstabruk,P,54,Karin Larsson
+822,Karin,Larsson,,Tallvägen 30,F,1952.0,Täby,,558,7b69be79-d224-416b-a740-b3d2a1408f55,2651,Torö-Örudden,P,54,Karin Larsson
+823,Karin,Larsson,,Tallvägen 30,F,1952.0,Täby,,558,7b69be79-d224-416b-a740-b3d2a1408f55,2653,"E 45 SV Björnängen, Vilhelmina",P,54,Karin Larsson
+824,Karin,Larsson,,Tallvägen 30,F,1952.0,Täby,,558,7b69be79-d224-416b-a740-b3d2a1408f55,2654,"Ekeviken, Fårö",P,54,Karin Larsson
+825,Karin,Larsson,,Tallvägen 30,F,1952.0,Täby,,558,7b69be79-d224-416b-a740-b3d2a1408f55,2657,Skirsjöedet - NO Strömsund,P,54,Karin Larsson
+826,Karin,Larsson,,Tallvägen 30,F,1952.0,Täby,,558,7b69be79-d224-416b-a740-b3d2a1408f55,2658,"Skarvsjön, Storuman",P,54,Karin Larsson
+827,Karin,Larsson,,Tallvägen 30,F,1952.0,Täby,,558,7b69be79-d224-416b-a740-b3d2a1408f55,2662,Oviken-Side,P,54,Karin Larsson
+828,Karin,Larsson,,Tallvägen 30,F,1952.0,Täby,,558,7b69be79-d224-416b-a740-b3d2a1408f55,2663,"Näcksta, Hackås",P,54,Karin Larsson
+829,Karin,Larsson,,Tallvägen 30,F,1952.0,Täby,,558,7b69be79-d224-416b-a740-b3d2a1408f55,2664,"Friggars, Fårö",P,54,Karin Larsson
+830,Karin,Larsson,,Tallvägen 30,F,1952.0,Täby,,558,7b69be79-d224-416b-a740-b3d2a1408f55,2665,Klangahamn,P,54,Karin Larsson
+831,Karin,Larsson,,Tallvägen 30,F,1952.0,Täby,,558,7b69be79-d224-416b-a740-b3d2a1408f55,2666,Järflotta,P,54,Karin Larsson
+832,Karin,Larsson,,Tallvägen 30,F,1952.0,Täby,,558,7b69be79-d224-416b-a740-b3d2a1408f55,2868,Lilla Sandskär,P,54,Karin Larsson
+833,Ann-Louise,Gustafsson,ann-louise.gustafsson@outlook.com,Humlevägen 12,F,,Bjärred,,1430,49934ea7-ebeb-43e1-a363-15b2ddb33834,2784,Landövägen 470,P,54,Ann-Louise Gustafsson
+834,Jan,Aldergren,jan@aldergren.se,Fridshyddevägen 11,M,,Sollentuna,,1448,19436de9-a3b7-465d-8bab-5619271962a6,2782,Västerkulla,P,54,Jan Aldergren
+835,Agneta,Karlsson,agnetaskane@hotmail.com,Hökvägen 12b,F,,Vejbystrand,,1462,cdd4c3ff-5a36-4017-9513-fd30d9703f91,2791,Varehög,P,54,Agneta Karlsson
+836,Ulla,Åshede,ulla.ashede@gmail.com,Lunnabergsvägen 3,F,,Vallda,,1468,9ebcbea6-8b5a-4330-bdff-bc5a30d46f30,2793,Lunnabergsvägen 3,P,54,Ulla Åshede
+837,Staffan,Steinvall,staffan.steinvall@aycee.se,Säljesta Åsåkersvägen 11,F,,Järvsö,070-3513627,1417,e83f3ad5-7968-49a9-afd3-f29edb044202,2798,Säljesta,P,54,Staffan Steinvall
+838,Gunnvor,Klockars Sebbfolk,formera@sebbfolk.se,"Sebbfolk/formera, Bygränd 7",F,,Obbola,070-3594936,1420,36f719e2-79ae-466d-87eb-db5904335f29,2745,Obbola,P,54,Gunnvor Klockars Sebbfolk
+839,Gunbritt,Skog,gunbritt.skog@gmail.com,Posthornsgatan 14,F,,Örebro,073-8261508,1422,3766e6d2-e665-4b8d-9ddb-78adbb5d506b,2750,Eriksborg,P,54,Gunbritt Skog
+840,Ingrid,Ståhl,ingrid.stahl.dalby@gmail.com,Lyckevägen 2,F,,Dalby,,1502,11cd508d-7b52-4080-b55f-8b19f87e13e0,2941,Eljaröd 303,P,54,Ingrid Ståhl
+841,Bep,Weijand,bep.weijand@gmail.com,Rävstigen 2,F,,Haparanda,070-6719518,1612,1e0cd377-90e8-441b-b8b5-f73de9d7bb61,2936,Haparanda Marielund,P,54,Bep Weijand
+842,Carina,Pettersson,carina@livsstigen.se,Aftonvägen 14,F,,Alunda,070-2668799,1613,2d23d0e4-b517-4d36-a56f-e5b295b2839b,2937,"Aftonvägen 14, Alunda",P,54,Carina Pettersson
+843,Ingvar,Eklund,ingvar_eklund@hotmail.com,Utterstigen 6,M,,Luleå,070-6265382,1379,203ced79-9754-4fcd-ab2d-0ae8c1105ba7,2736,Utterstigen 6,P,54,Ingvar Eklund
+844,Per-Erik,Petersson,pererikp27@gmail.com,Akvilejagången 25,M,,Borås,070-5214937,1456,adfb03bb-7c2a-4355-8c8f-d16dcc9344f2,2785,Ryedal 1:13,P,54,Per-Erik Petersson
+845,Siri,Björk,siiriib@gmail.com,Energigränd 7J,F,,Piteå,,1004,af28de56-7643-455a-8c42-a0c86ae91d55,723,Järvträsk 24,P,54,Siri Björk
+846,Jenny,Eriksson,erikssonjenny@hotmail.com,Strandvägen 45,F,,Korpilombolo,070-2831222,1211,dfa1815e-64bb-4c15-a996-919eb55f151b,2902,"Strandvägen 45, Korpilombolo",P,54,Jenny Eriksson
+847,Carina,Johansson,c_h_johansson@hotmail.com,Svenshögen 241,F,,Svenshögen,070-3932531,1283,72e5a4d1-18a7-4044-9505-93f7499f9a71,2684,Svenshögen,P,54,Carina Johansson
+848,Elsy,Johansson,emjohansson@hotmail.se,Runneröd 250,F,,Kärna,073-9350105,1292,5f41910c-d9fc-4ff3-bf69-9081ec82bd76,2699,Runneröd,P,54,Elsy Johansson
+849,Carina,Björnesparr,cbjornesparr@gmail.com,Gunnilbogatan 14A,F,,Västerås,0703-627803,1458,93551a29-0ae2-46ad-8bc9-8538c78535e0,2788,"Solviken, Ängskär",P,54,Carina Björnesparr
+850,Bo,Ågren,bosse.agren.4910@gmail.com,Ejdervägen 8,M,,Kolmården,072-2344844,1026,a1652e0b-000e-49f6-bb0a-652dcbd32224,1100,"Ejdervägen 8, Kolmården",P,54,Bo Ågren
+851,Gunnar,Mannervik,gunnar.mvik@telia.com,Lau Kyrkänge 502,M,,Ljugarn,072-7431117,1250,cce5db77-d656-4f5d-a3a0-990f0063e572,2676,Lairu,P,54,Gunnar Mannervik
+852,Gunnar,Mannervik,gunnar.mvik@telia.com,Lau Kyrkänge 502,M,,Ljugarn,072-7431117,1250,cce5db77-d656-4f5d-a3a0-990f0063e572,2916,Kyrkänge,P,54,Gunnar Mannervik
+853,Annelie,Gustavsson,67annelie@gmail.com,Stadsängsvägen 17,F,,Marstrand,073-3334509,1280,ae9f8b9d-6060-4fe7-a5ed-1d0d674c3fd6,2685,Kattkroken,P,54,Annelie Gustavsson
+854,Irene,Wessberg,ui.w@hotmail.com,Tungevägen 75,F,,Ytterby,070-6164330,1281,6b1aaeae-132e-41b4-9d40-d2bdf289093c,2693,Smörholmen,P,54,Irene Wessberg
+855,Margareta,Abenius,ma@orustmontessori.se,Hummervägen 17,F,,Skärhamn,0739-478665,1285,8f852ca9-8e94-452d-afb5-10d4b106ff22,2833,Skärhamn,P,54,Margareta Abenius
+856,Jonas,Wahlbärj,jonas.wahlbarj@hotmail.com,Kopparvägen 63 lgh 1504,M,1992.0,Järfälla,073-6212169,993,e2854fd1-6619-4072-bfc9-f89474b0f72d,970,Bolinderstrands strandpromenad,P,54,Jonas Wahlbärj
+857,Lea,Sillfors Elverby,leas923@gmail.com,Opalvägen 10,F,,Trollhättan,,1615,f20c1fda-62f3-4aca-963f-2b21ef32e6e6,2940,"Opalvägen 10, Trollhättan",P,54,Lea Sillfors Elverby
+858,Hanna,Jönsson,nat15hjo@student.lu.se,,F,,,,994,8ca45ae4-100a-499f-801c-717a9a1e26e2,1097,Våtseröd hygge,P,54,Hanna Jönsson
+859,Christer,Andersson,mullet@egonet.se,Fagottvägen 25,M,,Boden,070-3176857,1191,b63807cb-e919-48ac-adf2-7aff6bc09cf1,2646,Hamptjärnmoran,P,54,Christer Andersson
+860,Mikael,Johansson,mj.mikael.johansson@gmail.com,Flintvägen 12,M,,Åsa,0733-343627,1307,2910fa41-e289-4c71-9281-80f152fdd9a9,2796,"Flintvägen 12, Åsa",P,54,Mikael Johansson
+861,Laila,Kihlbaum,laila.kihlbaum@gmail.com,Tolleröd 190,F,,Kode,070-4030571,1289,7cb0d7cc-be7e-4608-8ca5-4965cb5ff3f8,2722,Tolleröd,P,54,Laila Kihlbaum
+862,Maino,Svensson,mainosvensson@hotmail.com,Stigevivägen 18,F,,Stigen,070-5841361,1301,a64f32ae-41b9-4551-8db6-25524ab2768b,2682,Stigevivägen 18,P,54,Maino Svensson
+863,Charlotte,Gustafsson,charlotte_20002@hotmail.se,Västra Gatan 64,F,,Kungälv,0704-254787,1302,08a5fe05-27d9-4c9b-b0b8-bb5867b722f4,2709,Åkerhög 350,P,54,Charlotte Gustafsson
+864,Charlotte,Gustafsson,charlotte_20002@hotmail.se,Västra Gatan 64,F,,Kungälv,0704-254787,1302,08a5fe05-27d9-4c9b-b0b8-bb5867b722f4,2710,Hållsungamyren,P,54,Charlotte Gustafsson
+865,Malou,Kjellsson,malouk@telia.com,"Eksjöhult, Stenlyckan 1",F,,Ulrika,070-2515162,1310,334cfd8b-eeb6-447f-a7ee-66379d3203f8,2690,Eksjöhult,P,54,Malou Kjellsson
+866,Simon,Pettersson,,,M,,,,1188,ef969918-ab7f-457c-9ca1-051b9c570a1f,9,Billebjer,T,54,Simon Pettersson
+867,Kristina,Sjöblom,kristina.sjoblom@hotmail.com,Vallmovägen 25,F,,Vallentuna,,1354,dd432f78-0e7c-476b-8d29-28f340d0beee,2717,"Vallmovägen 25, Vallentuna",P,54,Kristina Sjöblom
+868,Ingela,Hofsten,ingela@ingelahofsten.se,Bågevägen 101A,F,,Sundsvall,,1377,0173bf18-760e-4b5e-b1db-b2129ce0a472,2726,Södra Ässjö,P,54,Ingela Hofsten
+869,Maria,Karlberg,karlberg.maria@gmail.com,Lyckan 6,F,,Kungälv,,1341,d9330f12-134e-4ca9-8552-37afa2d0290a,2704,Lyckan 6,P,54,Maria Karlberg
+870,Siv,Pettersson,,Sixarby 512,F,,Tobo,,1348,5c24cb08-65bb-47e8-a886-2112e62381f8,2821,Sixarby,P,54,Siv Pettersson
+871,Marie,Johansson Ågren,,,F,,,,1620,e7ff8f8b-d434-42b4-878b-7c7c6ae234bb,1100,"Ejdervägen 8, Kolmården",P,54,Marie Johansson Ågren
+872,Finn,Jakobsson,skosnore@gmx.com,Furuhällsgatan 22B,M,,Ludvika,,1329,ada7fb83-ea94-4cc9-84dd-ef56abd946b1,2700,"Nyhammar, Ludvika",P,54,Finn Jakobsson
+873,Peter,Roos,peter.roos@hotmail.se,Aprilvägen 151,M,,Sundsbruk,,1330,2f82e4ef-31ef-494a-b13e-b41200a242a0,2701,"Lövåsen, Ånge",P,54,Peter Roos
+874,Peter,Roos,peter.roos@hotmail.se,Aprilvägen 151,M,,Sundsbruk,,1330,2f82e4ef-31ef-494a-b13e-b41200a242a0,2706,Härsta,P,54,Peter Roos
+875,Cecilia,Löndahl,cia_londahl@yahoo.com,Tranesvägen 25,F,,Skåne-Tranås,,1340,3d5c4938-e5c2-4b98-999b-415d496ab22f,2899,Tranesvägen 25,P,54,Cecilia Löndahl
+876,Tina,D'Hertefeldt,,,F,,,,1622,fbcc7b7e-e447-4fd3-8e72-7413638af2ff,752,"Matskålsängarna, mitt",P,54,Tina D'Hertefeldt
+877,Tina,D'Hertefeldt,,,F,,,,1622,fbcc7b7e-e447-4fd3-8e72-7413638af2ff,2625,"Matskålsängarna, norra",P,54,Tina D'Hertefeldt
+878,Tina,D'Hertefeldt,,,F,,,,1622,fbcc7b7e-e447-4fd3-8e72-7413638af2ff,2626,"Matskålsängarna, södra",P,54,Tina D'Hertefeldt
+879,Ingvar,Olofsson,ingvar.olofsson@telia.com,Amunderöd 6,M,,Bullaren,,1241,437eb3bc-8574-437a-8c18-0b80a1848691,1095,Naverstads-Amunderöd,P,54,Ingvar Olofsson
+880,Margareta,Bengtsson,marg-b@telia.com,Klangebergsbacken 2,F,,Vessigebro,,1266,0662f67a-4ebc-4745-9d18-5da90f2b725e,2831,Klangebergsbacken 2,P,54,Margareta Bengtsson
+881,Bo,Norrgård,bo.norrgard@yahoo.se,Rösgången 19,M,,Norrköping,,1361,94b8270a-8766-41b0-bb92-5f0eb01f6545,2780,"Kårtorp, Norrköping",P,54,Bo Norrgård
+882,Elin,Hjalmarsson,elinhjalmarsson@telia.com,Russnäs 16,F,,Eksjö,,1369,e706bc7d-c00e-4eeb-b012-71221fbb3ae8,2725,Russnäs 16,P,54,Elin Hjalmarsson
+883,Ulf,Svahn,ulfsvahn@hotmail.com,Sångarvägen 12,M,,Gävle,,1405,44108649-3473-4fb9-b094-26ef9d183efe,2858,Önneberg Lars Nils,P,54,Ulf Svahn
+884,Sofie,Zetterlund,sofie.zetterlund@bollnas.se,"Läroverksgatan 43D, lgh 1002",F,,Bollnäs,,1409,bfa6af05-4afc-4618-961f-47acca6d88d3,2763,"Storön, Bollnäs",P,54,Sofie Zetterlund
+885,Tina,Wueggertz,tcih68@hotmail.com,Bosarpsvägen 22,F,,Eslöv,,1240,70ae7cf8-b4ae-494f-81b2-3c3254c2c84e,2832,Villa Wig-Wam Wueggertzro,P,54,Tina Wueggertz
+886,Jan,Moberg,jan.moberg.nykoping@telia.com,,M,,,,1470,dda6ebfa-b0df-409b-98c5-1ccb837979dd,2797,Österhagen,P,54,Jan Moberg
+887,Lars,Lundahl,larsj.lundahl@gmail.com,Vinterstigen 7,M,,Höllviken,,1497,775f1416-68fd-4ff5-9337-e6a31d8cde57,2932,"Lyckan, Rängs sand",P,54,Lars Lundahl
+888,Ingegerd,Carlsson,ingegerdcarlsson@telia.com,Bräcke 200,F,,Kärna,,1290,a2af4729-5be5-4b5e-826f-7d932686ba23,2703,Bräcke 200,P,54,Ingegerd Carlsson
+889,Agneta,Blomqvist,agnetarb.roos@gmail.com,Lenas väg 22,F,,Onsala,,1296,95b832d5-c7b1-45af-9d36-7c4db19ed4cd,2744,"Trädgård, Draget, Onsala",P,54,Agneta Blomqvist
+890,Per-Erik,Pettersson,pererikp@telia.com,Sixarby 512,M,,Tobo,070-3256397,1349,2b3774f5-1546-4fd1-ac5b-37022d9bc3dc,2785,Ryedal 1:13,P,54,Per-Erik Pettersson
+891,Per-Erik,Pettersson,pererikp@telia.com,Sixarby 512,M,,Tobo,070-3256397,1349,2b3774f5-1546-4fd1-ac5b-37022d9bc3dc,2821,Sixarby,P,54,Per-Erik Pettersson
+892,Kenneth,Nordberg,pkenneth.nordberg@gmail.com,Våsjö Skola 3,M,1950.0,Kolsva,,1002,5a71a173-bc14-455f-9c04-ec1fa48ad986,1088,"Nyhammar, Kolsva",P,54,Kenneth Nordberg
+893,Kenneth,Nordberg,pkenneth.nordberg@gmail.com,Våsjö Skola 3,M,1950.0,Kolsva,,1002,5a71a173-bc14-455f-9c04-ec1fa48ad986,1089,Norsa,P,54,Kenneth Nordberg
+894,Kenneth,Nordberg,pkenneth.nordberg@gmail.com,Våsjö Skola 3,M,1950.0,Kolsva,,1002,5a71a173-bc14-455f-9c04-ec1fa48ad986,1090,Timmerkajen,P,54,Kenneth Nordberg
+895,Kenneth,Nordberg,pkenneth.nordberg@gmail.com,Våsjö Skola 3,M,1950.0,Kolsva,,1002,5a71a173-bc14-455f-9c04-ec1fa48ad986,1091,Malmviken,P,54,Kenneth Nordberg
+896,Eva-Lena,Christensen,e.christensen@blixtmail.se,Åkerbärsvägen 12,F,,Karlskoga,,1508,ef73e643-629b-4c9b-ad43-63ca57d394c0,2753,Sörbyfallet Grythyttan,P,54,Eva-Lena Christensen
+897,Hans,Falklind,hans.falklind@telia.com,Idrottsvägen 13,M,,Lerum,,1509,3f12d2ec-4c46-4f65-9f3c-8c3ec8052473,2759,Brobacka,P,54,Hans Falklind
+898,Hans,Falklind,hans.falklind@telia.com,Idrottsvägen 13,M,,Lerum,,1509,3f12d2ec-4c46-4f65-9f3c-8c3ec8052473,2889,Aspenäs,P,54,Hans Falklind
+899,Axel,Bergsand,,,M,,,,972,11a7a452-7b3c-4cc1-95da-90393afad583,677,"Lingonvägen, Floda",P,54,Axel Bergsand
+900,Ida,Karlberg,,Lyckan 6,F,,Kungälv,,1342,e8a953e9-ea07-4e41-b735-dbc302feb02d,2704,Lyckan 6,P,54,Ida Karlberg
+901,Torbjörn,Westin,tw@knytt.se,Bergshamra Allé 73,M,,Solna,070-6240099,1527,a6691b97-333f-4e4e-9dc0-3128a7f9b75f,2886,Lillvadet,P,54,Torbjörn Westin
