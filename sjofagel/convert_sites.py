@@ -7,7 +7,7 @@ import json
 # import propertiesfile
 
 # open local geojson files
-with open('kustfagel_4326_coords.geojson') as f:
+with open('sjofagel_4326.geojson') as f:
     geojson = json.load(f)
 
 
@@ -20,24 +20,25 @@ def generate_uniqId_format():
     return uniqid
 
 # enter the id of one project this site belongs to
-project = "dab767a5-929e-4733-b8eb-c9113194201f" # propertiesfile.projectId
+project = "50b1cb29-cf33-4d43-a805-b07ae4de1750" # propertiesfile.projectId
 all_polyg = geojson['features']
-length = 50
+length = len(all_polyg)
 
 # iterate through all sites and save each 
 
 locations = []
 for index in range(0,length):
-    polygon_coords = all_polyg[index]["geometry"]["coordinates"][0]
+    properties = all_polyg[index]["properties"]
+    coordinates = all_polyg[index]["geometry"]["coordinates"][0]
+
     feature = {
         "geometry": {
             "type": "Polygon",
-            "coordinates": all_polyg[index]["geometry"]["coordinates"][0]
-        },
-        "type": ""            
+            "coordinates": coordinates
+        }           
     }
 
-    polygon = Polygon(polygon_coords[0])
+    polygon = Polygon(coordinates[0])
     centroid = polygon.centroid
 
     _centroid_coords = np.array((centroid.xy[0][0], centroid.xy[1][0])) # should be long, lat
@@ -60,12 +61,12 @@ for index in range(0,length):
 
     location = {
         "siteId": generate_uniqId_format(),
-        "name": all_polyg[index]['properties']['ruta'],
-        "code": all_polyg[index]['properties']['OBJECTID'],
+        "name": properties['site'],
+        "code": properties['site'],
         "status" : "active",
         "type" : "surveyArea",
-        "description": "Archipelago test",
-        "area": "0",
+        "description": "Sjofagel test",
+        "area": str(properties['area']),
         "projects": [
             project
         ],
@@ -79,5 +80,5 @@ for index in range(0,length):
 
     locations.append(location)
 
-with open('kustfagelrutor_upload.json', 'w') as f:
+with open('sjofagel_upload.json', 'w') as f:
     json.dump(locations, f)

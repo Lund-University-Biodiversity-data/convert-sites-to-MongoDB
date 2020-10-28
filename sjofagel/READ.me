@@ -1,0 +1,8 @@
+raw data is sjofagel_4326.geojson containing multipolygons
+
+use convert_sites.py to convert sjofagel_4326.geojson to sjofagel_upload.json which can be injected into mongo db
+- for site extent the script calculates the centroid of the polygon, transectParts have only one part - a polygon. The multipolygon 
+ saved as a polygon to be displayed on the map in Biocollect 
+
+to inject to mongo:
+mongoimport --jsonArray --db ecodata --collection site --file sjofagel_upload.json
