@@ -6,7 +6,7 @@ from shapely.geometry import Polygon
 import numpy as np
 
 # open local geojson files
-with open('nattrutt_4326_coords.csv') as f:
+with open('nattrutt_4326_coords_2sites.csv') as f:
     all_pts = pd.read_csv(f)
 
 # generate ids for fields in sites
@@ -42,7 +42,7 @@ while last <= length:
 
         feature_pts = {
             "name": point_name, 
-            "description": description,
+            # "description": description,
             "geometry": {
                 "type": "Point",
                 "decimalLongitude": float(all_pts.loc[index]["xcoord"]),
@@ -88,7 +88,7 @@ while last <= length:
         "name": name,
         "status" : "active",
         "type" : "",
-        "description": description,
+        # "description": description,
         "KartaTx": all_pts.loc[first]["RUTT"],
         "area": "0",
         "projects": [
@@ -99,12 +99,13 @@ while last <= length:
             "source": "Point"
         },
         "geoIndex": geo_index,
-        "transectParts": features,
-        "yearStarted": start
+        "transectParts": features #,
+        # "yearStarted": start,
+        # "bookedBy": "e0dcc2c4-b8f7-1c24-68c3-c11a4a5a4d1b"
     }
     locations.append(location)
     first = last
     last = last + 20
 
-with open('natrutter_upload.json', 'w') as f:
+with open('natrutter_upload_2sites.json', 'w') as f:
     json.dump(locations, f, ensure_ascii=False)

@@ -1,15 +1,16 @@
-import propertiesfile
+# -*- coding: utf-8 -*-
 
-from pymongo import MongoClient
-import datetime
+# import propertiesfile
+
+# from pymongo import MongoClient
 import json
 import uuid
 
 # set up connection with mongo
-client = MongoClient()
-client = MongoClient('localhost', 27017)
-db = client.ecodata
-collection = db.site
+# client = MongoClient()
+# client = MongoClient('localhost', 27017)
+# db = client.ecodata
+# collection = db.site
 
 # open local geojson files
 with open('punkter.geojson') as f:
@@ -38,33 +39,41 @@ first = 0
 last = 8
 centroid_index = 0
 
-
+locations = []
 # iterate through all sites and save each 
 while last <= length:
     features = []
     for index in range(first, last):
         feature_pts = {
             "name": all_pts[index]['properties']['PUNK'],
-            "transectPartId": generate_uniqId_format(),
             "geometry": {
                 "type": "Point",
                 "decimalLongitude": all_pts[index]["geometry"]["coordinates"][0],
                 "decimalLatitude": all_pts[index]["geometry"]["coordinates"][1],
                 "coordinates": all_pts[index]["geometry"]["coordinates"]
             },
-            "description": "",
+            "coords_3021": [all_pts[index]["properties"]["xcoord"], all_pts[index]["properties"]["ycoord"]],
+            "coords_3006": [all_pts[index]["properties"]["xcoord_2"], all_pts[index]["properties"]["ycoord_2"]],
             "type": "none"            
         }
         feature_lines = {
             "name": all_lines[index]['properties']['LINJE'],
-            "transectPartId": generate_uniqId_format(),
             "geometry": {
                 "type": "LineString",
-                "decimalLongitude": all_lines[index]["geometry"]["coordinates"][0],
-                "decimalLatitude": all_lines[index]["geometry"]["coordinates"][1],
-                "coordinates": all_lines[index]["geometry"]["coordinates"]
+                "coordinates": all_lines[index]["geometry"]["coordinates"][0]
             },
-            "description": "",
+            "Inv1997": all_lines[index]["properties"]["Inv1997"],
+            "Inv1998": all_lines[index]["properties"]["Inv1998"],
+            "Inv1999": all_lines[index]["properties"]["Inv1999"],
+            "Inv2000": all_lines[index]["properties"]["Inv2000"],
+            "Inv2001": all_lines[index]["properties"]["Inv2001"],
+            "Inv2002": all_lines[index]["properties"]["Inv2002"],
+            "Inv2003": all_lines[index]["properties"]["Inv2003"],
+            "Inv2004": all_lines[index]["properties"]["Inv2004"],
+            "Inv2005": all_lines[index]["properties"]["Inv2005"],
+            "Inv2006": all_lines[index]["properties"]["Inv2006"],
+            "Inv2007": all_lines[index]["properties"]["Inv2007"],
+            "Inv2008": all_lines[index]["properties"]["Inv2008"],
             "type": "none"
         }
         
@@ -88,21 +97,17 @@ while last <= length:
     
     location = {
         "siteId": generate_uniqId_format(),
-        "name": all_centroids[centroid_index]["properties"]["KARTA"],
-        "dateCreated": datetime.datetime.utcnow(),
+        "gridCode": all_centroids[centroid_index]["properties"]["KARTA"],
+        "name": all_centroids[centroid_index]["properties"]["NAMN"],
         "status" : "active",
         "type" : "",
         "isSensitive": True,
-        "description": "standard route test 3",
-        "lastUpdated": datetime.datetime.utcnow(),
         "LAN": all_centroids[centroid_index]["properties"]["LAN"],
         "LSK": all_centroids[centroid_index]["properties"]["LSK"],
-        "NAMN": all_centroids[centroid_index]["properties"]["NAMN"],
         "KartaTx": all_centroids[centroid_index]["properties"]["KartaTx"],
         "area": "0",
         "projects": [
-            #"dab767a5-929e-4733-b8eb-c9113194201f"
-            propertiesfile.projectId
+            "89383d0f-9735-4fe7-8eb4-8b2e9e9b7b5c"
         ],
         "extent": {
             "geometry": extent_geo,
@@ -111,11 +116,11 @@ while last <= length:
         "geoIndex": geo_index,
         "transectParts": features
     }
-
-    site_id = collection.insert_one(location).inserted_id
-    site_id
-    print(f"site {all_centroids[centroid_index]['properties']['NAMN']} uploaded successfully")
+    locations.append(location)
 
     first = last
     last = last + 8
     centroid_index = centroid_index + 1
+
+with open('strutt_upload.json', 'w') as f:
+    json.dump(locations, f, ensure_ascii=False)
