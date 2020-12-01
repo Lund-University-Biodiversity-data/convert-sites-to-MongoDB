@@ -1,16 +1,6 @@
-# -*- coding: utf-8 -*-
 
-# import propertiesfile
-
-# from pymongo import MongoClient
 import json
 import uuid
-
-# set up connection with mongo
-# client = MongoClient()
-# client = MongoClient('localhost', 27017)
-# db = client.ecodata
-# collection = db.site
 
 # open local geojson files
 with open('punkter.geojson') as f:
