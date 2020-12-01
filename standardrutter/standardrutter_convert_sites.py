@@ -34,67 +34,73 @@ locations = []
 while last <= length:
     features = []
     for index in range(first, last):
+        pts_geometry = all_pts[index]["geometry"]["coordinates"]
+        pts_props = [all_pts[index]["properties"]
         feature_pts = {
             "name": all_pts[index]['properties']['PUNK'],
             "geometry": {
                 "type": "Point",
-                "decimalLongitude": all_pts[index]["geometry"]["coordinates"][0],
-                "decimalLatitude": all_pts[index]["geometry"]["coordinates"][1],
-                "coordinates": all_pts[index]["geometry"]["coordinates"]
+                "decimalLongitude": pts_geometry[0],
+                "decimalLatitude": pts_geometry[1],
+                "coordinates": pts_geometry
             },
-            "coords_3021": [all_pts[index]["properties"]["xcoord"], all_pts[index]["properties"]["ycoord"]],
-            "coords_3006": [all_pts[index]["properties"]["xcoord_2"], all_pts[index]["properties"]["ycoord_2"]],
+            "coords_3021":pts_props["xcoord"], all_pts[index]["properties"]["ycoord"]],
+            "coords_3006":pts_props["xcoord_2"], all_pts[index]["properties"]["ycoord_2"]],
             "type": "none"            
         }
+        lines_geometry = all_lines[index]["geometry"]
+        lines_props = all_lines[index]["properties"]
         feature_lines = {
             "name": all_lines[index]['properties']['LINJE'],
             "geometry": {
                 "type": "LineString",
-                "coordinates": all_lines[index]["geometry"]["coordinates"][0]
+                "coordinates": lines_geometry["coordinates"][0]
             },
-            "Inv1997": all_lines[index]["properties"]["Inv1997"],
-            "Inv1998": all_lines[index]["properties"]["Inv1998"],
-            "Inv1999": all_lines[index]["properties"]["Inv1999"],
-            "Inv2000": all_lines[index]["properties"]["Inv2000"],
-            "Inv2001": all_lines[index]["properties"]["Inv2001"],
-            "Inv2002": all_lines[index]["properties"]["Inv2002"],
-            "Inv2003": all_lines[index]["properties"]["Inv2003"],
-            "Inv2004": all_lines[index]["properties"]["Inv2004"],
-            "Inv2005": all_lines[index]["properties"]["Inv2005"],
-            "Inv2006": all_lines[index]["properties"]["Inv2006"],
-            "Inv2007": all_lines[index]["properties"]["Inv2007"],
-            "Inv2008": all_lines[index]["properties"]["Inv2008"],
+            "Inv1997": lines_props["Inv1997"],
+            "Inv1998": lines_props["Inv1998"],
+            "Inv1999": lines_props["Inv1999"],
+            "Inv2000": lines_props["Inv2000"],
+            "Inv2001": lines_props["Inv2001"],
+            "Inv2002": lines_props["Inv2002"],
+            "Inv2003": lines_props["Inv2003"],
+            "Inv2004": lines_props["Inv2004"],
+            "Inv2005": lines_props["Inv2005"],
+            "Inv2006": lines_props["Inv2006"],
+            "Inv2007": lines_props["Inv2007"],
+            "Inv2008": lines_props["Inv2008"],
             "type": "none"
         }
         
         features.append(feature_pts)
         features.append(feature_lines)
-
+        
+    centroid_geometry = all_centroids[centroid_index]['geometry']
+    centroid_props = all_centroids[centroid_index]["properties"]
     extent_geo = {
         "type" : 'Point',
-        "coordinates": all_centroids[centroid_index]['geometry']['coordinates'],
-        "decimalLongitude": all_centroids[centroid_index]['geometry']['coordinates'][0],
-        "decimalLatitude": all_centroids[centroid_index]['geometry']['coordinates'][1],
+        "coordinates": centroid_geometry['coordinates'],
+        "decimalLongitude": centroid_geometry['coordinates'][0],
+        "decimalLatitude": centroid_geometry['coordinates'][1],
         "areaKmSq": 0,
         "type" : "Point",
         "aream2": 0,
-        "centre": [str(all_centroids[centroid_index]['geometry']['coordinates'][0]), str(all_centroids[centroid_index]['geometry']['coordinates'][1])]
+        "centre": [str(centroid_geometry['coordinates'][0]), str(centroid_geometry['coordinates'][1])]
     }
     geo_index = {
         "type" : 'Point',
-        "coordinates": all_centroids[centroid_index]['geometry']['coordinates']
+        "coordinates": centroid_geometry['coordinates']
     }
     
     location = {
         "siteId": generate_uniqId_format(),
-        "gridCode": all_centroids[centroid_index]["properties"]["KARTA"],
-        "name": all_centroids[centroid_index]["properties"]["NAMN"],
+        "gridCode": centroid_props["KARTA"],
+        "name": centroid_props["NAMN"],
         "status" : "active",
         "type" : "",
         "isSensitive": True,
-        "LAN": all_centroids[centroid_index]["properties"]["LAN"],
-        "LSK": all_centroids[centroid_index]["properties"]["LSK"],
-        "KartaTx": all_centroids[centroid_index]["properties"]["KartaTx"],
+        "LAN": centroid_props["LAN"],
+        "LSK": centroid_props["LSK"],
+        "KartaTx": centroid_props["KartaTx"],
         "area": "0",
         "projects": [
             "89383d0f-9735-4fe7-8eb4-8b2e9e9b7b5c"
