@@ -3,7 +3,6 @@ import uuid
 from shapely.geometry import Polygon
 import shapely
 import numpy as np
-import json
 # import propertiesfile
 
 # open local geojson files
@@ -20,9 +19,9 @@ def generate_uniqId_format():
     return uniqid
 
 # enter the id of one project this site belongs to
-project = "dab767a5-929e-4733-b8eb-c9113194201f" # propertiesfile.projectId
+project = "49f55dc1-a63a-4ebf-962b-4d486db0ab16"
 all_polyg = geojson['features']
-length = 50
+length = len(all_polyg)
 
 # iterate through all sites and save each 
 
