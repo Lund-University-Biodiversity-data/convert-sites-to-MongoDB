@@ -57,13 +57,17 @@ for index in range(0,length):
         "coordinates": centroid_coords
     }
 
+    name = all_polyg[index]['properties']['ruta']
+
+    # It should be like below once the ruttnamn is also in the csv file - shp needs to be converted including that field
+    # name = all_polyg[index]['properties']['ruta'] + ", " + all_polyg[index]['properties']['ruttnamn']
+
     location = {
         "siteId": generate_uniqId_format(),
-        "name": all_polyg[index]['properties']['ruta'],
+        "name": name,
         "code": all_polyg[index]['properties']['OBJECTID'],
         "status" : "active",
         "type" : "surveyArea",
-        "description": "Archipelago test",
         "area": "0",
         "projects": [
             project

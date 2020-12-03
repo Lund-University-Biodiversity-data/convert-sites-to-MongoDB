@@ -90,11 +90,12 @@ while last <= length:
         "type" : 'Point',
         "coordinates": centroid_geometry['coordinates']
     }
-    
+    name = centroid_props["KARTA"] + ", " + centroid_props["NAMN"]
+
     location = {
         "siteId": generate_uniqId_format(),
         "gridCode": centroid_props["KARTA"],
-        "name": centroid_props["NAMN"],
+        "name": name,
         "status" : "active",
         "type" : "",
         "isSensitive": True,

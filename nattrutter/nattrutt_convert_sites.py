@@ -79,10 +79,11 @@ while last <= length:
     else:
         start = all_pts.loc[first]["ÅR"]
 
-    if (type(all_pts.loc[first]["RUTTNAMN"]) == float):
-        name = ""
-    else:
-        name = all_pts.loc[first]["RUTTNAMN"]
+    name = all_pts.loc[first]["RUTT"] 
+    
+    if (type(all_pts.loc[first]["RUTTNAMN"]) != float) :
+        name = name + ", " + all_pts.loc[first]["RUTTNAMN"]
+
     location = {
         "siteId": generate_uniqId_format(),
         "name": name,
