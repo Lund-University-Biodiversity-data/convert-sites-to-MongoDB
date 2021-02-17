@@ -80,17 +80,20 @@ while last <= length:
         start = all_pts.loc[first]["ÅR"]
 
     name = all_pts.loc[first]["RUTT"] 
+    commonName = ""
     
     if (type(all_pts.loc[first]["RUTTNAMN"]) != float) :
         name = name + ", " + all_pts.loc[first]["RUTTNAMN"]
+        commonName = all_pts.loc[first]["RUTTNAMN"]
 
     location = {
         "siteId": generate_uniqId_format(),
         "name": name,
+        "commonName": commonName,
         "status" : "active",
         "type" : "",
         # "description": description,
-        "KartaTx": all_pts.loc[first]["RUTT"],
+        "kartaTx": all_pts.loc[first]["RUTT"],
         "area": "0",
         "projects": [
             "d0b2f329-c394-464b-b5ab-e1e205585a7c" # nattrutt on prod
