@@ -9,6 +9,9 @@ try:
 except:
     sys.exit('ERROR: cannot find OSR module')
 
+# The project ID might need to be changed some time
+projectId = "d0b2f329-c394-464b-b5ab-e1e205585a7c" # nattrutt on prod
+
 # open local geojson files
 with open('NattPOSITIONSMASTER.csv') as f:
     all_pts = pd.read_csv(f)
@@ -112,7 +115,7 @@ while last <= length:
         "kartaTx": all_pts.loc[first]["RUTT"],
         "area": "0",
         "projects": [
-            "d0b2f329-c394-464b-b5ab-e1e205585a7c" # nattrutt on prod
+            projectId
         ],
         "extent": {
             "geometry": extent_geo,
