@@ -1,8 +1,13 @@
-raw material is nattrutt_4326_coords.csv, created from NattPOSITIONSMASTER.xls
-(this one is correct, in the original one site had 21 points which meant that iterating every 20 points created some erroneous sites)
+raw material is NattruttPOSITIONMASTER.csv - has to be the same header, no xls, only csv
+(this master spreadsheet is correct, in the original one site had 21 points which meant that iterating every 20 points created some erroneous sites)
 
-run nattrutt_convert_sites.py to convert nattrutt_4326_coords.csv to nattrutter_upload.json which can be injected into mongo db
-for site extent it calculates the centroid of the 20 points that are in transectParts
+run nattrutt_convert_sites.py to:
+- convert from RT_90 coordinate system to WGS84 required by leaflet js
+- build the structure needed for an ecodata site
+- calculate coordinates for a centroid needed for the site extent
+
+result is nattrutter_upload.json which can be injected into mongo db
+
 
 to inject to mongo:
 mongoimport --jsonArray --db ecodata --collection site --file natrutter_upload.json
