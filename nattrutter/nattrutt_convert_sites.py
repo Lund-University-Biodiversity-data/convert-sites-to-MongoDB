@@ -4,9 +4,13 @@ import json
 import uuid
 from shapely.geometry import Polygon
 import numpy as np
+try:
+    from osgeo import osr
+except:
+    sys.exit('ERROR: cannot find OSR module')
 
 # open local geojson files
-with open('nattrutt_4326_coords.csv') as f:
+with open('NattPOSITIONSMASTER.csv') as f:
     all_pts = pd.read_csv(f)
 
 # generate ids for fields in sites
@@ -21,42 +25,52 @@ def generate_uniqId_format():
 length = len(all_pts.index)
 first = 0
 last = 20
-print(length)
 
 locations = []
+rt90 = osr.SpatialReference()
+rt90.ImportFromEPSG(3021)
+wgs84  = osr.SpatialReference()
+wgs84.ImportFromEPSG(4326)
+transformation = osr.CoordinateTransformation(rt90,wgs84)
 
 # iterate through all sites and save each 
 while last <= length:
     features = []
     coordinates = []
     for index in range(first, last):
-        if (type(all_pts.loc[index]["PUNKTBESKR"]) == float):
-            description = ""
+        lng_RT90 = all_pts.loc[index]["RT-90 O"]
+        lat_RT90 = all_pts.loc[index]["RT-90 N"]
+        transformed = transformation.TransformPoint(lng_RT90, lat_RT90)
+        x_coordinate = round(transformed[0], 6)
+        y_coordinate = round(transformed[1], 6)
+        
+        if (pd.isna(all_pts.loc[index]["PUNKTBESKRIVNING"]) == False):
+            description = all_pts.loc[index]["PUNKTBESKRIVNING"] 
         else:
-            description = all_pts.loc[index]["PUNKTBESKR"] 
+            description = ""
 
-        if (type(all_pts.loc[index]['PUNKTNAMN']) == float):
-            point_name = str(all_pts.loc[index]['Punkt'])
-        else: 
+        if (pd.isna(all_pts.loc[index]['PUNKTNAMN']) == False):
             point_name = str(all_pts.loc[index]['Punkt']) + " - " + str(all_pts.loc[index]['PUNKTNAMN'])
+        else: 
+            point_name = str(all_pts.loc[index]['Punkt'])
 
         feature_pts = {
             "name": point_name, 
-            # "description": description,
+            "description": description,
             "geometry": {
                 "type": "Point",
-                "decimalLongitude": float(all_pts.loc[index]["xcoord"]),
-                "decimalLatitude": float(all_pts.loc[index]["ycoord"]),
-                "coordinates": [all_pts.loc[index]["xcoord"], all_pts.loc[index]["ycoord"]] 
+                "decimalLongitude": float(x_coordinate),
+                "decimalLatitude": float(y_coordinate),
+                "coordinates": [x_coordinate, y_coordinate] 
             },
             "type": "none"            
         }        
         features.append(feature_pts)
-        coordinates.append([all_pts.loc[index]["xcoord"], all_pts.loc[index]["ycoord"]]) 
+        coordinates.append([x_coordinate, y_coordinate]) 
 
     polygon = Polygon(coordinates)
     centroid = polygon.centroid
-    _centroid_coords = np.array((float(centroid.xy[0][0]), float(centroid.xy[1][0]))) # should be long, lat
+    _centroid_coords = np.array((round(float(centroid.xy[0][0]), 6), round(float(centroid.xy[1][0])), 6)) # should be long, lat
     centroid_coords = _centroid_coords.tolist()
 
     extent_geo = {
@@ -74,15 +88,16 @@ while last <= length:
         "coordinates": centroid_coords
     }
 
-    if (type(all_pts.loc[first]["ÅR"]) == float):
+    if (pd.isna(all_pts.loc[first]["ÅR"])):
+        print(all_pts.loc[first]["ÅR"])
         start = 0
     else:
-        start = all_pts.loc[first]["ÅR"]
+        start = int(all_pts.loc[first]["ÅR"])
 
     name = all_pts.loc[first]["RUTT"] 
     commonName = ""
     
-    if (type(all_pts.loc[first]["RUTTNAMN"]) != float) :
+    if (pd.isna(all_pts.loc[first]["RUTTNAMN"]) == False) :
         name = name + ", " + all_pts.loc[first]["RUTTNAMN"]
         commonName = all_pts.loc[first]["RUTTNAMN"]
 
@@ -92,7 +107,7 @@ while last <= length:
         "commonName": commonName,
         "status" : "active",
         "type" : "",
-        # "description": description,
+        "description": description,
         "kartaTx": all_pts.loc[first]["RUTT"],
         "area": "0",
         "projects": [
@@ -103,13 +118,12 @@ while last <= length:
             "source": "Point"
         },
         "geoIndex": geo_index,
-        "transectParts": features #,
-        # "yearStarted": start,
-        # "bookedBy": "e0dcc2c4-b8f7-1c24-68c3-c11a4a5a4d1b"
+        "transectParts": features,
+        "yearStarted": start
     }
     locations.append(location)
     first = last
     last = last + 20
 
-with open('natrutter_upload_2sites.json', 'w') as f:
+with open('natrutter_upload.json', 'w') as f:
     json.dump(locations, f, ensure_ascii=False)
