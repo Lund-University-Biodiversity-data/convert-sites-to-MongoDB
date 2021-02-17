@@ -6,7 +6,7 @@ from shapely.geometry import Polygon
 import numpy as np
 
 # open local geojson files
-with open('nattrutt_4326_coords_2sites.csv') as f:
+with open('nattrutt_4326_coords.csv') as f:
     all_pts = pd.read_csv(f)
 
 # generate ids for fields in sites
