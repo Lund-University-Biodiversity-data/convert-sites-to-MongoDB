@@ -94,14 +94,15 @@ while last <= length:
 
     location = {
         "siteId": generate_uniqId_format(),
-        "gridCode": centroid_props["KARTA"],
+        "karta": centroid_props["KARTA"],
         "name": name,
+        "commonName": centroid_props["NAMN"],
         "status" : "active",
         "type" : "",
         "isSensitive": True,
         "LAN": centroid_props["LAN"],
         "LSK": centroid_props["LSK"],
-        "KartaTx": centroid_props["KartaTx"],
+        "kartaTx": centroid_props["KartaTx"],
         "area": "0",
         "projects": [
             "89383d0f-9735-4fe7-8eb4-8b2e9e9b7b5c"
