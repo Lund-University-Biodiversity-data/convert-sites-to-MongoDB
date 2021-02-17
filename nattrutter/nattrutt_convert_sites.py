@@ -63,6 +63,7 @@ while last <= length:
                 "decimalLatitude": float(y_coordinate),
                 "coordinates": [x_coordinate, y_coordinate] 
             },
+            "coords_3021": [lng_RT90, lat_RT90],
             "type": "none"            
         }        
         features.append(feature_pts)
