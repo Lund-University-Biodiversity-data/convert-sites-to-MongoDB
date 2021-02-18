@@ -112,7 +112,7 @@ while last <= length:
         "status" : "active",
         "type" : "",
         "description": description,
-        "kartaTx": all_pts.loc[first]["RUTT"],
+        "kartaTx": all_pts.loc[first]["RUTT"].strip(),
         "area": "0",
         "projects": [
             projectId
