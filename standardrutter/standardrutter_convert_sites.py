@@ -45,8 +45,8 @@ while last <= length:
         pts_x_coord_3006 = round(float(pts_props["xcoord_2"]), 6)
         pts_y_coord_3006 = round(float(pts_props["ycoord_2"]), 6)
 
-        pts_lng_coord_4326 = round(float(pts_geometry[0]), 6)
-        pts_lat_coord_4326 = round(float(pts_geometry[1]), 6)
+        pts_lng_coord_4326 = round(float(pts_geometry[0]), 7)
+        pts_lat_coord_4326 = round(float(pts_geometry[1]), 7)
 
         # prepare points
         feature_pts = {
@@ -55,7 +55,7 @@ while last <= length:
                 "type": "Point",
                 "decimalLongitude": pts_lng_coord_4326,
                 "decimalLatitude": pts_lat_coord_4326,
-                "coordinates": pts_geometry
+                "coordinates": [pts_lng_coord_4326, pts_lat_coord_4326]
             },
             "otherCRS": {
                 "coords_3021":[pts_x_coord_3021, pts_y_coord_3021],
@@ -83,11 +83,11 @@ while last <= length:
         # prepare lines
         lines_geometry = all_lines[index]["geometry"]
         lines_props = all_lines[index]["properties"]
-        def shorten_coords(coord):
-            return round(coord, 5)
-
-        _coords_shorter = map(lambda x: round(x, 5), lines_geometry["coordinates"][0][0])
-        coords_shorter = list(_coords_shorter)
+        _coords_shorter_1 = map(lambda x: round(x, 5), lines_geometry["coordinates"][0][0])
+        _coords_shorter_2 = map(lambda x: round(x, 5), lines_geometry["coordinates"][0][1])
+        coords_shorter_1 = list(_coords_shorter_1)
+        coords_shorter_2 = list(_coords_shorter_2)
+        coords_shorter = [coords_shorter_1, coords_shorter_2]
         feature_lines = {
             "name": lines_props['LINJE'],
             "geometry": {
