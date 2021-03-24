@@ -43,8 +43,8 @@ for index in range(0,length):
     extent_geo = {
         "type" : 'Point',
         "coordinates": centroid_geom["coordinates"],
-        "decimalLongitude": centroid_geom["coordinates"][0],
-        "decimalLatitude": centroid_geom["coordinates"][1],
+        "decimalLongitude": round(centroid_geom["coordinates"][0], 5),
+        "decimalLatitude": round(centroid_geom["coordinates"][1], 5),
         "areaKmSq": 0,
         "type" : "Point",
         "aream2": 0,
