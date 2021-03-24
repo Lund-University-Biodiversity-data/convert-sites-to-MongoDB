@@ -147,6 +147,7 @@ while last <= length:
         "commonName": lines_props_for_extent["NAMN"],
         "status" : "active",
         "type" : "",
+        "bookedBy": "",
         "isSensitive": True,
         "LAN": lines_props_for_extent["LAN"],
         "LSK": lines_props_for_extent["LSK"],
