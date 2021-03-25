@@ -135,7 +135,7 @@ while last <= length:
     }
 
     lines_props_for_extent = all_lines[first]["properties"]
-    name = centroid_props["karta"] + ", " + lines_props_for_extent["NAMN"]
+    name = centroid_props["karta"] + " - " + lines_props_for_extent["NAMN"]
 
     if (centroid_props["karta"] != lines_props_for_extent["KARTA"]):
         print("centroid not matching line!")
