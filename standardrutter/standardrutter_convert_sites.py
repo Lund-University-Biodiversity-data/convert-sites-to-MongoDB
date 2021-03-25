@@ -35,7 +35,7 @@ while last <= length:
     features = []
     for index in range(first, last):
         pts_geometry = all_pts[index]["geometry"]["coordinates"]
-        pts_props = [all_pts[index]["properties"]
+        pts_props = all_pts[index]["properties"]
         feature_pts = {
             "name": all_pts[index]['properties']['PUNK'],
             "geometry": {
@@ -44,8 +44,8 @@ while last <= length:
                 "decimalLatitude": pts_geometry[1],
                 "coordinates": pts_geometry
             },
-            "coords_3021":pts_props["xcoord"], all_pts[index]["properties"]["ycoord"]],
-            "coords_3006":pts_props["xcoord_2"], all_pts[index]["properties"]["ycoord_2"]],
+            "coords_3021":[pts_props["xcoord"], all_pts[index]["properties"]["ycoord"]],
+            "coords_3006":[pts_props["xcoord_2"], all_pts[index]["properties"]["ycoord_2"]],
             "type": "none"            
         }
         lines_geometry = all_lines[index]["geometry"]
@@ -90,7 +90,7 @@ while last <= length:
         "type" : 'Point',
         "coordinates": centroid_geometry['coordinates']
     }
-    name = centroid_props["KARTA"] + ", " + centroid_props["NAMN"]
+    name = centroid_props["KARTA"] + " - " + centroid_props["NAMN"].replace(",", " -")
 
     location = {
         "siteId": generate_uniqId_format(),
