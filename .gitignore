@@ -1,2 +1,11 @@
 skane_centroider*
 *.pyc
+standardrutter/*.json
+standardrutter/*.geojson
+
+nattrutter/*.csv
+nattrutter/*.json
+nattrutter/excel/*
+
+kutfagelrutor/*.csv
+kutfagelrutor/*.json
