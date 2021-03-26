@@ -63,23 +63,7 @@ while last <= length:
                 "coords_3021":[pts_x_coord_3021, pts_y_coord_3021],
                 "coords_3006":[pts_x_coord_3006, pts_y_coord_3006]
             },
-            "type": "none",
-            "adminProperties": {
-                "Inv1996" : pts_props["Inv1996"],
-                "Inv1997" : pts_props["Inv1997"],
-                "Inv1998" : pts_props["Inv1998"],
-                "Inv1999" : pts_props["Inv1999"],
-                "Inv2000" : pts_props["Inv2000"],
-                "Inv2001" : pts_props["Inv2001"],
-                "Inv2002" : pts_props["Inv2002"],
-                "Inv2003" : pts_props["Inv2003"],
-                "Inv2004" : pts_props["Inv2004"],
-                "Inv2004" : pts_props["Inv2004"],
-                "Inv2005" : pts_props["Inv2005"],
-                "Inv2006" : pts_props["Inv2006"],
-                "Inv2007" : pts_props["Inv2007"],
-                "Inv2008" : pts_props["Inv2008"]
-            }            
+            "type": "none"           
         }
 
         # prepare lines
@@ -97,22 +81,6 @@ while last <= length:
                 "coordinates": coords_shorter
             },
             "displayProperties": {},
-            "adminProperties": {
-                "Inv1996" : lines_props["Inv1996"],
-                "Inv1997" : lines_props["Inv1997"],
-                "Inv1998" : lines_props["Inv1998"],
-                "Inv1999" : lines_props["Inv1999"],
-                "Inv2000" : lines_props["Inv2000"],
-                "Inv2001" : lines_props["Inv2001"],
-                "Inv2002" : lines_props["Inv2002"],
-                "Inv2003" : lines_props["Inv2003"],
-                "Inv2004" : lines_props["Inv2004"],
-                "Inv2004" : lines_props["Inv2004"],
-                "Inv2005" : lines_props["Inv2005"],
-                "Inv2006" : lines_props["Inv2006"],
-                "Inv2007" : lines_props["Inv2007"],
-                "Inv2008" : lines_props["Inv2008"]
-            },         
             "type": "none"
         }
         
