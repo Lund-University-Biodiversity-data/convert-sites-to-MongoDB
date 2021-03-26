@@ -28,6 +28,7 @@ def generate_uniqId_format():
 length = len(all_pts.index)
 first = 0
 last = 20
+date = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
 locations = []
 rt90 = osr.SpatialReference()
@@ -110,6 +111,8 @@ while last <= length:
     location = {
         "siteId": generate_uniqId_format(),
         "name": name,
+        "dateCreated": date,
+        "lastUpdated": date,
         "commonName": commonName,
         "status" : "active",
         "type" : "",
@@ -125,7 +128,9 @@ while last <= length:
         },
         "geoIndex": geo_index,
         "transectParts": features,
-        "yearStarted": start
+        "adminProperties": {
+            "yearStarted": start
+        }
     }
     locations.append(location)
     first = last
@@ -133,3 +138,14 @@ while last <= length:
 
 with open('natrutter_upload.json', 'w') as f:
     json.dump(locations, f, ensure_ascii=False)
+
+with open('natrutter_upload.json', 'r') as f:
+    text = f.read()
+    text = text.replace('dateCreated": "2', 'dateCreated": ISODate("2')
+    text = text.replace('lastUpdated": "2', 'lastUpdated": ISODate("2')
+    text = text.replace('", "lastUpdated', '"), "lastUpdated')
+    text = text.replace('", "commonName"', '"), "commonName"')
+    f.close()
+
+with open('natrutter_upload.json', 'w') as f:
+    f.write(text)

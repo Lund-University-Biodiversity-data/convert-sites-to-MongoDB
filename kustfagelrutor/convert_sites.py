@@ -3,6 +3,8 @@ import uuid
 from shapely.geometry import Polygon
 import shapely
 import numpy as np
+import datetime
+
 # import propertiesfile
 
 # open local geojson files
@@ -22,6 +24,7 @@ def generate_uniqId_format():
 project = "49f55dc1-a63a-4ebf-962b-4d486db0ab16"
 all_polyg = geojson['features']
 length = len(all_polyg)
+date = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 
 # iterate through all sites and save each 
 
@@ -65,6 +68,8 @@ for index in range(0,length):
     location = {
         "siteId": generate_uniqId_format(),
         "name": name,
+        "dateCreated": date,
+        "lastUpdated": date,
         "code": all_polyg[index]['properties']['OBJECTID'],
         "status" : "active",
         "type" : "surveyArea",
@@ -84,3 +89,14 @@ for index in range(0,length):
 
 with open('kustfagelrutor_upload.json', 'w') as f:
     json.dump(locations, f)
+
+with open('kustfagelrutor_upload.json', 'r') as f:
+    text = f.read()
+    text = text.replace('dateCreated": "2', 'dateCreated": ISODate("2')
+    text = text.replace('lastUpdated": "2', 'lastUpdated": ISODate("2')
+    text = text.replace('", "lastUpdated', '"), "lastUpdated')
+    text = text.replace('", "code"', '"), "code"')
+    f.close()
+
+with open('kustfagelrutor_upload.json', 'w') as f:
+    f.write(text)
