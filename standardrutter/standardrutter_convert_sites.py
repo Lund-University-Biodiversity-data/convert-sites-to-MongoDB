@@ -1,17 +1,18 @@
 
 import json
 import uuid
+import datetime
 
 # punkter och linjer should contain coordinates with additional CRS
 
 # open local geojson files
-with open('punkter.geojson') as f:
+with open('/home/aleksandra/Documents/Data/sft/strutt_data_for_mongo/punkter.geojson') as f:
     data_pts = json.load(f)
 
-with open('linjer.geojson') as f1:
+with open('/home/aleksandra/Documents/Data/sft/strutt_data_for_mongo/linjer.geojson') as f1:
     data_lines = json.load(f1)
 
-with open('centroider.geojson') as f2:
+with open('/home/aleksandra/Documents/Data/sft/strutt_data_for_mongo/centroider.geojson') as f2:
     data_extent = json.load(f2)
 
 # generate ids for fields in sites
@@ -32,8 +33,9 @@ length = len(all_pts)
 first = 0
 last = 8
 centroid_index = 0
-
+date = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 locations = []
+
 # iterate through all sites and save each as a separate object in locations array
 while last <= length:
     features = []
@@ -142,6 +144,8 @@ while last <= length:
 
     location = {
         "siteId": generate_uniqId_format(),
+        "dateCreated": date,
+        "lastUpdated": date,
         "karta": centroid_props["karta"],
         "name": name,
         "commonName": lines_props_for_extent["NAMN"],
@@ -171,3 +175,13 @@ while last <= length:
 
 with open('strutt_upload.json', 'w') as f:
     json.dump(locations, f, ensure_ascii=False)
+with open('strutt_upload.json', 'r') as f:
+    text = f.read()
+    text = text.replace('dateCreated": "2', 'dateCreated": ISODate("2')
+    text = text.replace('lastUpdated": "2', 'lastUpdated": ISODate("2')
+    text = text.replace('", "karta"', '"), "karta"')
+    text = text.replace('", "lastUpdated', '"), "lastUpdated')
+    f.close()
+
+with open('strutt_upload.json', 'w') as f:
+    f.write(text)
