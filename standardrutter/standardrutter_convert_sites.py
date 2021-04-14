@@ -121,8 +121,8 @@ while last <= length:
         "type" : "",
         "bookedBy": "",
         "isSensitive": True,
-        "LAN": lines_props_for_extent["LAN"],
-        "LSK": lines_props_for_extent["LSK"],
+        "lan": lines_props_for_extent["LAN"],
+        "lsk": lines_props_for_extent["LSK"],
         "kartaTx": lines_props_for_extent["KartaTx"],
         "area": "0",
         "projects": [
