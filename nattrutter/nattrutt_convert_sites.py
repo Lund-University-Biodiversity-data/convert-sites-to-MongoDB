@@ -95,11 +95,11 @@ while last <= length:
         "coordinates": centroid_coords
     }
 
-    if (pd.isna(all_pts.loc[first]["ÅR"])):
-        print(all_pts.loc[first]["ÅR"])
+    if (pd.isna(all_pts.loc[first]["YEAR"])):
+        print(all_pts.loc[first]["YEAR"])
         start = 0
     else:
-        start = int(all_pts.loc[first]["ÅR"])
+        start = int(all_pts.loc[first]["YEAR"])
 
     name = all_pts.loc[first]["RUTT"] 
     commonName = ""
@@ -117,7 +117,7 @@ while last <= length:
         "status" : "active",
         "type" : "",
         "description": description,
-        "kartaTx": all_pts.loc[first]["RUTT"].strip(),
+        "kartaTx": all_pts.loc[first]["RUTT"].strip().upper(),
         "area": "0",
         "projects": [
             projectId

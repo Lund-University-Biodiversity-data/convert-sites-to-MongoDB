@@ -11,3 +11,19 @@ result is nattrutter_upload.json which can be injected into mongo db
 
 to inject to mongo:
 mongoimport --jsonArray --db ecodata --collection site --file natrutter_upload.json
+
+
+*** Mathieu : ***
+install 
+´´´
+python -m pip install datetime pandas json uuid shapely numpy 
+osgeo json ?? 
+´´´
+
+for error :
+´´´
+  File "nattrutt_convert_sites.py", line 95
+SyntaxError: Non-ASCII character '\xc3' in file nattrutt_convert_sites.py on line 95, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+´´´
+change column ÅR to YEAR, both in CSV and python script
+
