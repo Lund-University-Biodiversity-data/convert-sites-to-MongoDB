@@ -9,3 +9,6 @@ nattrutter/excel/*
 
 kutfagelrutor/*.csv
 kutfagelrutor/*.json
+
+punktrutter/*.csv
+punktrutter/*.json
