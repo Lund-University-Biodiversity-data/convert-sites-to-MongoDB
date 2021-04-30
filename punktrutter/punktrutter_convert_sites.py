@@ -10,9 +10,12 @@ try:
 except:
     sys.exit('ERROR: cannot find OSR module')
 
+source_file_name = 'punktrutter_4326_coords_full.csv'
+product_file_name = 'punktrutter_upload.json'
+projectId = "b7eee643-d5fe-465e-af38-36b217440bd2"
+
 # open local geojson files
-file_name = 'punktrutter_4326_coords_full.csv'
-with open(file_name) as f:
+with open(source_file_name) as f:
     all_pts = pd.read_csv(f)
 
 # generate ids for fields in sites
@@ -45,6 +48,7 @@ locations = []
 while last <= length:
     features = []
     coordinates = []
+    pointNumber = 1
     for index in range(first, last):
         lng_RT90 = int(all_pts.loc[index]["rt90o"])
         lat_RT90 = int(all_pts.loc[index]["rt90n"])
@@ -55,28 +59,27 @@ while last <= length:
 
         if (np.isnan(lon_wgs84)):
             transformed_to_4326 = transformation_to_4326.TransformPoint(lng_RT90, lat_RT90)
-            lon_wgs84 = round(int(transformed_to_4326[0]), 6)
-            lat_wgs84 = round(int(transformed_to_4326[1]), 6)
+            lon_wgs84 = round(float(transformed_to_4326[0]), 7)
+            lat_wgs84 = round(float(transformed_to_4326[1]), 7)
         else:
-            lon_wgs84 = int(lon_wgs84)
-            lat_wgs84 = int(lat_wgs84)
+            lon_wgs84 = round(float(lon_wgs84), 7)
+            lat_wgs84 = round(float(lat_wgs84), 7)
 
 
         if(np.isnan(lat_SWEREF99)):
             transformed_to_3006 = transformation_to_3006.TransformPoint(lng_RT90, lat_RT90)
-            lng_SWEREF99 = round(int(transformed_to_3006[0]), 6)
-            lat_SWEREF99 = round(int(transformed_to_3006[1]), 6)
+            lng_SWEREF99 = transformed_to_3006[0]
+            lat_SWEREF99 = transformed_to_3006[1]
         else:
-            lng_SWEREF99 = int(lng_SWEREF99)
-            lat_SWEREF99 = int(lat_SWEREF99)
-
+            lng_SWEREF99 = lng_SWEREF99
+            lat_SWEREF99 = lat_SWEREF99
         feature_pts = {
-            "name": "P%d"%index,
+            "name": "P%d"%pointNumber,
             "commonName": str(all_pts.loc[index]['punkt']),
             "geometry": {
                 "type": "Point",
-                "decimalLongitude": float(lon_wgs84),
-                "decimalLatitude": float(lat_wgs84),
+                "decimalLongitude": round(float(lon_wgs84), 7),
+                "decimalLatitude": round(float(lat_wgs84), 7),
                 "coordinates": [lon_wgs84, lat_wgs84] 
             },
             "otherCRS": {
@@ -86,7 +89,8 @@ while last <= length:
             "type": "none",            
         }        
         features.append(feature_pts)
-        coordinates.append([lon_wgs84, lat_wgs84]) 
+        coordinates.append([lon_wgs84, lat_wgs84])
+        pointNumber = pointNumber + 1 
 
     try :
         polygon = Polygon(coordinates)
@@ -123,7 +127,7 @@ while last <= length:
         "kartaTx": all_pts.loc[first]["kartatx"],
         "area": "0",
         "projects": [
-            "b7eee643-d5fe-465e-af38-36b217440bd2"
+            projectId
         ],
         "extent": {
             "geometry": extent_geo,
@@ -170,22 +174,23 @@ while last <= length:
         location["adminProperties"]["start"] = start
         
     locations.append(location)
+    pointNumber = 1
     first = last
     last = last + 20
 
-with open('punktrutter_upload1.json', 'w') as f:
+with open(product_file_name, 'w') as f:
     json.dump(locations, f, ensure_ascii=False)
 
 # edit the json to change date to be BSON format
-with open('punktrutter_upload1.json', 'r') as f:
+with open(product_file_name, 'r') as f:
     text = f.read()
     text = text.replace('dateCreated": "2', 'dateCreated": ISODate("2')
     text = text.replace('lastUpdated": "2', 'lastUpdated": ISODate("2')
     text = text.replace('", "lastUpdated', '"), "lastUpdated')
-    text = text.replace('", "name', '"), "name')
+    text = text.replace('", "internal', '"), "internal')
     f.close()
 
-with open('punktrutter_upload1.json', 'w') as f:
+with open(product_file_name, 'w') as f:
     f.write(text)
 
-print('mongoimport --jsonArray --db ecodata --collection site --file punktrutter_upload1.json')
+print('mongoimport --jsonArray --db ecodata --collection site --file punktrutter_upload.json')
