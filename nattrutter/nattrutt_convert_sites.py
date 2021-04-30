@@ -11,9 +11,11 @@ except:
 
 # The project ID might need to be changed some time
 projectId = "d0b2f329-c394-464b-b5ab-e1e205585a7c" # nattrutt on prod
+source_file_name = 'NattPOSITIONSMASTER_21-04-29.csv'
+product_file_name = 'natrutter_upload_full.json'
 
 # open local geojson files
-with open('NattPOSITIONSMASTER.csv') as f:
+with open(source_file_name) as f:
     all_pts = pd.read_csv(f)
 
 # generate ids for fields in sites
@@ -48,18 +50,20 @@ while last <= length:
         x_coordinate = round(transformed[0], 6)
         y_coordinate = round(transformed[1], 6)
         
-        if (pd.isna(all_pts.loc[index]["PUNKTBESKRIVNING"]) == False):
-            description = all_pts.loc[index]["PUNKTBESKRIVNING"] 
-        else:
+        if (pd.isna(all_pts.loc[index]["PUNKTBESKRIVNING"])):
             description = ""
+        else:
+            description = all_pts.loc[index]["PUNKTBESKRIVNING"] 
 
-        if (pd.isna(all_pts.loc[index]['PUNKTNAMN']) == False):
-            point_name = str(all_pts.loc[index]['Punkt']) + " - " + str(all_pts.loc[index]['PUNKTNAMN'])
+        point_name = "P" + str(all_pts.loc[index]['Punkt'])
+        if (pd.isna(all_pts.loc[index]['PUNKTNAMN'])):
+            name = point_name
         else: 
-            point_name = str(all_pts.loc[index]['Punkt'])
+            name = str(all_pts.loc[index]['Punkt']) + " - " + str(all_pts.loc[index]['PUNKTNAMN'])
 
         feature_pts = {
-            "name": point_name, 
+            "internalName": point_name, 
+            "name": name,
             "description": description,
             "geometry": {
                 "type": "Point",
@@ -75,10 +79,16 @@ while last <= length:
         features.append(feature_pts)
         coordinates.append([x_coordinate, y_coordinate]) 
 
-    polygon = Polygon(coordinates)
-    centroid = polygon.centroid
-    _centroid_coords = np.array((round(float(centroid.xy[0][0]), 6), round(float(centroid.xy[1][0])), 6)) # should be long, lat
-    centroid_coords = _centroid_coords.tolist()
+    try :
+        polygon = Polygon(coordinates)
+        centroid = polygon.centroid
+        _centroid_coords = np.array((round(float(centroid.xy[0][0]), 6), round(float(centroid.xy[1][0])), 6)) # should be long, lat
+        centroid_coords = _centroid_coords.tolist()
+    except:
+        print("problem with calculating the centroid for " + all_pts.loc[first]["RUTT"] )
+        print(coordinates)
+        print(_centroid_coords)
+
 
     extent_geo = {
         "type" : 'Point',
@@ -94,12 +104,6 @@ while last <= length:
         "type" : "Point",
         "coordinates": centroid_coords
     }
-
-    if (pd.isna(all_pts.loc[first]["YEAR"])):
-        print(all_pts.loc[first]["YEAR"])
-        start = 0
-    else:
-        start = int(all_pts.loc[first]["YEAR"])
 
     name = all_pts.loc[first]["RUTT"] 
     commonName = ""
@@ -128,18 +132,23 @@ while last <= length:
         },
         "geoIndex": geo_index,
         "transectParts": features,
-        "adminProperties": {
-            "yearStarted": start
-        }
+        "adminProperties": {}
     }
+
+    if (pd.isna(all_pts.loc[first]["ÅR"]) == False):
+        location["adminProperties"]["yearStarted"] = all_pts.loc[first]["ÅR"]
+
     locations.append(location)
     first = last
     last = last + 20
 
-with open('natrutter_upload.json', 'w') as f:
+with open(product_file_name, 'w') as f:
     json.dump(locations, f, ensure_ascii=False)
 
-with open('natrutter_upload.json', 'r') as f:
+# prepare BSON style date format by modifying the date string
+# if changing the location object, make sure that this pattern 
+# still matches - otherwise the date will remain a string and other values will be broken
+with open(product_file_name, 'r') as f:
     text = f.read()
     text = text.replace('dateCreated": "2', 'dateCreated": ISODate("2')
     text = text.replace('lastUpdated": "2', 'lastUpdated": ISODate("2')
@@ -147,5 +156,5 @@ with open('natrutter_upload.json', 'r') as f:
     text = text.replace('", "commonName"', '"), "commonName"')
     f.close()
 
-with open('natrutter_upload.json', 'w') as f:
+with open(product_file_name, 'w') as f:
     f.write(text)

@@ -74,8 +74,8 @@ while last <= length:
             lng_SWEREF99 = lng_SWEREF99
             lat_SWEREF99 = lat_SWEREF99
         feature_pts = {
-            "name": "P%d"%pointNumber,
-            "commonName": str(all_pts.loc[index]['punkt']),
+            "internalName": "P%d"%pointNumber,
+            "name": "P" + str(all_pts.loc[index]['punkt']),
             "geometry": {
                 "type": "Point",
                 "decimalLongitude": round(float(lon_wgs84), 7),
@@ -120,7 +120,6 @@ while last <= length:
         "siteId": generate_uniqId_format(),
         "dateCreated": date,
         "lastUpdated": date,
-        "internalSiteId": str(all_pts.loc[first]["persnr"]) + "-" + str(all_pts.loc[first]["rnr"]).rjust(2, '0'),
         "name": str(all_pts.loc[first]["persnr"]) + "-" + str(all_pts.loc[first]["rnr"]).rjust(2, '0') + " - " + str(all_pts.loc[first]["ruttnamn"]),
         "status" : "active",
         "type" : "",
@@ -137,7 +136,9 @@ while last <= length:
         "transectParts": features,
         "lan": all_pts.loc[first]["lan"],
         "displayProperties": {},
-        "adminProperties": {}
+        "adminProperties": {
+            "internalSiteId": str(all_pts.loc[first]["persnr"]) + "-" + str(all_pts.loc[first]["rnr"]).rjust(2, '0'),
+        }
     }
 
     km = False if np.isnan(all_pts.loc[first]["km"]) else all_pts.loc[first]["km"]
@@ -181,13 +182,15 @@ while last <= length:
 with open(product_file_name, 'w') as f:
     json.dump(locations, f, ensure_ascii=False)
 
-# edit the json to change date to be BSON format
+# edit the json to change date to be BSON format by modifying the date string
+# if changing the location object above, make sure that this pattern 
+# still matches, ie dateCreated is followed by dateUpdated followed by internal - otherwise the date will remain a string and other values will be broken
 with open(product_file_name, 'r') as f:
     text = f.read()
     text = text.replace('dateCreated": "2', 'dateCreated": ISODate("2')
     text = text.replace('lastUpdated": "2', 'lastUpdated": ISODate("2')
     text = text.replace('", "lastUpdated', '"), "lastUpdated')
-    text = text.replace('", "internal', '"), "internal')
+    text = text.replace('", "internal', '"), "internalSiteId')
     f.close()
 
 with open(product_file_name, 'w') as f:
