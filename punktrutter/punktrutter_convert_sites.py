@@ -183,5 +183,5 @@ with open('punktrutter_upload1.json', 'r') as f:
     text = text.replace('", "name', '"), "name')
     f.close()
 
-with open('strutt_upload.json', 'w') as f:
+with open('punktrutter_upload1.json', 'w') as f:
     f.write(text)
