@@ -74,7 +74,7 @@ while last <= length:
             lng_SWEREF99 = lng_SWEREF99
             lat_SWEREF99 = lat_SWEREF99
         feature_pts = {
-            "internalName": "P%d"%pointNumber,
+            "internalName": "P" + str(all_pts.loc[index]['punkt']),
             "name": "P" + str(all_pts.loc[index]['punkt']),
             "geometry": {
                 "type": "Point",
