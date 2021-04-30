@@ -11,7 +11,7 @@ except:
     sys.exit('ERROR: cannot find OSR module')
 
 # open local geojson files
-file_name = 'punktrutter_4326_coords_full_1.csv'
+file_name = 'punktrutter_4326_coords_full.csv'
 with open(file_name) as f:
     all_pts = pd.read_csv(f)
 
@@ -27,7 +27,8 @@ def generate_uniqId_format():
 length = len(all_pts)
 first = 0
 last = 20
-print(length)
+print("number of lines in csv file : " + str(length))
+
 date = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
 rt90 = osr.SpatialReference()
 rt90.ImportFromEPSG(3021)
@@ -70,7 +71,7 @@ while last <= length:
             lat_SWEREF99 = int(lat_SWEREF99)
 
         feature_pts = {
-            "name": "P{index}",
+            "name": "P%d"%index,
             "commonName": str(all_pts.loc[index]['punkt']),
             "geometry": {
                 "type": "Point",
@@ -115,13 +116,14 @@ while last <= length:
         "siteId": generate_uniqId_format(),
         "dateCreated": date,
         "lastUpdated": date,
-        "name": all_pts.loc[first]["ruttnamn"],
+        "internalSiteId": str(all_pts.loc[first]["persnr"]) + "-" + str(all_pts.loc[first]["rnr"]).rjust(2, '0'),
+        "name": str(all_pts.loc[first]["persnr"]) + "-" + str(all_pts.loc[first]["rnr"]).rjust(2, '0') + " - " + str(all_pts.loc[first]["ruttnamn"]),
         "status" : "active",
         "type" : "",
         "kartaTx": all_pts.loc[first]["kartatx"],
         "area": "0",
         "projects": [
-            "dab767a5-929e-4733-b8eb-c9113194201f"
+            "b7eee643-d5fe-465e-af38-36b217440bd2"
         ],
         "extent": {
             "geometry": extent_geo,
@@ -185,3 +187,5 @@ with open('punktrutter_upload1.json', 'r') as f:
 
 with open('punktrutter_upload1.json', 'w') as f:
     f.write(text)
+
+print('mongoimport --jsonArray --db ecodata --collection site --file punktrutter_upload1.json')
