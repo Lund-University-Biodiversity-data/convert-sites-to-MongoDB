@@ -73,6 +73,7 @@ while last <= length:
         else:
             lng_SWEREF99 = lng_SWEREF99
             lat_SWEREF99 = lat_SWEREF99
+        
         feature_pts = {
             "internalName": "P" + str(all_pts.loc[index]['punkt']),
             "name": "P" + str(all_pts.loc[index]['punkt']),
@@ -118,9 +119,9 @@ while last <= length:
 
     location = {
         "siteId": generate_uniqId_format(),
+        "name": str(all_pts.loc[first]["persnr"]) + "-" + str(all_pts.loc[first]["rnr"]).rjust(2, '0') + " - " + str(all_pts.loc[first]["ruttnamn"]),
         "dateCreated": date,
         "lastUpdated": date,
-        "name": str(all_pts.loc[first]["persnr"]) + "-" + str(all_pts.loc[first]["rnr"]).rjust(2, '0') + " - " + str(all_pts.loc[first]["ruttnamn"]),
         "status" : "active",
         "type" : "",
         "kartaTx": all_pts.loc[first]["kartatx"],
@@ -190,7 +191,7 @@ with open(product_file_name, 'r') as f:
     text = text.replace('dateCreated": "2', 'dateCreated": ISODate("2')
     text = text.replace('lastUpdated": "2', 'lastUpdated": ISODate("2')
     text = text.replace('", "lastUpdated', '"), "lastUpdated')
-    text = text.replace('", "internal', '"), "internalSiteId')
+    text = text.replace('", "status', '"), "status')
     f.close()
 
 with open(product_file_name, 'w') as f:
