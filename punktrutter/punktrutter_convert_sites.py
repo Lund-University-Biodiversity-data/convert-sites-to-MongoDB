@@ -11,11 +11,19 @@ except:
     sys.exit('ERROR: cannot find OSR module')
 
 source_file_name = 'punktrutter_4326_coords_full.csv'
+sorted_file_name = 'punktrutter_sorted.csv'
 product_file_name = 'punktrutter_upload.json'
 projectId = "b7eee643-d5fe-465e-af38-36b217440bd2"
 
 # open local geojson files
 with open(source_file_name) as f:
+    all_pts_unsorted = pd.read_csv(f)
+
+all_pts_unsorted.sort_values(by=['persnr','ruttnamn','punkt'], ascending=[True, True, True], inplace=True)
+
+all_pts_unsorted.to_csv(sorted_file_name)
+
+with open(sorted_file_name) as f:
     all_pts = pd.read_csv(f)
 
 # generate ids for fields in sites
